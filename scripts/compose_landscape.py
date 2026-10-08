@@ -1,36 +1,44 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""通用横版设定板拼接脚本。
+"""通用横版设定板拼接脚本，只依赖 Pillow。
 
-读取工程根目录下的 制作清单.json（含 character / tasks / sections / 成品命名）
-与 00_生成记录/<id>.json，把所有素材按分区横向并排铺开，1:1 原生像素粘贴。
+用法：
+    python compose_landscape.py <角色工程目录>
 
-与参考样本的竖版脚本的区别：画布为横版（宽 > 高），每个分区只占一行，
-行内素材从左到右排开，不做换行。
+工程目录里需要有 制作清单.json、00_生成记录/<id>.json，以及各分区的素材目录。
+产出写入该目录下的 05_横版设定板/：
 
-同时产出：
   05_横版设定板/<native_name>      原像素 PNG
   05_横版设定板/<preview_name>     浏览预览 JPG（长边 <= 4200）
   05_横版设定板/拼接布局与素材索引.json
+
+与常见竖版设定板的区别：画布为横版（宽 > 高），每个分区只占一行，
+行内素材从左到右排开，不做换行。
 """
 import hashlib
 import json
+import os
 import sys
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT = Path(__file__).resolve().parent.parent
+if len(sys.argv) < 2:
+    sys.exit("用法：python compose_landscape.py <角色工程目录>")
+
+ROOT = Path(sys.argv[1]).resolve()
+assert (ROOT / "制作清单.json").is_file(), f"目录里没有制作清单.json：{ROOT}"
+
 OUT = ROOT / "05_横版设定板"
 OUT.mkdir(exist_ok=True)
 Image.MAX_IMAGE_PIXELS = None
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-import paths  # noqa: E402
-
-FONT_PATH = paths.font_path()
-FONT_BOLD = paths.font_path(bold=True)
-assert FONT_PATH.is_file(), f"缺少中文字体：{FONT_PATH}"
+FONT_DIR = Path(os.environ.get("WINDIR", r"C:\Windows")) / "Fonts"
+FONT_PATH = FONT_DIR / "msyh.ttc"
+FONT_BOLD = FONT_DIR / "msyhbd.ttc"
+assert FONT_PATH.is_file(), (
+    f"缺少中文字体：{FONT_PATH}。设定板文字用微软雅黑，"
+    "非 Windows 环境请自行改成系统里的中文字体路径。")
 
 
 def font(size, bold=False):

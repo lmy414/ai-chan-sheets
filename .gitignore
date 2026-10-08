@@ -10,9 +10,6 @@
 __pycache__/
 *.pyc
 
-# ── 本地配置（含个人绝对路径，不入库）──
-scripts/workflow_config.json
-
 # ── 操作系统与编辑器 ──
 Thumbs.db
 desktop.ini

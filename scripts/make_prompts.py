@@ -1,23 +1,34 @@
-# 示例：本文件是一个已完工角色的完整提示词生成脚本，可照此为自己要做的角色改写。
-# 注意：清单必须逐张辨认该角色的原始立绘后再定，不要直接套用本文件里的部件名。
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""生成 Gemini娘（谷歌 / 四角星猫耳）横版设定板工程的 22 条素材提示词与制作清单。
+"""提示词模板：生成一个角色工程的 22 条素材提示词与制作清单。
 
-清单基于对 原图_立绘_四角星猫耳.jpg 的逐项辨认，未套用其它角色的模板。
+本文件以 Gemini 娘为实例，展示每条提示词该怎么组织。给自己要做的角色改写时，
+只需要改三处：角色目录名、身份参考图文件名、IDENTITY 与各条 prompt 的内容。
+
+三条硬规矩，改的时候别丢：
+  1. 先逐张辨认原始立绘，再定清单，不要套用本文件的部件名。
+  2. 每条提示词只写一个对象或视图，并写清「不要画什么」。
+  3. 易错形状要写反例，文字标识要写准字。
+
+用法：
+    python make_prompts.py                 # 按下面 CONFIG 的设定生成
+产出写入 <仓库根>/设定图/<角色>/ 下的 制作清单.json 与 提示词/*.json。
+
 注意：该角色文件夹里的两张参考图是同一张画的两种分辨率（缩放对齐后平均绝对差 1.8），
 不是两个不同角度，因此侧背面全部属于推定补全。
 """
 import json
-import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-import paths  # noqa: E402
+# ── CONFIG：改写这三行就能换成别的角色 ──────────────────────────────
+ROOT = Path(__file__).resolve().parent.parent      # 仓库根
+CHARACTER = "10_Gemini娘"                           # 角色目录名（在 参考原图/ 与 设定图/ 下）
+REF_FILE = "原图_立绘_四角星猫耳.jpg"                  # 身份参考图的文件名
 
-LIB = (paths.library_root() / "10_Gemini娘").as_posix()
-REF_MAIN = f"{LIB}/原图_立绘_四角星猫耳.jpg"
+LIB = f"参考原图/{CHARACTER}"                        # 相对仓库根，写进 JSON 便于别人直接打开
+REF_MAIN = f"{LIB}/{REF_FILE}"
+OUT_DIR = ROOT / "设定图" / CHARACTER
+# ──────────────────────────────────────────────────────────────────
 
 IDENTITY = (
     "角色身份唯一来自所给 Gemini 娘原始立绘。娇小活泼的少女体型。"
@@ -290,11 +301,13 @@ manifest = dict(
     selections={},
 )
 
-(ROOT / "制作清单.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+(OUT_DIR / "制作清单.json").write_text(
+    json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+(OUT_DIR / "提示词").mkdir(exist_ok=True)
 for t in TASKS:
-    (ROOT / "00_提示词" / (t["id"] + ".json")).write_text(
+    (OUT_DIR / "提示词" / (t["id"] + ".json")).write_text(
         json.dumps(t, ensure_ascii=False, indent=2), encoding="utf-8")
-print(json.dumps(dict(status="ok", tasks=len(TASKS),
+print(json.dumps(dict(status="ok", tasks=len(TASKS), out=str(OUT_DIR),
                       groups={g: sum(1 for t in TASKS if t["group"] == g)
-                              for g in sorted({t["group"] for t in TASKS})},
-                      ids=[t["id"] for t in TASKS]), ensure_ascii=False, indent=2))
+                              for g in sorted({t["group"] for t in TASKS})}),
+                 ensure_ascii=False, indent=2))

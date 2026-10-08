@@ -1,76 +1,77 @@
-# 工作流脚本
+# 脚本
 
-这套脚本是生成 `设定图/` 下全部成品的实际工具链，按实际使用状态提供，
-只把写死的本机绝对路径改成可配置。
+这里只有 4 个文件：1 个提示词模板，3 个拼板与核验工具。
 
-## 配置
+生图那一步不在这里。它依赖作者本机的绘图工具（gpt-image-gen 技能调 `gen.py`），
+别人机器上没有，所以没随仓库发布。提示词的字段格式写在下面，你可以拿自己的工具去跑。
 
-```powershell
-# 复制配置模板，按自己的机器修改
-Copy-Item scripts/workflow_config.example.json scripts/workflow_config.json
-python scripts/paths.py        # 打印解析结果，确认路径都对
+## 环境
+
+- Python 3.11 或更高。
+- Pillow，三个工具脚本的唯一第三方依赖。
+- 中文字体。拼板脚本默认取 Windows 的微软雅黑 `msyh.ttc`，其他系统改脚本里的 `FONT_DIR` 即可。
+
+```bash
+pip install Pillow
 ```
 
-路径解析顺序为环境变量、`workflow_config.json`、内置默认值。
+## 文件一览
 
-| 变量或配置项 | 用途 |
-|---|---|
-| `AICHAN_LIB_ROOT` 或 `library_root` | 角色参考图库根目录，内含 `_设定图成品/` |
-| `AICHAN_IMAGE_GEN` 或 `image_gen_tool` | 本机绘图工具 `gen.py` 的路径，即 gpt-image-gen 技能入口 |
-| `font` 与 `font_bold` | 设定板文字用的中文字体 |
+| 文件 | 作用 | 依赖 |
+|---|---|---|
+| `make_prompts.py` | 提示词模板。按角色改写后生成 `制作清单.json` 与 22 条 `提示词/*.json` | 只要 Python |
+| `compose_landscape.py` | 拼横版设定板，原生像素 1:1 粘贴，带逐字节自检 | Pillow |
+| `verify_board.py` | 独立核验成品板，从磁盘重算，不采信拼板脚本的自述 | Pillow |
+| `make_viewable.py` | 出便于查看的小尺寸图 | Pillow |
 
-`workflow_config.json` 已被 `.gitignore` 忽略，不会入库。
+## 用法
 
-## 目录约定
+三个工具脚本的参数都是**角色工程目录**，不是仓库根。
 
-脚本假定每个角色工程的结构如下。`compose_landscape.py` 与 `verify_board.py` 都按此定位。
+```bash
+# 1. 生成提示词与制作清单（模板以 Gemini 娘为例，改文件顶部的 CONFIG 换角色）
+python make_prompts.py
 
-```
-<库根>/_设定图成品/<角色>_横版/
-├── 制作清单.json          含 character、tasks、sections、成品命名、accent
-├── 00_提示词/<id>.json     每条素材的提示词与生成参数
-├── 00_生成记录/<id>.json   每条素材的模型、质量、尺寸、sha256、输出路径
-├── 01_三视图/ 02_表情/ 03_服装/ 04_道具细节/
-├── 05_横版设定板/          成品：原像素 PNG、浏览预览 JPG、拼接索引 JSON
-└── 06_便于查看/            长边不超过 4000px 的查看用 JPG
-```
+# 2. 用你自己的工具按 提示词/*.json 生成素材，落到对应的分区目录，并写 00_生成记录/<id>.json
+#    （这一步仓库里没有脚本，字段格式见下）
 
-仓库里 `设定图/<角色>/` 下的提示词与生成记录，路径字段用两种写法：
+# 3. 拼板
+python compose_landscape.py "设定图/10_Gemini娘"
 
-- `参考原图/<角色>/<文件>`：指向本仓库的 `参考原图/`，可以直接打开。
-- `<角色工程>/<其余>`：指向作者本机的工作工程目录，未随仓库发布。
-  它记录素材生成时实际所在的位置，用于追溯，换机器后按上面的目录约定重建即可。
+# 4. 独立核验。这一步才是验收，不要用拼板脚本的返回值当验收
+python verify_board.py "设定图/10_Gemini娘"
 
-## 脚本一览
-
-| 脚本 | 作用 |
-|---|---|
-| `paths.py` | 路径解析，被其余脚本导入 |
-| `render_asset.py` | 执行单条任务：读提示词，调本机绘图，落图，写生成记录。已完成的任务会拒绝重跑 |
-| `run_queue.ps1` | 按给定的 id 列表串行跑一批任务 |
-| `run_retry.ps1` | 补齐所有未成功的任务，带指数退避，可反复跑到全绿。推荐用这个 |
-| `compose_landscape.py` | 拼横版设定板：分区横向并排，每分区一行，原生像素 1:1 粘贴，含逐字节自检 |
-| `verify_board.py` | 独立核验成品板：从磁盘重算逐字节比对、重叠、越界、尺寸 |
-| `make_viewable.py` | 生成长边不超过 4000px 的总览与分区查看图 |
-| `make_prompts.example.py` | 某个已完工角色的完整提示词生成脚本示例，可照此改写 |
-
-## 典型用法
-
-```powershell
-# 1) 先跑一遍，失败的会留在记录里
-.\scripts\run_retry.ps1 -Log .\00_生成记录\_worker日志\workerR.log -MaxAttempts 5 -BaseSleep 30
-
-# 2) 全绿之后拼接
-python scripts\compose_landscape.py
-
-# 3) 独立核验。这一步才是验收，不要用拼接脚本的返回值当验收
-python scripts\verify_board.py --all
-
-# 4) 出便于查看的小图
-python scripts\make_viewable.py --all
+# 5. 出便于查看的小图
+python make_viewable.py "设定图/10_Gemini娘"
 ```
 
 `verify_board.py` 全部通过时退出码为 0，任一角色不通过为 1，可以直接接进 CI。
+它可以一次接多个目录。
+
+## 提示词文件的字段
+
+`提示词/<任务id>.json` 每条一项，字段如下。
+
+| 字段 | 说明 |
+|---|---|
+| `id` | 任务 id，也是文件名主干，例如 `A01_三视图_正面` |
+| `group` | 所属分区目录名，例如 `01_三视图` |
+| `model` / `quality` / `size` | 生成参数。换工具时按你的工具改写 |
+| `refs` | 参考图数组。相对路径从仓库根算；`@任务id` 表示引用另一条任务的产出 |
+| `prompt` | 提示词正文 |
+
+`00_生成记录/<任务id>.json` 是每条素材的产出记录，拼板脚本读它来定位素材：
+
+| 字段 | 说明 |
+|---|---|
+| `status` | 必须是 `success`，否则拼板时会报错停下 |
+| `group` | 素材所在目录 |
+| `output` | 素材文件路径 |
+| `dimensions` | 素材实际像素尺寸，必须与文件一致 |
+| `output_sha256` | 素材文件哈希，拼板前会校验，不一致就报错 |
+
+`制作清单.json` 里的 `tasks` 是任务顺序，`sections` 定义分区的标题与顺序，
+`native_name` 与 `preview_name` 是成品文件名。
 
 ## 两个硬约束
 
@@ -79,13 +80,15 @@ python scripts\make_viewable.py --all
 2. **画布必须横版。** 要求 `board_w > board_h`，否则断言报错。
    这是本套流程与常见竖版设定板的关键区别。
 
-## 注意
+## 生成素材时的三条实测经验
 
-- **并发要压住。** 本机绘图接口并发到 3 个或 4 个请求就会触发上游缓冲超限，
-  报 507 exceeded request buffer limit 或 503 auth_unavailable。
-  单进程串行最稳，失败交给 `run_retry.ps1` 退避重跑。
-- **密钥不要写进提示词，不要提交。** 脚本启动时会清掉进程内的
-  `OPENAI_BASE_URL` 与 `OPENAI_API_KEY`，避免覆盖本机配置。
-- 素材是 RGBA，alpha 为柔性遮罩。自己写审图脚本时，记得先合成白底再转 RGB，
-  否则透明区会显示成黑底并出现噪点。
-- 更多故障处理见 [`../docs/生图流程.md`](../docs/生图流程.md)。
+这三条与具体工具无关，换任何绘图工具都成立。
+
+1. **先看图再写清单。** 不要套模板。智谱 GLM 娘最初凭印象写了「过膝靴 / 手套 / 耳坠」，
+   核对立绘才发现三件都不存在，最终改成交付系带高跟短靴、袖饰与臂环、狐耳。
+2. **串行比并发稳。** 作者本机实测：并发到 3 个或 4 个请求就会触发上游缓冲超限。
+   失败的任务攒下来重跑，比提高并发划算。
+3. **透明底素材审图前先合成白底。** 直接对 RGBA 调 `convert('RGB')`，
+   透明区会显示成黑底并出现噪点，那是预览代码的问题，不是素材缺陷。
+
+更多细节见 [`../docs/生图流程.md`](../docs/生图流程.md)。

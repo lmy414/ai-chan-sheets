@@ -7,8 +7,9 @@
 确保任何看图器都能打开。
 
 用法：
-    python make_viewable.py "03_DeepSeek娘_鲸鱼娘_横版"
-    python make_viewable.py --all          # 处理 _设定图成品 下所有角色工程
+    python make_viewable.py <角色工程目录> [<角色工程目录> ...]
+
+参数是角色工程目录，不是仓库根。产出写入该目录下的 06_便于查看/。
 """
 import argparse
 import json
@@ -18,11 +19,6 @@ from pathlib import Path
 from PIL import Image
 
 Image.MAX_IMAGE_PIXELS = None
-
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-import paths  # noqa: E402
-
-BASE = paths.deliverables_root()
 MAXW = 4000
 
 
@@ -76,17 +72,17 @@ def build(proj_dir: Path) -> dict:
 
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("project", nargs="?", help="角色工程目录名，例如 03_DeepSeek娘_鲸鱼娘_横版")
-    ap.add_argument("--all", action="store_true", help="处理全部角色工程")
+    ap = argparse.ArgumentParser(description="生成便于查看的小尺寸 JPG")
+    ap.add_argument("projects", nargs="+", help="一个或多个角色工程目录")
     args = ap.parse_args()
-    if args.all:
-        targets = [d for d in sorted(BASE.iterdir())
-                   if d.is_dir() and d.name[:2].isdigit() and (d / "05_横版设定板").is_dir()]
-    elif args.project:
-        targets = [BASE / args.project]
-    else:
-        ap.error("需要 project 参数或 --all")
+    targets = []
+    for raw in args.projects:
+        p = Path(raw).resolve()
+        if not p.is_dir():
+            print(json.dumps({"project": raw, "status": "skip", "reason": "目录不存在"},
+                             ensure_ascii=False))
+            continue
+        targets.append(p)
     results = [build(t) for t in targets]
     for r in results:
         print(json.dumps(r, ensure_ascii=False))

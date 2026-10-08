@@ -10,8 +10,9 @@
   5. 素材 sha256 是否与记录一致、是否有重复
 
 用法：
-    python verify_board.py "03_DeepSeek娘_鲸鱼娘_横版"
-    python verify_board.py --all
+    python verify_board.py <角色工程目录> [<角色工程目录> ...]
+
+参数是角色工程目录，不是仓库根。全部通过时退出码为 0，可直接接进 CI。
 """
 import argparse
 import hashlib
@@ -22,10 +23,6 @@ from pathlib import Path
 from PIL import Image
 
 Image.MAX_IMAGE_PIXELS = None
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-import paths  # noqa: E402
-
-BASE = paths.deliverables_root()
 
 
 def rects_overlap(a, b):
@@ -140,17 +137,17 @@ def verify(proj_dir: Path) -> dict:
 
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("project", nargs="?")
-    ap.add_argument("--all", action="store_true")
+    ap = argparse.ArgumentParser(description="独立核验横版设定板")
+    ap.add_argument("projects", nargs="+", help="一个或多个角色工程目录")
     args = ap.parse_args()
-    if args.all:
-        targets = [d for d in sorted(BASE.iterdir())
-                   if d.is_dir() and d.name[:2].isdigit() and (d / "05_横版设定板").is_dir()]
-    elif args.project:
-        targets = [BASE / args.project]
-    else:
-        ap.error("需要 project 参数或 --all")
+    targets = []
+    for raw in args.projects:
+        p = Path(raw).resolve()
+        if not p.is_dir():
+            print(json.dumps({"project": raw, "status": "skip", "reason": "目录不存在"},
+                             ensure_ascii=False))
+            continue
+        targets.append(p)
     results = [verify(t) for t in targets]
     for r in results:
         print(json.dumps(r, ensure_ascii=False))
