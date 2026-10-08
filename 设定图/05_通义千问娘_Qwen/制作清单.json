@@ -1,9 +1,9 @@
 {
   "character": "通义千问娘 Qwen",
-  "source_character_dir": "E:/漫画工程/角色参考图库/05_通义千问娘_Qwen",
-  "primary_reference": "E:/漫画工程/角色参考图库/05_通义千问娘_Qwen/原图_立绘_全身.jpg",
+  "source_character_dir": "参考原图/05_通义千问娘_Qwen",
+  "primary_reference": "参考原图/05_通义千问娘_Qwen/原图_立绘_全身.jpg",
   "extra_references": [
-    "E:/漫画工程/角色参考图库/05_通义千问娘_Qwen/原图_4K壁纸_执扇.png"
+    "参考原图/05_通义千问娘_Qwen/原图_4K壁纸_执扇.png"
   ],
   "initial_outfit": "原始紫蓝中式长裙造型（白色立领盘扣内裙 + 深靛紫外披 + 深蓝紫小帽）",
   "orientation": "landscape",

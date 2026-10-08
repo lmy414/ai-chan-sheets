@@ -1,10 +1,10 @@
 {
   "character": "Kimi娘（Moonshot）",
-  "source_character_dir": "E:/漫画工程/角色参考图库/06_Kimi娘_Moonshot",
-  "primary_reference": "E:/漫画工程/角色参考图库/06_Kimi娘_Moonshot/原图_立绘_全身.png",
+  "source_character_dir": "参考原图/06_Kimi娘_Moonshot",
+  "primary_reference": "参考原图/06_Kimi娘_Moonshot/原图_立绘_全身.png",
   "extra_references": [
-    "E:/漫画工程/角色参考图库/06_Kimi娘_Moonshot/原图_4K壁纸_长笛与月.png",
-    "E:/漫画工程/角色参考图库/06_Kimi娘_Moonshot/我的收藏_长笛乐谱月夜.png"
+    "参考原图/06_Kimi娘_Moonshot/原图_4K壁纸_长笛与月.png",
+    "参考原图/06_Kimi娘_Moonshot/我的收藏_长笛乐谱月夜.png"
   ],
   "initial_outfit": "原始深藏青星空系列造型（白衬衫 + 深藏青马甲 + 星空披肩 + 层叠裙）",
   "orientation": "landscape",

@@ -9,10 +9,14 @@
 不是两个不同角度，因此侧背面全部属于推定补全。
 """
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-LIB = "E:/漫画工程/角色参考图库/10_Gemini娘"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import paths  # noqa: E402
+
+LIB = (paths.library_root() / "10_Gemini娘").as_posix()
 REF_MAIN = f"{LIB}/原图_立绘_四角星猫耳.jpg"
 
 IDENTITY = (

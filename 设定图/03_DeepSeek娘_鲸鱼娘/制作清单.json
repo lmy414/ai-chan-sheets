@@ -1,12 +1,12 @@
 {
   "character": "DeepSeek娘（鲸鱼娘）",
-  "source_character_dir": "E:/漫画工程/角色参考图库/03_DeepSeek娘_鲸鱼娘",
-  "primary_reference": "E:/漫画工程/角色参考图库/03_DeepSeek娘_鲸鱼娘/原图_立绘_鲸鱼女仆.png",
+  "source_character_dir": "参考原图/03_DeepSeek娘_鲸鱼娘",
+  "primary_reference": "参考原图/03_DeepSeek娘_鲸鱼娘/原图_立绘_鲸鱼女仆.png",
   "extra_references": [
-    "E:/漫画工程/角色参考图库/03_DeepSeek娘_鲸鱼娘/原图_大肥鱼_4K壁纸.png",
-    "E:/漫画工程/角色参考图库/03_DeepSeek娘_鲸鱼娘/原图_最初人设底图.png",
-    "E:/漫画工程/角色参考图库/03_DeepSeek娘_鲸鱼娘/原图_立绘_初版.png",
-    "E:/漫画工程/角色参考图库/03_DeepSeek娘_鲸鱼娘/我的收藏_鲸鱼女仆.png"
+    "参考原图/03_DeepSeek娘_鲸鱼娘/原图_大肥鱼_4K壁纸.png",
+    "参考原图/03_DeepSeek娘_鲸鱼娘/原图_最初人设底图.png",
+    "参考原图/03_DeepSeek娘_鲸鱼娘/原图_立绘_初版.png",
+    "参考原图/03_DeepSeek娘_鲸鱼娘/我的收藏_鲸鱼女仆.png"
   ],
   "initial_outfit": "原始深藏青女仆装造型（白围裙 + 鲸鱼鳍耳 + 鲸鱼尾鳍）",
   "orientation": "landscape",

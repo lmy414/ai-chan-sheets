@@ -1,21 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""路径解析：让工作流脚本不依赖任何写死的绝对路径。
+"""路径解析：让工作流脚本不依赖写死的绝对路径。
 
 解析顺序：
-  1. 环境变量 AICHAN_LIB_ROOT
-  2. 本文件同目录下的 workflow_config.json 里的 library_root
-  3. 默认值（作者本机路径，仅作兜底）
+  1. 环境变量 AICHAN_LIB_ROOT / AICHAN_IMAGE_GEN
+  2. 本文件同目录下的 workflow_config.json
+  3. 都没有时报错，并提示怎么配置
 
-复制 workflow_config.example.json 为 workflow_config.json 并按自己的机器改。
-workflow_config.json 已在 .gitignore 中，不会入库。
+复制 workflow_config.example.json 为 workflow_config.json，按自己的机器填写。
+workflow_config.json 已被 .gitignore 忽略，不会入库。
 """
 import json
 import os
 from pathlib import Path
 
 _HERE = Path(__file__).resolve().parent
-DEFAULT_LIB_ROOT = Path(r"E:\漫画工程\角色参考图库")
 CONFIG_PATH = _HERE / "workflow_config.json"
 
 
@@ -30,16 +29,20 @@ def _load_config() -> dict:
 
 CONFIG = _load_config()
 
+HINT = ("请复制 scripts/workflow_config.example.json 为 scripts/workflow_config.json 并填写，"
+        "或设置对应的环境变量。")
+
+
+def _resolve(env_name: str, cfg_key: str, what: str) -> Path:
+    value = os.environ.get(env_name) or CONFIG.get(cfg_key)
+    if not value:
+        raise RuntimeError(f"未配置{what}。{HINT}")
+    return Path(value)
+
 
 def library_root() -> Path:
-    """角色参考图库根目录（内含 _设定图成品/）。"""
-    env = os.environ.get("AICHAN_LIB_ROOT")
-    if env:
-        return Path(env)
-    cfg = CONFIG.get("library_root")
-    if cfg:
-        return Path(cfg)
-    return DEFAULT_LIB_ROOT
+    """角色参考图库根目录，内含 _设定图成品/。"""
+    return _resolve("AICHAN_LIB_ROOT", "library_root", "角色参考图库根目录")
 
 
 def deliverables_root() -> Path:
@@ -49,22 +52,12 @@ def deliverables_root() -> Path:
 
 
 def image_gen_tool() -> Path:
-    """本机绘图工具 gen.py 的绝对路径（gpt-image-gen 技能入口）。
-
-    默认按本机实际安装位置兜底；换机器请在 workflow_config.json 里指定
-    image_gen_tool 字段。
-    """
-    env = os.environ.get("AICHAN_IMAGE_GEN")
-    if env:
-        return Path(env)
-    cfg = CONFIG.get("image_gen_tool")
-    if cfg:
-        return Path(cfg)
-    return Path(r"E:\M_Workbench\image-gen-tool\src\gen.py")
+    """本机绘图工具 gen.py 的路径，即 gpt-image-gen 技能的入口。"""
+    return _resolve("AICHAN_IMAGE_GEN", "image_gen_tool", "本机绘图工具路径")
 
 
 def font_path(bold: bool = False) -> Path:
-    """中文字体路径（Windows 微软雅黑）。"""
+    """设定板文字用的中文字体，默认取 Windows 的微软雅黑。"""
     cfg = CONFIG.get("font_bold" if bold else "font")
     if cfg:
         return Path(cfg)
@@ -73,11 +66,12 @@ def font_path(bold: bool = False) -> Path:
 
 
 if __name__ == "__main__":
-    print(json.dumps(dict(
-        library_root=str(library_root()),
-        deliverables_root=str(deliverables_root()),
-        image_gen_tool=str(image_gen_tool()),
-        image_gen_tool_exists=image_gen_tool().is_file(),
-        font=str(font_path()),
-        font_exists=font_path().is_file(),
-    ), ensure_ascii=False, indent=2))
+    try:
+        info = dict(library_root=str(library_root()),
+                    deliverables_root=str(deliverables_root()),
+                    image_gen_tool=str(image_gen_tool()),
+                    image_gen_tool_exists=image_gen_tool().is_file(),
+                    font=str(font_path()), font_exists=font_path().is_file())
+    except RuntimeError as exc:
+        info = dict(error=str(exc))
+    print(json.dumps(info, ensure_ascii=False, indent=2))

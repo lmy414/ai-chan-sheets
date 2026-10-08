@@ -1,9 +1,9 @@
 {
   "character": "Gemini娘（谷歌 / 四角星猫耳，用户称「哈基米娘」）",
-  "source_character_dir": "E:/漫画工程/角色参考图库/10_Gemini娘",
-  "primary_reference": "E:/漫画工程/角色参考图库/10_Gemini娘/原图_立绘_四角星猫耳.jpg",
+  "source_character_dir": "参考原图/10_Gemini娘",
+  "primary_reference": "参考原图/10_Gemini娘/原图_立绘_四角星猫耳.jpg",
   "extra_references": [
-    "E:/漫画工程/角色参考图库/10_Gemini娘/我的收藏_紫发星纹.png"
+    "参考原图/10_Gemini娘/我的收藏_紫发星纹.png"
   ],
   "reference_note": "参考图文件夹里两张图是同一张画的两种分辨率（缩放对齐后平均绝对差 1.8），不是两个不同角度；因此侧背面全部属于推定补全，请人工审定时重点检查 A02/A03。",
   "initial_outfit": "原始紫蓝短打造型（露脐上衣 + 宽袖外披 + 短裤衬裙 + 厚底鞋）",
