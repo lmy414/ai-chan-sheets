@@ -1,0 +1,8 @@
+{
+  "_说明": "复制本文件为 workflow_config.json 并按自己的机器修改。workflow_config.json 已被 .gitignore 忽略，不会入库。",
+  "library_root": "E:/漫画工程/角色参考图库",
+  "deliverables_root": null,
+  "image_gen_tool": "E:/M_Workbench/image-gen-tool/src/gen.py",
+  "font": "C:/Windows/Fonts/msyh.ttc",
+  "font_bold": "C:/Windows/Fonts/msyhbd.ttc"
+}

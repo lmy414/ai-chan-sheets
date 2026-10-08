@@ -1,0 +1,13 @@
+# 统一换行符，避免 Windows 上 CRLF 造成的整文件 diff
+* text=auto eol=lf
+
+# 二进制资源不做换行符转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ttc binary
+
+# 图片与脚本在 GitHub 语言统计里不计入
+*.png linguist-documentation
+*.jpg linguist-documentation
