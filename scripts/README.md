@@ -1,6 +1,6 @@
 # 脚本
 
-这里只有 4 个文件：1 个提示词模板，3 个拼板与核验工具。
+这里只有 5 个文件：1 个提示词模板，4 个拼板、切片与核验工具。
 
 生图那一步不在这里。它依赖作者本机的绘图工具（gpt-image-gen 技能调 `gen.py`），
 别人机器上没有，所以没随仓库发布。提示词的字段格式写在下面，你可以拿自己的工具去跑。
@@ -23,10 +23,11 @@ pip install Pillow
 | `compose_landscape.py` | 拼横版设定板，原生像素 1:1 粘贴，带逐字节自检 | Pillow |
 | `verify_board.py` | 独立核验成品板，从磁盘重算，不采信拼板脚本的自述 | Pillow |
 | `make_viewable.py` | 出便于查看的小尺寸图 | Pillow |
+| `make_native_slices.py` | 从母版裁四个分区的 1:1 原像素切片 | Pillow |
 
 ## 用法
 
-三个工具脚本的参数都是**角色工程目录**，不是仓库根。
+四个工具脚本的参数都是**角色工程目录**，不是仓库根。
 
 ```bash
 # 1. 生成提示词与制作清单（模板以 Gemini 娘为例，改文件顶部的 CONFIG 换角色）
@@ -43,6 +44,9 @@ python verify_board.py "设定图/10_Gemini娘"
 
 # 5. 出便于查看的小图
 python make_viewable.py "设定图/10_Gemini娘"
+
+# 6. 从母版裁 4 个分区的 1:1 原像素切片，写入工程 07_原图切片/
+python make_native_slices.py "设定图/10_Gemini娘"
 ```
 
 `verify_board.py` 全部通过时退出码为 0，任一角色不通过为 1，可以直接接进 CI。
