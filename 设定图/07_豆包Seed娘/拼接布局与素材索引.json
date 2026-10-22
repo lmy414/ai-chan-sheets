@@ -1,0 +1,1179 @@
+{
+  "character": "豆包 Seed 娘（字节跳动 Seed / 豆包）",
+  "orientation": "landscape",
+  "board_dimensions": [
+    11556,
+    7956
+  ],
+  "board_aspect_ratio": 1.4525,
+  "preview_dimensions": [
+    4200,
+    2892
+  ],
+  "native_file": "豆包Seed娘_横版完整设定图_原像素.png",
+  "preview_file": "豆包Seed娘_横版完整设定图_浏览预览.jpg",
+  "original_scale": 1.0,
+  "geometry_resized": false,
+  "geometry_cropped": false,
+  "alpha_compositing": "原图透明像素合成白底，独立原图保持原文件",
+  "layout_mode": "分区横向并排，每分区一行，行内从左到右",
+  "sections": [
+    {
+      "group": "01_三视图",
+      "title": "01  三视图",
+      "note": "正面 / 左侧 / 背面 · 空手站姿",
+      "y": 268,
+      "count": 3
+    },
+    {
+      "group": "02_表情",
+      "title": "02  表情拆分 · 8 种",
+      "note": "同一机位与脸型基准",
+      "y": 2247,
+      "count": 8
+    },
+    {
+      "group": "03_服装",
+      "title": "03  服装设计 · 4 项",
+      "note": "脱下摆放的单品",
+      "y": 3922,
+      "count": 4
+    },
+    {
+      "group": "04_道具细节",
+      "title": "04  道具与饰品细节 · 7 项",
+      "note": "独立原图",
+      "y": 5901,
+      "count": 7
+    }
+  ],
+  "selections": {},
+  "assets": [
+    {
+      "id": "A01_三视图_正面",
+      "selected_task": "A01_三视图_正面",
+      "label": "正面",
+      "group": "01_三视图",
+      "path": "01_三视图/A01_三视图_正面_20261022_112757_1.png",
+      "dimensions": [
+        937,
+        1679
+      ],
+      "mode": "RGB",
+      "sha256": "64151b48a2de3e0f8848b92f87c58b5e50ac0fb7a4a2414b0994033e7d9c530c",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x2560",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "937x1679",
+        "quality": "high",
+        "background": "opaque",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/A01_三视图_正面.json",
+      "generation_record": "00_生成记录/A01_三视图_正面.json"
+    },
+    {
+      "id": "A02_三视图_左侧",
+      "selected_task": "A02_三视图_左侧",
+      "label": "左侧",
+      "group": "01_三视图",
+      "path": "01_三视图/A02_三视图_左侧_20261022_113159_1.png",
+      "dimensions": [
+        937,
+        1678
+      ],
+      "mode": "RGB",
+      "sha256": "f6c47d1f509a531209739fed01e52ab4fee7e6b7bbd6dbb205d4588bceb03e7d",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x2560",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "937x1678",
+        "quality": "medium",
+        "background": "opaque",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/A02_三视图_左侧.json",
+      "generation_record": "00_生成记录/A02_三视图_左侧.json"
+    },
+    {
+      "id": "A03_三视图_背面",
+      "selected_task": "A03_三视图_背面",
+      "label": "背面",
+      "group": "01_三视图",
+      "path": "01_三视图/A03_三视图_背面_20261022_113619_1.png",
+      "dimensions": [
+        937,
+        1679
+      ],
+      "mode": "RGB",
+      "sha256": "3bd2236fae2c294ba98251554846399cb2cf4d5934f74a0a7ad4deccc8f6f196",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x2560",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "937x1679",
+        "quality": "medium",
+        "background": "opaque",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/A03_三视图_背面.json",
+      "generation_record": "00_生成记录/A03_三视图_背面.json"
+    },
+    {
+      "id": "B01_表情_自然微笑",
+      "selected_task": "B01_表情_自然微笑",
+      "label": "自然微笑",
+      "group": "02_表情",
+      "path": "02_表情/B01_表情_自然微笑_20261022_114011_1.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "sha256": "743a9c8144e82e107271fa432892f42e0baa00ec688cdbb79c6b41ff62ef7bb7",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1145x1374",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/B01_表情_自然微笑.json",
+      "generation_record": "00_生成记录/B01_表情_自然微笑.json"
+    },
+    {
+      "id": "B02_表情_平静",
+      "selected_task": "B02_表情_平静",
+      "label": "平静",
+      "group": "02_表情",
+      "path": "02_表情/B02_表情_平静_20261022_115043_1.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "sha256": "e72a8d4f6e122255a786d6c174771e5da978c9cf5823416dd4d02cbe2a51f08d",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1145x1374",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/B02_表情_平静.json",
+      "generation_record": "00_生成记录/B02_表情_平静.json"
+    },
+    {
+      "id": "B03_表情_惊讶",
+      "selected_task": "B03_表情_惊讶",
+      "label": "惊讶",
+      "group": "02_表情",
+      "path": "02_表情/B03_表情_惊讶_20261022_115618_1.png",
+      "dimensions": [
+        1144,
+        1375
+      ],
+      "mode": "RGBA",
+      "sha256": "9de222fa2a923b88c4a1f8731ab326225da13292b7cc20bff85f66013bf7ff6b",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1144x1375",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/B03_表情_惊讶.json",
+      "generation_record": "00_生成记录/B03_表情_惊讶.json"
+    },
+    {
+      "id": "B04_表情_害羞",
+      "selected_task": "B04_表情_害羞",
+      "label": "害羞",
+      "group": "02_表情",
+      "path": "02_表情/B04_表情_害羞_20261022_120902_1.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "sha256": "0242d87ef4a01b9a2d3241c9ccf72fd3109764cde461cdd1fcafef39f0dffcf2",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1145x1374",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/B04_表情_害羞.json",
+      "generation_record": "00_生成记录/B04_表情_害羞.json"
+    },
+    {
+      "id": "B05_表情_鼓腮",
+      "selected_task": "B05_表情_鼓腮",
+      "label": "鼓腮",
+      "group": "02_表情",
+      "path": "02_表情/B05_表情_鼓腮_20261022_121001_1.png",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "mode": "RGB",
+      "sha256": "4fe409f4c6de5bd8aab78379c4c240c630d4577fe09a61636312cd4f2a5d8a54",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1312x1199",
+        "quality": "medium",
+        "background": "opaque",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/B05_表情_鼓腮.json",
+      "generation_record": "00_生成记录/B05_表情_鼓腮.json"
+    },
+    {
+      "id": "B06_表情_闭眼轻笑",
+      "selected_task": "B06_表情_闭眼轻笑",
+      "label": "闭眼轻笑",
+      "group": "02_表情",
+      "path": "02_表情/B06_表情_闭眼轻笑_20261022_121106_1.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "sha256": "20efe9ec1cba64db32f4c2e75fee0f63b33fb96db6910028283fb49cf9ff3b36",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1145x1374",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/B06_表情_闭眼轻笑.json",
+      "generation_record": "00_生成记录/B06_表情_闭眼轻笑.json"
+    },
+    {
+      "id": "B07_表情_认真",
+      "selected_task": "B07_表情_认真",
+      "label": "认真",
+      "group": "02_表情",
+      "path": "02_表情/B07_表情_认真_20261022_121202_1.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGB",
+      "sha256": "a87819962127c77cef8bff4bb35cb7563b01fbf6c639f48e8cb18f2abaa297d7",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1145x1374",
+        "quality": "medium",
+        "background": "opaque",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/B07_表情_认真.json",
+      "generation_record": "00_生成记录/B07_表情_认真.json"
+    },
+    {
+      "id": "B08_表情_委屈",
+      "selected_task": "B08_表情_委屈",
+      "label": "委屈",
+      "group": "02_表情",
+      "path": "02_表情/B08_表情_委屈_20261022_121255_1.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "sha256": "3efa40987df1c1269926006aab07ebd669ca4c99ae50357d1c531c14c276ef7d",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1145x1374",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/B08_表情_委屈.json",
+      "generation_record": "00_生成记录/B08_表情_委屈.json"
+    },
+    {
+      "id": "C01_服装_上衣",
+      "selected_task": "C01_服装_上衣",
+      "label": "上衣",
+      "group": "03_服装",
+      "path": "03_服装/C01_服装_上衣_20261022_121353_1.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGB",
+      "sha256": "2936e1c0dc5db4ace94693504c9f910218385c76d6bb52a7f218b00661596d72",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1145x1374",
+        "quality": "medium",
+        "background": "opaque",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/C01_服装_上衣.json",
+      "generation_record": "00_生成记录/C01_服装_上衣.json"
+    },
+    {
+      "id": "C02_服装_裙与腰带",
+      "selected_task": "C02_服装_裙与腰带",
+      "label": "裙与腰带",
+      "group": "03_服装",
+      "path": "03_服装/C02_服装_裙与腰带_20261022_121448_1.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "sha256": "710c4ad00699bfaeb86ae8de2713c9f1f8620eb6321252f5f20c734377d8c7a0",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1145x1374",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/C02_服装_裙与腰带.json",
+      "generation_record": "00_生成记录/C02_服装_裙与腰带.json"
+    },
+    {
+      "id": "C03_服装_宽袖",
+      "selected_task": "C03_服装_宽袖",
+      "label": "宽袖",
+      "group": "03_服装",
+      "path": "03_服装/C03_服装_宽袖_20261022_121551_1.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "sha256": "308162ba5692f75d7c2e827227ef3470e7062e4d30f1afee2ad62f375290d776",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1145x1374",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/C03_服装_宽袖.json",
+      "generation_record": "00_生成记录/C03_服装_宽袖.json"
+    },
+    {
+      "id": "C04_服装_鞋袜",
+      "selected_task": "C04_服装_鞋袜",
+      "label": "鞋袜",
+      "group": "03_服装",
+      "path": "03_服装/C04_服装_鞋袜_20261022_121648_1.png",
+      "dimensions": [
+        937,
+        1679
+      ],
+      "mode": "RGB",
+      "sha256": "aea6b18e7f0f1f2453a94b55091f83fc5a982e248c79ca98e68b522daf498a73",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "937x1679",
+        "quality": "medium",
+        "background": "opaque",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/C04_服装_鞋袜.json",
+      "generation_record": "00_生成记录/C04_服装_鞋袜.json"
+    },
+    {
+      "id": "D01_道具_发圈",
+      "selected_task": "D01_道具_发圈",
+      "label": "发圈",
+      "group": "04_道具细节",
+      "path": "04_道具细节/D01_道具_发圈_20261022_121732_1.png",
+      "dimensions": [
+        1161,
+        1354
+      ],
+      "mode": "RGBA",
+      "sha256": "db84a8d806d83c958241be8d2bd7bf3b1e47b10b92783ab4f07d3dd171ad5aac",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1161x1354",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/D01_道具_发圈.json",
+      "generation_record": "00_生成记录/D01_道具_发圈.json"
+    },
+    {
+      "id": "D02_道具_Seed星芒",
+      "selected_task": "D02_道具_Seed星芒",
+      "label": "Seed星芒",
+      "group": "04_道具细节",
+      "path": "04_道具细节/D02_道具_Seed星芒_20261022_121826_1.png",
+      "dimensions": [
+        1374,
+        1145
+      ],
+      "mode": "RGBA",
+      "sha256": "874c030c5dd0e741bea6c41c7d7a5c75bc5eb54bd0a52754d7b9723a39f05789",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "xhigh",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1374x1145",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/D02_道具_Seed星芒.json",
+      "generation_record": "00_生成记录/D02_道具_Seed星芒.json"
+    },
+    {
+      "id": "D03_道具_工牌",
+      "selected_task": "D03_道具_工牌",
+      "label": "工牌",
+      "group": "04_道具细节",
+      "path": "04_道具细节/D03_道具_工牌_20261022_121927_1.png",
+      "dimensions": [
+        937,
+        1679
+      ],
+      "mode": "RGBA",
+      "sha256": "a59bd29c3fa6e0ff18e5a564ad946b7253a465394e41e800ab4b4921c766e32d",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "xhigh",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "937x1679",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/D03_道具_工牌.json",
+      "generation_record": "00_生成记录/D03_道具_工牌.json"
+    },
+    {
+      "id": "D04_道具_录音笔与吊牌",
+      "selected_task": "D04_道具_录音笔与吊牌",
+      "label": "录音笔与吊牌",
+      "group": "04_道具细节",
+      "path": "04_道具细节/D04_道具_录音笔与吊牌_20261022_122029_1.png",
+      "dimensions": [
+        937,
+        1678
+      ],
+      "mode": "RGBA",
+      "sha256": "a533df2b35105ea00d64a2340dbce69717ae17d5b8ffb570146bfc68efbc0f09",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "xhigh",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "937x1678",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/D04_道具_录音笔与吊牌.json",
+      "generation_record": "00_生成记录/D04_道具_录音笔与吊牌.json"
+    },
+    {
+      "id": "D05_道具_手绘平板",
+      "selected_task": "D05_道具_手绘平板",
+      "label": "手绘平板",
+      "group": "04_道具细节",
+      "path": "04_道具细节/D05_道具_手绘平板_20261022_122142_1.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "a76728d9a71c7e025775309af1a690a744d41eff966444983b7111a21ba36f54",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "xhigh",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1024x1536",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/D05_道具_手绘平板.json",
+      "generation_record": "00_生成记录/D05_道具_手绘平板.json"
+    },
+    {
+      "id": "D06_道具_大腿环",
+      "selected_task": "D06_道具_大腿环",
+      "label": "大腿环",
+      "group": "04_道具细节",
+      "path": "04_道具细节/D06_道具_大腿环_20261022_122305_1.png",
+      "dimensions": [
+        1247,
+        1261
+      ],
+      "mode": "RGBA",
+      "sha256": "9b689539db958c64e154abba01c6994c4cb0f5d6cb247a5744de2788c6788393",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1247x1261",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/D06_道具_大腿环.json",
+      "generation_record": "00_生成记录/D06_道具_大腿环.json"
+    },
+    {
+      "id": "D07_道具_豆包玩偶",
+      "selected_task": "D07_道具_豆包玩偶",
+      "label": "豆包玩偶",
+      "group": "04_道具细节",
+      "path": "04_道具细节/D07_道具_豆包玩偶_20261022_123035_1.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "sha256": "59b86d8184493be21be9e056b92cca7f5fd855dc84069bd445ac82c5aba5ff3c",
+      "model_requested": "gpt-image-2.5-sunburst",
+      "quality_requested": "high",
+      "size_requested": "1536x1536",
+      "returned_model": null,
+      "returned_settings": {
+        "size": "1145x1374",
+        "quality": "medium",
+        "background": "transparent",
+        "output_format": "png"
+      },
+      "inferred_details": false,
+      "prompt_file": "00_提示词/D07_道具_豆包玩偶.json",
+      "generation_record": "00_生成记录/D07_道具_豆包玩偶.json"
+    }
+  ],
+  "placements": [
+    {
+      "id": "A01_三视图_正面",
+      "file": "01_三视图/A01_三视图_正面_20261022_112757_1.png",
+      "group": "01_三视图",
+      "x": 4260,
+      "y": 456,
+      "width": 937,
+      "height": 1679,
+      "scale": 1.0,
+      "cell": [
+        4232,
+        364,
+        993,
+        1827
+      ]
+    },
+    {
+      "id": "A02_三视图_左侧",
+      "file": "01_三视图/A02_三视图_左侧_20261022_113159_1.png",
+      "group": "01_三视图",
+      "x": 5309,
+      "y": 456,
+      "width": 937,
+      "height": 1678,
+      "scale": 1.0,
+      "cell": [
+        5281,
+        364,
+        993,
+        1827
+      ]
+    },
+    {
+      "id": "A03_三视图_背面",
+      "file": "01_三视图/A03_三视图_背面_20261022_113619_1.png",
+      "group": "01_三视图",
+      "x": 6358,
+      "y": 456,
+      "width": 937,
+      "height": 1679,
+      "scale": 1.0,
+      "cell": [
+        6330,
+        364,
+        993,
+        1827
+      ]
+    },
+    {
+      "id": "B01_表情_自然微笑",
+      "file": "02_表情/B01_表情_自然微笑_20261022_114011_1.png",
+      "group": "02_表情",
+      "x": 221,
+      "y": 2435,
+      "width": 1145,
+      "height": 1374,
+      "scale": 1.0,
+      "cell": [
+        110,
+        2343,
+        1368,
+        1523
+      ]
+    },
+    {
+      "id": "B02_表情_平静",
+      "file": "02_表情/B02_表情_平静_20261022_115043_1.png",
+      "group": "02_表情",
+      "x": 1645,
+      "y": 2435,
+      "width": 1145,
+      "height": 1374,
+      "scale": 1.0,
+      "cell": [
+        1534,
+        2343,
+        1368,
+        1523
+      ]
+    },
+    {
+      "id": "B03_表情_惊讶",
+      "file": "02_表情/B03_表情_惊讶_20261022_115618_1.png",
+      "group": "02_表情",
+      "x": 3070,
+      "y": 2435,
+      "width": 1144,
+      "height": 1375,
+      "scale": 1.0,
+      "cell": [
+        2958,
+        2343,
+        1368,
+        1523
+      ]
+    },
+    {
+      "id": "B04_表情_害羞",
+      "file": "02_表情/B04_表情_害羞_20261022_120902_1.png",
+      "group": "02_表情",
+      "x": 4493,
+      "y": 2435,
+      "width": 1145,
+      "height": 1374,
+      "scale": 1.0,
+      "cell": [
+        4382,
+        2343,
+        1368,
+        1523
+      ]
+    },
+    {
+      "id": "B05_表情_鼓腮",
+      "file": "02_表情/B05_表情_鼓腮_20261022_121001_1.png",
+      "group": "02_表情",
+      "x": 5834,
+      "y": 2523,
+      "width": 1312,
+      "height": 1199,
+      "scale": 1.0,
+      "cell": [
+        5806,
+        2343,
+        1368,
+        1523
+      ]
+    },
+    {
+      "id": "B06_表情_闭眼轻笑",
+      "file": "02_表情/B06_表情_闭眼轻笑_20261022_121106_1.png",
+      "group": "02_表情",
+      "x": 7341,
+      "y": 2435,
+      "width": 1145,
+      "height": 1374,
+      "scale": 1.0,
+      "cell": [
+        7230,
+        2343,
+        1368,
+        1523
+      ]
+    },
+    {
+      "id": "B07_表情_认真",
+      "file": "02_表情/B07_表情_认真_20261022_121202_1.png",
+      "group": "02_表情",
+      "x": 8765,
+      "y": 2435,
+      "width": 1145,
+      "height": 1374,
+      "scale": 1.0,
+      "cell": [
+        8654,
+        2343,
+        1368,
+        1523
+      ]
+    },
+    {
+      "id": "B08_表情_委屈",
+      "file": "02_表情/B08_表情_委屈_20261022_121255_1.png",
+      "group": "02_表情",
+      "x": 10189,
+      "y": 2435,
+      "width": 1145,
+      "height": 1374,
+      "scale": 1.0,
+      "cell": [
+        10078,
+        2343,
+        1368,
+        1523
+      ]
+    },
+    {
+      "id": "C01_服装_上衣",
+      "file": "03_服装/C01_服装_上衣_20261022_121353_1.png",
+      "group": "03_服装",
+      "x": 3320,
+      "y": 4262,
+      "width": 1145,
+      "height": 1374,
+      "scale": 1.0,
+      "cell": [
+        3292,
+        4018,
+        1201,
+        1827
+      ]
+    },
+    {
+      "id": "C02_服装_裙与腰带",
+      "file": "03_服装/C02_服装_裙与腰带_20261022_121448_1.png",
+      "group": "03_服装",
+      "x": 4577,
+      "y": 4262,
+      "width": 1145,
+      "height": 1374,
+      "scale": 1.0,
+      "cell": [
+        4549,
+        4018,
+        1201,
+        1827
+      ]
+    },
+    {
+      "id": "C03_服装_宽袖",
+      "file": "03_服装/C03_服装_宽袖_20261022_121551_1.png",
+      "group": "03_服装",
+      "x": 5834,
+      "y": 4262,
+      "width": 1145,
+      "height": 1374,
+      "scale": 1.0,
+      "cell": [
+        5806,
+        4018,
+        1201,
+        1827
+      ]
+    },
+    {
+      "id": "C04_服装_鞋袜",
+      "file": "03_服装/C04_服装_鞋袜_20261022_121648_1.png",
+      "group": "03_服装",
+      "x": 7195,
+      "y": 4110,
+      "width": 937,
+      "height": 1679,
+      "scale": 1.0,
+      "cell": [
+        7063,
+        4018,
+        1201,
+        1827
+      ]
+    },
+    {
+      "id": "D01_道具_发圈",
+      "file": "04_道具细节/D01_道具_发圈_20261022_121732_1.png",
+      "group": "04_道具细节",
+      "x": 739,
+      "y": 6251,
+      "width": 1161,
+      "height": 1354,
+      "scale": 1.0,
+      "cell": [
+        605,
+        5997,
+        1430,
+        1827
+      ]
+    },
+    {
+      "id": "D02_道具_Seed星芒",
+      "file": "04_道具细节/D02_道具_Seed星芒_20261022_121826_1.png",
+      "group": "04_道具细节",
+      "x": 2119,
+      "y": 6356,
+      "width": 1374,
+      "height": 1145,
+      "scale": 1.0,
+      "cell": [
+        2091,
+        5997,
+        1430,
+        1827
+      ]
+    },
+    {
+      "id": "D03_道具_工牌",
+      "file": "04_道具细节/D03_道具_工牌_20261022_121927_1.png",
+      "group": "04_道具细节",
+      "x": 3823,
+      "y": 6089,
+      "width": 937,
+      "height": 1679,
+      "scale": 1.0,
+      "cell": [
+        3577,
+        5997,
+        1430,
+        1827
+      ]
+    },
+    {
+      "id": "D04_道具_录音笔与吊牌",
+      "file": "04_道具细节/D04_道具_录音笔与吊牌_20261022_122029_1.png",
+      "group": "04_道具细节",
+      "x": 5309,
+      "y": 6089,
+      "width": 937,
+      "height": 1678,
+      "scale": 1.0,
+      "cell": [
+        5063,
+        5997,
+        1430,
+        1827
+      ]
+    },
+    {
+      "id": "D05_道具_手绘平板",
+      "file": "04_道具细节/D05_道具_手绘平板_20261022_122142_1.png",
+      "group": "04_道具细节",
+      "x": 6752,
+      "y": 6160,
+      "width": 1024,
+      "height": 1536,
+      "scale": 1.0,
+      "cell": [
+        6549,
+        5997,
+        1430,
+        1827
+      ]
+    },
+    {
+      "id": "D06_道具_大腿环",
+      "file": "04_道具细节/D06_道具_大腿环_20261022_122305_1.png",
+      "group": "04_道具细节",
+      "x": 8126,
+      "y": 6298,
+      "width": 1247,
+      "height": 1261,
+      "scale": 1.0,
+      "cell": [
+        8035,
+        5997,
+        1430,
+        1827
+      ]
+    },
+    {
+      "id": "D07_道具_豆包玩偶",
+      "file": "04_道具细节/D07_道具_豆包玩偶_20261022_123035_1.png",
+      "group": "04_道具细节",
+      "x": 9663,
+      "y": 6241,
+      "width": 1145,
+      "height": 1374,
+      "scale": 1.0,
+      "cell": [
+        9521,
+        5997,
+        1430,
+        1827
+      ]
+    }
+  ],
+  "verification": [
+    {
+      "id": "A01_三视图_正面",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 4260,
+      "y": 456,
+      "width": 937,
+      "height": 1679
+    },
+    {
+      "id": "A02_三视图_左侧",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 5309,
+      "y": 456,
+      "width": 937,
+      "height": 1678
+    },
+    {
+      "id": "A03_三视图_背面",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 6358,
+      "y": 456,
+      "width": 937,
+      "height": 1679
+    },
+    {
+      "id": "B01_表情_自然微笑",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 221,
+      "y": 2435,
+      "width": 1145,
+      "height": 1374
+    },
+    {
+      "id": "B02_表情_平静",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 1645,
+      "y": 2435,
+      "width": 1145,
+      "height": 1374
+    },
+    {
+      "id": "B03_表情_惊讶",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 3070,
+      "y": 2435,
+      "width": 1144,
+      "height": 1375
+    },
+    {
+      "id": "B04_表情_害羞",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 4493,
+      "y": 2435,
+      "width": 1145,
+      "height": 1374
+    },
+    {
+      "id": "B05_表情_鼓腮",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 5834,
+      "y": 2523,
+      "width": 1312,
+      "height": 1199
+    },
+    {
+      "id": "B06_表情_闭眼轻笑",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 7341,
+      "y": 2435,
+      "width": 1145,
+      "height": 1374
+    },
+    {
+      "id": "B07_表情_认真",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 8765,
+      "y": 2435,
+      "width": 1145,
+      "height": 1374
+    },
+    {
+      "id": "B08_表情_委屈",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 10189,
+      "y": 2435,
+      "width": 1145,
+      "height": 1374
+    },
+    {
+      "id": "C01_服装_上衣",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 3320,
+      "y": 4262,
+      "width": 1145,
+      "height": 1374
+    },
+    {
+      "id": "C02_服装_裙与腰带",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 4577,
+      "y": 4262,
+      "width": 1145,
+      "height": 1374
+    },
+    {
+      "id": "C03_服装_宽袖",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 5834,
+      "y": 4262,
+      "width": 1145,
+      "height": 1374
+    },
+    {
+      "id": "C04_服装_鞋袜",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 7195,
+      "y": 4110,
+      "width": 937,
+      "height": 1679
+    },
+    {
+      "id": "D01_道具_发圈",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 739,
+      "y": 6251,
+      "width": 1161,
+      "height": 1354
+    },
+    {
+      "id": "D02_道具_Seed星芒",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 2119,
+      "y": 6356,
+      "width": 1374,
+      "height": 1145
+    },
+    {
+      "id": "D03_道具_工牌",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 3823,
+      "y": 6089,
+      "width": 937,
+      "height": 1679
+    },
+    {
+      "id": "D04_道具_录音笔与吊牌",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 5309,
+      "y": 6089,
+      "width": 937,
+      "height": 1678
+    },
+    {
+      "id": "D05_道具_手绘平板",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 6752,
+      "y": 6160,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "D06_道具_大腿环",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 8126,
+      "y": 6298,
+      "width": 1247,
+      "height": 1261
+    },
+    {
+      "id": "D07_道具_豆包玩偶",
+      "pixel_match": true,
+      "scale": 1.0,
+      "x": 9663,
+      "y": 6241,
+      "width": 1145,
+      "height": 1374
+    }
+  ]
+}
