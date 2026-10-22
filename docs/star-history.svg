@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-label="Star 增长曲线">
+<title>Star 增长曲线</title>
+<desc>累计 Star 数（按天聚合），数据来自 GitHub REST API 的 stargazers 接口。</desc>
+<defs>
+<linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#2ea44f" stop-opacity="0.30"/>
+<stop offset="100%" stop-color="#2ea44f" stop-opacity="0.02"/>
+</linearGradient>
+</defs>
+<rect width="800" height="320" fill="#ffffff"/>
+<rect x="58" y="52" width="716" height="226" rx="6" fill="#f6f8fa"/>
+<text x="58" y="26" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="16" font-weight="600" fill="#1f2328">Star 增长曲线</text>
+<line x1="58" y1="278.0" x2="774" y2="278.0" stroke="#e4e8ee" stroke-width="1"/>
+<text x="49" y="282.0" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="11" fill="#656d76">0</text>
+<line x1="58" y1="202.7" x2="774" y2="202.7" stroke="#e4e8ee" stroke-width="1"/>
+<text x="49" y="206.7" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="11" fill="#656d76">100</text>
+<line x1="58" y1="127.3" x2="774" y2="127.3" stroke="#e4e8ee" stroke-width="1"/>
+<text x="49" y="131.3" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="11" fill="#656d76">200</text>
+<line x1="58" y1="52.0" x2="774" y2="52.0" stroke="#e4e8ee" stroke-width="1"/>
+<text x="49" y="56.0" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="11" fill="#656d76">300</text>
+<line x1="58.0" y1="52" x2="58.0" y2="278" stroke="#e4e8ee" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="58.0" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="10.5" fill="#656d76">10-08</text>
+<line x1="160.3" y1="52" x2="160.3" y2="278" stroke="#e4e8ee" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="160.3" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="10.5" fill="#656d76">10-10</text>
+<line x1="262.6" y1="52" x2="262.6" y2="278" stroke="#e4e8ee" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="262.6" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="10.5" fill="#656d76">10-12</text>
+<line x1="364.9" y1="52" x2="364.9" y2="278" stroke="#e4e8ee" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="364.9" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="10.5" fill="#656d76">10-14</text>
+<line x1="467.1" y1="52" x2="467.1" y2="278" stroke="#e4e8ee" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="467.1" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="10.5" fill="#656d76">10-16</text>
+<line x1="569.4" y1="52" x2="569.4" y2="278" stroke="#e4e8ee" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="569.4" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="10.5" fill="#656d76">10-18</text>
+<line x1="671.7" y1="52" x2="671.7" y2="278" stroke="#e4e8ee" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="671.7" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="10.5" fill="#656d76">10-20</text>
+<line x1="774.0" y1="52" x2="774.0" y2="278" stroke="#e4e8ee" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="774.0" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="10.5" fill="#656d76">10-22</text>
+<line x1="58" y1="278" x2="774" y2="278" stroke="#c6cdd6" stroke-width="1"/>
+<line x1="58" y1="52" x2="58" y2="278" stroke="#c6cdd6" stroke-width="1"/>
+<text x="16" y="165.0" text-anchor="middle" transform="rotate(-90 16 165.0)" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="11" fill="#656d76">Star 数</text>
+<polygon points="58.0,278.0 58.0,278.0 109.1,278.0 160.3,278.0 211.4,277.2 262.6,277.2 313.7,276.5 364.9,276.5 416.0,276.5 467.1,275.7 518.3,275.0 569.4,274.2 620.6,273.5 671.7,126.6 722.9,84.4 774.0,78.4 774.0,278.0" fill="url(#area)" stroke="none"/>
+<polyline points="58.0,278.0 109.1,278.0 160.3,278.0 211.4,277.2 262.6,277.2 313.7,276.5 364.9,276.5 416.0,276.5 467.1,275.7 518.3,275.0 569.4,274.2 620.6,273.5 671.7,126.6 722.9,84.4 774.0,78.4" fill="none" stroke="#2ea44f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="211.4" cy="277.2" r="2.2" fill="#1a7f37"/>
+<circle cx="262.6" cy="277.2" r="2.2" fill="#1a7f37"/>
+<circle cx="313.7" cy="276.5" r="2.2" fill="#1a7f37"/>
+<circle cx="364.9" cy="276.5" r="2.2" fill="#1a7f37"/>
+<circle cx="416.0" cy="276.5" r="2.2" fill="#1a7f37"/>
+<circle cx="467.1" cy="275.7" r="2.2" fill="#1a7f37"/>
+<circle cx="518.3" cy="275.0" r="2.2" fill="#1a7f37"/>
+<circle cx="569.4" cy="274.2" r="2.2" fill="#1a7f37"/>
+<circle cx="620.6" cy="273.5" r="2.2" fill="#1a7f37"/>
+<circle cx="671.7" cy="126.6" r="2.2" fill="#1a7f37"/>
+<circle cx="722.9" cy="84.4" r="2.2" fill="#1a7f37"/>
+<circle cx="774.0" cy="78.4" r="2.2" fill="#1a7f37"/>
+<circle cx="774.0" cy="78.4" r="4" fill="#fff" stroke="#1a7f37" stroke-width="2"/>
+<text x="770.0" y="66.4" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="13" font-weight="700" fill="#1a7f37">265 stars</text>
+<text x="770.0" y="80.4" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="10.5" fill="#656d76">2026-10-22</text>
+<text x="774" y="312" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="9.5" fill="#656d76">lmy414/ai-chan-sheets · 数据来源：GitHub REST API · 抓取于 2026-10-22 03:16 · 265 stars</text>
+</svg>
