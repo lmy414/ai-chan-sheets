@@ -140,7 +140,7 @@ ZipZipPipe/
 
 ## Star 曲线
 
-2026 年 10 月 20 日被微博转发后，Star 一天涨了 195。下图是按 UTC 日期聚合的累计
+2026 年 10 月 20 日微博转发后，Star 一天涨了 195。下图是按 UTC 日期聚合的累计
 Star 数，数据来自 GitHub REST API 的 stargazers 接口：
 
 <img src="docs/star-history.svg" alt="Star 增长曲线" width="100%">
