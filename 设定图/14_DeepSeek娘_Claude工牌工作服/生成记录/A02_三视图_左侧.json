@@ -1,0 +1,38 @@
+{
+  "id": "A02_三视图_左侧",
+  "group": "01_三视图",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "size": "1536x2560",
+  "refs": [
+    "参考原图/14_DeepSeek娘_Claude工牌工作服/裁切/正面.png"
+  ],
+  "prompt": "角色身份唯一来自参考图中的 Q 版 DeepSeek 娘工作服设定。保持原图大头短身、圆脸、短手短腿的 Q 版比例，不改成正常比例。头顶一根向左弯曲的深蓝呆毛；深蓝长发，发尾转亮蓝，蓝色大眼睛，两侧深蓝鲸鱼鳍耳带浅色边缘，身后蓝色鲸鱼尾鳍。头侧是橙棕色多尖星芒发夹。奶油白连帽衫有帽子、棕色抽绳、袋鼠口袋、袖口橙色星芒纹和右侧小花徽章；领口棕色蝴蝶结；棕色挂绳及浅底棕边工牌，牌面拉丁字母 Claude；下身棕色百褶短裙和白色蕾丝下摆，白色堆堆袜套上有小花，棕色玛丽珍鞋。配色为深蓝、亮蓝、奶油白与棕橙，具体结构遵循原图，禁止凭空添加配饰。\n本次只画一张侧面全身设定立绘，人物朝画面左方，头身为同一侧面，双脚自然站立，保留角色、服装与配件。参考图缺失此角度，依据正面服装推定，禁止增加多余结构。 从呆毛到鞋底完整入镜，纯白背景，不能出现第二个角色或视图。\n沿用原图精细日系 Q 版二次元画风与线条，不要写实、3D、画面拼贴、网格、背景场景、水印、标尺或无关文字。纯白无纹理背景。每张只画本任务指定的一个视图、一个人物或一组指定单品。",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-10-31T21:09:53.938669+00:00",
+  "endpoint": "images/edits",
+  "reference_sha256": {
+    "参考原图/14_DeepSeek娘_Claude工牌工作服/裁切/正面.png": "0677628c678edacc965e8daa8baf7995d38858db87f9cc87b4f9a3063b5c901e"
+  },
+  "output": "01_三视图/A02_三视图_左侧.png",
+  "dimensions": [
+    1031,
+    1525
+  ],
+  "elapsed_seconds": 17.17,
+  "usage": {
+    "input_tokens": 1151,
+    "output_tokens": 343,
+    "total_tokens": 1494
+  },
+  "returned_model": "codex/gpt-image-2.5-sunburst",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "background": null,
+    "output_format": null
+  },
+  "output_sha256": "8f6e142a45488a9349c4720d64dcd88bfaa754772744acd6674cb0c6ab35e9e6",
+  "returned_file_format": "PNG"
+}

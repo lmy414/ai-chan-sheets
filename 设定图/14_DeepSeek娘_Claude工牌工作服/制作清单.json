@@ -1,0 +1,71 @@
+{
+  "character": "DeepSeek娘（Claude 工牌工作服）",
+  "source_character_dir": "参考原图/14_DeepSeek娘_Claude工牌工作服",
+  "primary_reference": "参考原图/14_DeepSeek娘_Claude工牌工作服/来源原图.png",
+  "extra_references": [
+    "参考原图/14_DeepSeek娘_Claude工牌工作服/裁切/正面.png",
+    "参考原图/14_DeepSeek娘_Claude工牌工作服/裁切/全图.png",
+    "参考原图/14_DeepSeek娘_Claude工牌工作服/裁切/配件.png"
+  ],
+  "source_urls": [
+    "https://xn--pssy23gqgbz2d718b.com/works/deepseek202610200007.html"
+  ],
+  "source_credit": "未标注",
+  "rights": "来源作者未标注；授权记录 unknown；收录署名不代表作者。",
+  "orientation": "landscape",
+  "board_title": "DeepSeek娘（Claude 工牌工作服） · 横版完整设定图",
+  "board_subtitle": "22 张独立素材  /  Q版  /  分区横向并排  /  原生像素 1:1 拼接",
+  "native_name": "DeepSeek娘_工作服_横版完整设定图_原像素.png",
+  "preview_name": "DeepSeek娘_工作服_横版完整设定图_浏览预览.jpg",
+  "accent": "#486CAE",
+  "footnote": "基于来源图整理；未知或遮挡结构属于推定，生成内容并非原作者确认设定。",
+  "workflow": "独立三视图 -> 独立表情 -> 独立服装 -> 独立道具细节 -> 横版 1:1 拼接",
+  "unseen_design": "A01 依据原图正面；A02/A03 及遮挡面为根据正面和已给单品的推定，非原作者设定。",
+  "sections": [
+    {
+      "group": "01_三视图",
+      "title": "01  三视图",
+      "note": "正面 / 左侧 / 背面 · Q版全身"
+    },
+    {
+      "group": "02_表情",
+      "title": "02  表情拆分 · 8 种",
+      "note": "同一机位与脸型基准 · Q版胸像"
+    },
+    {
+      "group": "03_服装",
+      "title": "03  服装设计 · 4 项",
+      "note": "脱下摆放的单品"
+    },
+    {
+      "group": "04_道具细节",
+      "title": "04  道具与饰品细节 · 7 项",
+      "note": "独立素材"
+    }
+  ],
+  "tasks": [
+    "A01_三视图_正面",
+    "A02_三视图_左侧",
+    "A03_三视图_背面",
+    "B01_表情_自然微笑",
+    "B02_表情_平静",
+    "B03_表情_惊讶",
+    "B04_表情_害羞",
+    "B05_表情_鼓腮",
+    "B06_表情_闭眼轻笑",
+    "B07_表情_认真",
+    "B08_表情_委屈",
+    "C01_服装_奶油白连帽衫",
+    "C02_服装_棕色百褶裙",
+    "C03_服装_白色袜套",
+    "C04_服装_棕色玛丽珍鞋",
+    "D01_道具_鲸鱼鳍耳",
+    "D02_道具_蓝色鲸鱼尾",
+    "D03_道具_星芒发夹",
+    "D04_道具_Claude工牌",
+    "D05_道具_棕色领结",
+    "D06_道具_小花徽章",
+    "D07_道具_袖口星芒纹"
+  ],
+  "selections": {}
+}

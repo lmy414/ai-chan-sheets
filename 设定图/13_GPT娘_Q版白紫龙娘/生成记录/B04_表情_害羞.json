@@ -1,0 +1,38 @@
+{
+  "id": "B04_表情_害羞",
+  "group": "02_表情",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "size": "1536x1536",
+  "refs": [
+    "参考原图/13_GPT娘_Q版白紫龙娘/裁切/正面.png"
+  ],
+  "prompt": "角色身份唯一来自参考图中的 Q 版白紫龙娘小 GPT。保持原图极短小的 Q 版大头身比例、圆脸，白色长发及淡紫阴影、头顶一根弯曲呆毛，头两侧浅紫色分节弯龙角，尖耳，一侧靠近耳朵的白紫色盘结花饰和细长流苏，背后浅紫色小蝠翼与淡紫鳞片龙尾。脸部特征是粗深色眼线包围的白色空心椭圆眼，没有瞳孔或虹膜；自然表情时张口并有蓝色口水。不要画成彩色虹膜的大眼少女，不要改成正常比例。服装是白色淡紫阴影的露肩礼服：胸前高领及花饰、精细蕾丝纹、两只分离式宽袖，腰部左右盘结花饰及流苏，前短后长、多层白纱裙摆、腿部蕾丝饰带、白紫色短靴。色彩保持白、淡紫、少量浅蓝。\n本次只画人物正面头肩胸像，表情为害羞、面颊微红，同一机位与脸型，不画手或全身。保持白色无瞳椭圆眼的原画造型，闭眼时画闭合眼线；自然微笑以外可去掉口水。\n沿用原图精细日系 Q 版二次元画风与线条，不要写实、3D、画面拼贴、网格、背景场景、水印、标尺或无关文字。纯白无纹理背景。每张只画本任务指定的一个视图、一个人物或一组指定单品。",
+  "inferred_details": false,
+  "status": "success",
+  "started_at": "2026-10-31T21:12:33.224375+00:00",
+  "endpoint": "images/edits",
+  "reference_sha256": {
+    "参考原图/13_GPT娘_Q版白紫龙娘/裁切/正面.png": "f0ac38c675ca4b506fbfd44aa32e3fe08fed36a4fedad585f1b6d4cdd5e9d1d7"
+  },
+  "output": "02_表情/B04_表情_害羞.png",
+  "dimensions": [
+    996,
+    1579
+  ],
+  "elapsed_seconds": 28.28,
+  "usage": {
+    "input_tokens": 1655,
+    "output_tokens": 1287,
+    "total_tokens": 2942
+  },
+  "returned_model": "codex/gpt-image-2.5-sunburst",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "background": null,
+    "output_format": null
+  },
+  "output_sha256": "a4e0f62245532e77e0d53914eb63e9f3ee5c2859e751f6bbb4ab0bf83d7c4314",
+  "returned_file_format": "PNG"
+}

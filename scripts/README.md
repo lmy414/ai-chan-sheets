@@ -27,27 +27,26 @@ pip install Pillow
 
 ## 用法
 
-四个工具脚本的参数都是**角色工程目录**，不是仓库根。
+四个工具脚本的参数都是**角色工程目录**，不是仓库根。拼板与核验脚本同时支持
+工程目录中的 `00_生成记录/` 和仓库目录中的 `生成记录/`。第 13、14 条包含全部
+独立素材，可以直接从仓库目录重建。旧条目需要先从本地工程补齐独立素材。
+
+在仓库根目录执行。下面的第 13 条已包含独立素材，无需重新生图：
 
 ```bash
-# 1. 生成提示词与制作清单（模板以 Gemini 娘为例，改文件顶部的 CONFIG 换角色）
-python make_prompts.py
+# 1. 以独立素材重建母版
+python scripts/compose_landscape.py "设定图/13_GPT娘_Q版白紫龙娘"
 
-# 2. 用你自己的工具按 提示词/*.json 生成素材，落到对应的分区目录，并写 00_生成记录/<id>.json
-#    （这一步仓库里没有脚本，字段格式见下）
+# 2. 独立核验母版与 22 张素材
+python scripts/verify_board.py "设定图/13_GPT娘_Q版白紫龙娘"
 
-# 3. 拼板
-python compose_landscape.py "设定图/10_Gemini娘"
-
-# 4. 独立核验。这一步才是验收，不要用拼板脚本的返回值当验收
-python verify_board.py "设定图/10_Gemini娘"
-
-# 5. 出便于查看的小图
-python make_viewable.py "设定图/10_Gemini娘"
-
-# 6. 从母版裁 4 个分区的 1:1 原像素切片，写入工程 07_原图切片/
-python make_native_slices.py "设定图/10_Gemini娘"
+# 3. 生成查看图和 4 张原像素切片
+python scripts/make_viewable.py "设定图/13_GPT娘_Q版白紫龙娘"
+python scripts/make_native_slices.py "设定图/13_GPT娘_Q版白紫龙娘"
 ```
+
+制作新角色时，可以修改 `scripts/make_prompts.py` 顶部的配置，生成清单与提示词，
+再用自己的绘图工具生成素材并写入记录。生图步骤不包含在仓库脚本中。
 
 `verify_board.py` 全部通过时退出码为 0，任一角色不通过为 1，可以直接接进 CI。
 它可以一次接多个目录。
@@ -64,7 +63,8 @@ python make_native_slices.py "设定图/10_Gemini娘"
 | `refs` | 参考图数组。相对路径从仓库根算；`@任务id` 表示引用另一条任务的产出 |
 | `prompt` | 提示词正文 |
 
-`00_生成记录/<任务id>.json` 是每条素材的产出记录，拼板脚本读它来定位素材：
+工程目录使用 `00_生成记录/<任务id>.json`，仓库目录使用 `生成记录/<任务id>.json`。
+拼板脚本读取这些记录来定位素材：
 
 | 字段 | 说明 |
 |---|---|

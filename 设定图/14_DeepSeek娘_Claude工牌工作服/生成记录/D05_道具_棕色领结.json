@@ -1,0 +1,40 @@
+{
+  "id": "D05_道具_棕色领结",
+  "group": "04_道具细节",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "size": "1536x1536",
+  "refs": [
+    "参考原图/14_DeepSeek娘_Claude工牌工作服/裁切/正面.png",
+    "参考原图/14_DeepSeek娘_Claude工牌工作服/裁切/配件.png"
+  ],
+  "prompt": "角色身份唯一来自参考图中的 Q 版 DeepSeek 娘工作服设定。保持原图大头短身、圆脸、短手短腿的 Q 版比例，不改成正常比例。头顶一根向左弯曲的深蓝呆毛；深蓝长发，发尾转亮蓝，蓝色大眼睛，两侧深蓝鲸鱼鳍耳带浅色边缘，身后蓝色鲸鱼尾鳍。头侧是橙棕色多尖星芒发夹。奶油白连帽衫有帽子、棕色抽绳、袋鼠口袋、袖口橙色星芒纹和右侧小花徽章；领口棕色蝴蝶结；棕色挂绳及浅底棕边工牌，牌面拉丁字母 Claude；下身棕色百褶短裙和白色蕾丝下摆，白色堆堆袜套上有小花，棕色玛丽珍鞋。配色为深蓝、亮蓝、奶油白与棕橙，具体结构遵循原图，禁止凭空添加配饰。\n本次只画一只棕色布质蝴蝶结，按原图大小与形状，白底精细单件结构图，不出现人物。不要任何文字。\n沿用原图精细日系 Q 版二次元画风与线条，不要写实、3D、画面拼贴、网格、背景场景、水印、标尺或无关文字。纯白无纹理背景。每张只画本任务指定的一个视图、一个人物或一组指定单品。",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-10-31T21:17:05.000782+00:00",
+  "endpoint": "images/edits",
+  "reference_sha256": {
+    "参考原图/14_DeepSeek娘_Claude工牌工作服/裁切/正面.png": "0677628c678edacc965e8daa8baf7995d38858db87f9cc87b4f9a3063b5c901e",
+    "参考原图/14_DeepSeek娘_Claude工牌工作服/裁切/配件.png": "a1cc6849d39dcaefde81ece7ec604a9a16f910ae071f17fd909f4618c5451b08"
+  },
+  "output": "04_道具细节/D05_道具_棕色领结.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "elapsed_seconds": 25.02,
+  "usage": {
+    "input_tokens": 1877,
+    "output_tokens": 1372,
+    "total_tokens": 3249
+  },
+  "returned_model": "codex/gpt-image-2.5-sunburst",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "background": null,
+    "output_format": null
+  },
+  "output_sha256": "937f4aaf7ab168f7920ea45587c95e498493e0c62b79011379da74dd5c4c2880",
+  "returned_file_format": "PNG"
+}

@@ -103,8 +103,12 @@ def verify(proj_dir: Path) -> dict:
 
     # sha256 与记录一致性 + 去重
     digests = []
-    for tid in json.loads((proj_dir / "制作清单.json").read_text(encoding="utf-8"))["tasks"]:
-        rec = json.loads((proj_dir / "00_生成记录" / (tid + ".json")).read_text(encoding="utf-8"))
+    manifest = json.loads((proj_dir / "制作清单.json").read_text(encoding="utf-8"))
+    selections = manifest.get("selections", {})
+    records = proj_dir / ("00_生成记录" if (proj_dir / "00_生成记录").is_dir() else "生成记录")
+    for tid in manifest["tasks"]:
+        selected = selections.get(tid, tid)
+        rec = json.loads((records / (selected + ".json")).read_text(encoding="utf-8"))
         if rec.get("status") != "success":
             problems.append(f"记录未成功：{tid} -> {rec.get('status')}")
             continue

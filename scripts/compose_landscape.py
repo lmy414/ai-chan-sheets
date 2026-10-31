@@ -5,7 +5,7 @@
 用法：
     python compose_landscape.py <角色工程目录>
 
-工程目录里需要有 制作清单.json、00_生成记录/<id>.json，以及各分区的素材目录。
+工程目录里需要有 制作清单.json、生成记录（00_生成记录或生成记录）以及各分区素材。
 产出写入该目录下的 05_横版设定板/：
 
   05_横版设定板/<native_name>      原像素 PNG
@@ -59,11 +59,14 @@ def fit_font(draw, text, max_width, start, minimum=22, bold=False, step=2):
 
 manifest = json.loads((ROOT / "制作清单.json").read_text(encoding="utf-8"))
 selections = manifest.get("selections", {})
+# 工程目录使用 00_ 前缀，仓库交付目录使用简短名称。
+record_dir = ROOT / ("00_生成记录" if (ROOT / "00_生成记录").is_dir() else "生成记录")
+prompt_dir = "00_提示词" if (ROOT / "00_提示词").is_dir() else "提示词"
 
 assets = []
 for task_id in manifest["tasks"]:
     selected = selections.get(task_id, task_id)
-    rec = json.loads((ROOT / "00_生成记录" / (selected + ".json")).read_text(encoding="utf-8"))
+    rec = json.loads((record_dir / (selected + ".json")).read_text(encoding="utf-8"))
     assert rec["status"] == "success", f"素材尚未完成：{selected}"
     path = (ROOT / rec["group"] / Path(rec["output"]).name).resolve()
     assert path.is_relative_to(ROOT) and path.is_file(), f"素材缺失：{path}"
@@ -82,8 +85,8 @@ for task_id in manifest["tasks"]:
                        size_requested=rec["size"], returned_model=rec.get("returned_model"),
                        returned_settings=rec.get("returned_settings"),
                        inferred_details=rec.get("inferred_details", False),
-                       prompt_file=f"00_提示词/{selected}.json",
-                       generation_record=f"00_生成记录/{selected}.json"))
+                       prompt_file=f"{prompt_dir}/{selected}.json",
+                       generation_record=f"{record_dir.name}/{selected}.json"))
 
 assert len(assets) == len(manifest["tasks"]), "素材数量与清单不一致"
 assert len({a["sha256"] for a in assets}) == len(assets), "存在重复素材（sha256 相同）"
