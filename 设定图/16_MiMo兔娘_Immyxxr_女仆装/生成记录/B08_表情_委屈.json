@@ -1,0 +1,34 @@
+{
+  "id": "B08_表情_委屈",
+  "group": "02_表情",
+  "refs": [
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/裁切/正面.png"
+  ],
+  "prompt": "Faithfully preserve the supplied MiMo rabbit-ear maid design by @Immyxxr, distinct from the other MiMo author: long voluminous silver-white wavy hair, pale warm-brown/orange eyes, white floppy rabbit ears with pink inner fur on a frilled white headband edged orange, circular orange mi hair badge and orange bows at both sides; back hair has a braided crown gathered with the round orange mi badge. White off-shoulder blouse with ruffles, orange upper-arm bows and puffy white sleeves, black neck bow with gold round center, orange fitted waist and orange skirt with white layered frills, white apron trimmed orange with exact text Xiaomi MiMo, large white back bow and small round white rabbit tail. White thigh-highs and glossy black low-heeled Mary Jane shoes with gold buckles. Keep original anime face, proportions and costume; do not add the other MiMo mechanical headband or streetwear.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY ONE front-facing head-and-shoulders portrait, square frame, same camera and face size as other expression assets. The expression is hurt pout, slightly raised inner brows, watery eyes but no large streams of tears. Both ears and upper hairstyle fully visible with a small margin, shoulders at bottom; keep the source hair ornaments and upper clothing. No hands, text, tears effects, bubbles or extra heads. This expression is newly generated, not from the original author.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "16_MiMo兔娘_Immyxxr_女仆装",
+  "status": "success",
+  "started_at": "2026-11-04T16:45:06.070Z",
+  "finished_at": "2026-11-04T16:45:53.436885+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/裁切/正面.png": "358af0490b93595965a2b59eb05e5ac48bc6ecbdc364118f355a8e8d7a902015"
+  },
+  "output": "02_表情/B08_表情_委屈.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 46.661,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "cc10401583bd21227e7fa295bf3d54ebdb318d29d46ea72586e019e3954cc142",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-1f5ecee5-b9da-46b8-ae7e-0617707d8684.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

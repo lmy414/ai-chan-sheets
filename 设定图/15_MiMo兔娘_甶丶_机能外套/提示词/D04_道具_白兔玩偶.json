@@ -1,0 +1,14 @@
+{
+  "id": "D04_道具_白兔玩偶",
+  "group": "04_道具细节",
+  "refs": [
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 15_MiMo兔娘_甶丶_机能外套. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the small white rabbit plush from the reference, full object with long upright ears, orange inner ears, black oval eyes, round orange cheek patch bearing white mi, stubby limbs and small round tail. No hand, human or unrelated prop. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "15_MiMo兔娘_甶丶_机能外套"
+}

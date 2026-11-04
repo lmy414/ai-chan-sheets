@@ -1,0 +1,34 @@
+{
+  "id": "D05_道具_袋鼠公仔",
+  "group": "04_道具细节",
+  "refs": [
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/袋鼠公仔.png"
+  ],
+  "prompt": "Source reference: 17_LongCat娘_美团龙猫_现代外套. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the small yellow kangaroo plush shown in the attachment lower-left panel: long large yellow ears with pale inner ears, dark brown oval nose, tiny black eyes, dark neck ring, little arms, big feet and upward curving tail. Full object on white, no delivery box, human or new accessories. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "17_LongCat娘_美团龙猫_现代外套",
+  "status": "success",
+  "started_at": "2026-11-04T17:05:29.746Z",
+  "finished_at": "2026-11-04T17:05:49.114822+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/袋鼠公仔.png": "daf14a113ef5804a3274163a45394036130173ad09237c224f17f77c3af919d5"
+  },
+  "output": "04_道具细节/D05_道具_袋鼠公仔.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 18.735,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "268228ddc9783bb7e9b7461bc4d465774e7ff541480f65564aacdeafe7fe9eb8",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-e288dce8-af00-4f6a-9130-051db130a5ed.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "C02_服装_XiaomiMiMo围裙",
+  "group": "03_服装",
+  "refs": [
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 16_MiMo兔娘_Immyxxr_女仆装. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the white maid apron, orange piping, white ruffled edge, exact black lettering Xiaomi MiMo near lower-right as seen from front, and white back ties. Detached garment front product view. No skirt, body, head or other accessories. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "16_MiMo兔娘_Immyxxr_女仆装",
+  "status": "success",
+  "started_at": "2026-11-04T16:46:33.618Z",
+  "finished_at": "2026-11-04T16:46:57.051927+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/参考图_白底.png": "a4f76163207db565229b5cb32ee07215ff4ca0d85a0e3ef13b67293970d60fa5"
+  },
+  "output": "03_服装/C02_服装_XiaomiMiMo围裙.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 22.761,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "c9d74391a7fbdf03513e4ffee7331a8b1a0482b51e9955f28ce021c3e692ed27",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-ad48e7e2-8e6c-47eb-b719-8dfea3dc2725.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

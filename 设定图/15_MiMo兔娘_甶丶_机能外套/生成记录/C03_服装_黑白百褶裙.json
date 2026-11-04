@@ -1,0 +1,34 @@
+{
+  "id": "C03_服装_黑白百褶裙",
+  "group": "03_服装",
+  "refs": [
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 15_MiMo兔娘_甶丶_机能外套. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the black pleated skirt with original white side panel and small orange mi mark, waistband and black strap detail. Detached clothing object, no torso, legs or other garments. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "15_MiMo兔娘_甶丶_机能外套",
+  "status": "success",
+  "started_at": "2026-11-04T16:36:34.215Z",
+  "finished_at": "2026-11-04T16:36:57.361896+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/参考图_白底.png": "2a10988302c9187f18168c5f77f208c19d79c215f56f8cb2ba240492da511488"
+  },
+  "output": "03_服装/C03_服装_黑白百褶裙.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 22.396,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "05c4671a2340bd46cff80e2a048bfe8608056ac8cb19d4572916c0c9270e50f9",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-0ce0ebbf-7d7f-4fa4-95f4-e34f95337fd7.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "B02_表情_平静",
+  "group": "02_表情",
+  "refs": [
+    "设定图/15_MiMo兔娘_甶丶_机能外套/审图历史/B02_表情_平静_v01.png",
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/裁切/米字瞳_原图局部.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET. Image 2 is a small crop of the original author artwork, supplied ONLY as the iris motif reference. Change ONLY the WHITE IRIS MOTIF inside each visible orange eye in Image 1. It must be the Chinese character 米: a compact white eight-ray asterisk made of one vertical stroke, one horizontal stroke and two crossed diagonal strokes. Exactly this shape: 米. NOT the letters mi, NOT U, NOT a smile, NOT a pair of vertical pills, NOT a plus with missing diagonal rays. Keep the orange iris color and pupil depth, put one small white 米 motif centered inside EACH visible iris. Preserve every other pixel-level design decision as closely as possible: same facial expression, eyebrow angle, eye shape, eyelids, tears if present, face, camera, hair, ear headband, clothes, marks, body, pose and white background. Do not add text outside the eyes, do not add accessories, no collage. Keep the complete original framing and aspect ratio of Image 1. This is an eye-highlight correction only, not a redesign.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "15_MiMo兔娘_甶丶_机能外套",
+  "revision": 2
+}

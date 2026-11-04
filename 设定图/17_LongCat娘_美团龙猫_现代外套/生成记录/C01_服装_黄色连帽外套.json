@@ -1,0 +1,34 @@
+{
+  "id": "C01_服装_黄色连帽外套",
+  "group": "03_服装",
+  "refs": [
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 17_LongCat娘_美团龙猫_现代外套. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the yellow modern hooded jacket, removed from body and shown front on invisible form; black/white angular edge panels, loose sleeves, white cuffs with black rectangles, original hood and rounded yellow shoulder details, black hem. No shirt, tie, skirt, body or head. Preserve streetwear silhouette. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "17_LongCat娘_美团龙猫_现代外套",
+  "status": "success",
+  "started_at": "2026-11-04T17:01:04.070Z",
+  "finished_at": "2026-11-04T17:01:41.433882+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/参考图_白底.png": "233a6bb6cb017b9e171aec89f044a4dad0daa16c7d68744d427eb5e728a53c9c"
+  },
+  "output": "03_服装/C01_服装_黄色连帽外套.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 36.707,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "34517e4ae790d7fee304c30407d1174b0b823995acd98c9286c058191f640fb5",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-3dfafb56-a3b0-486f-8faf-8fbe37ab0415.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

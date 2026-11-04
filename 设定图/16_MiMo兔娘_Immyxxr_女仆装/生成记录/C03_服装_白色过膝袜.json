@@ -1,0 +1,34 @@
+{
+  "id": "C03_服装_白色过膝袜",
+  "group": "03_服装",
+  "refs": [
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 16_MiMo兔娘_Immyxxr_女仆装. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the pair of simple opaque white thigh-high stockings, detached upright pair on white background, plain smooth fabric. No legs, shoes, skin, decorations or extra garments. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "16_MiMo兔娘_Immyxxr_女仆装",
+  "status": "success",
+  "started_at": "2026-11-04T16:46:57.167Z",
+  "finished_at": "2026-11-04T16:47:52.349100+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/参考图_白底.png": "a4f76163207db565229b5cb32ee07215ff4ca0d85a0e3ef13b67293970d60fa5"
+  },
+  "output": "03_服装/C03_服装_白色过膝袜.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 21.7,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "14165554404c25f3307136b04c810e354d9c79494441250dd455218e1e70fffa",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-82a93549-3722-46c2-85ba-e70e0879ad81.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "B01_表情_自然微笑",
+  "group": "02_表情",
+  "refs": [
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/裁切/正面.png"
+  ],
+  "prompt": "Faithfully preserve the supplied MiMo design by @甶丶: silver-white very long twin tails with orange streaks; orange eyes with rice-shaped white highlights; white-and-orange mechanical rabbit-ear headband with tiny black buckles and mi mark; orange X hair clip on viewer-right in the front view; orange-and-black twin-tail ribbons. White hoodie beneath orange/black/white strapped jacket with mi marks, black pleated skirt with a white panel, asymmetrical thigh-high socks: front-view viewer-left WHITE with orange mi, viewer-right BLACK with MIMO; black band with an orange X above the black sock; orange/white/black high-top sneakers. Match the original anime face, body proportions, materials, colors and all side-specific placements. Do not borrow the maid costume from another MiMo author.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY ONE front-facing head-and-shoulders portrait, square frame, same camera and face size as other expression assets. The expression is gentle small natural smile, eyes open. Both ears and upper hairstyle fully visible with a small margin, shoulders at bottom; keep the source hair ornaments and upper clothing. No hands, text, tears effects, bubbles or extra heads. This expression is newly generated, not from the original author.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "15_MiMo兔娘_甶丶_机能外套",
+  "status": "success",
+  "started_at": "2026-11-04T16:31:08.961Z",
+  "finished_at": "2026-11-04T16:31:36.973922+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/裁切/正面.png": "186a36b5e9e29ce6e5e9f0e0e345140fd34a8fd1cbb2e86a567d2b8be6ae875d"
+  },
+  "output": "02_表情/B01_表情_自然微笑.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 22.8,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "fef2b30657bd7c31cfc3bf61f4abf28fe1a1b858b67da24894c6b88402120a06",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-be175ecf-2d29-4319-9126-8cf70e5df8d8.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。",
+  "review_status": "superseded: replaced during the eye-highlight iteration"
+}

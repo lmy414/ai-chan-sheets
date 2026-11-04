@@ -1,0 +1,35 @@
+{
+  "id": "A01_三视图_正面",
+  "group": "01_三视图",
+  "refs": [
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/来源原图.png"
+  ],
+  "prompt": "Use case: identity-preserve. Asset type: one isolated anime character model-sheet front view. Reference image is the supplied MiMo character three-view design by @甶丶. Render ONLY ONE strict FRONT full-body orthographic standing view, from ears to shoe soles, vertical portrait frame, pure white background. Faithfully retain silver-white very long twin tails with orange streaks, orange eyes with rice-shaped white highlights, white-and-orange mechanical rabbit-ear headband, orange X hair clip on viewer-right, white hoodie under orange/black/white strapped jacket with mi marks, black pleated skirt with white panel, asymmetric thigh-highs: viewer-left white with orange mi and viewer-right black with MIMO, black band with orange X on viewer-right thigh, orange/white/black high-top sneakers. Keep original proportions and detailed clean anime linework. Arms relaxed slightly outward, EMPTY HANDS; rabbit plush is a separately documented prop. No redesigned clothes, no multiple people or views, no labels, no layout, no new accessories. All original side-specific placements remain faithful to reference.",
+  "inferred_details": false,
+  "requested_aspect": "portrait 2:3",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "portrait 2:3",
+  "character": "15_MiMo兔娘_甶丶_机能外套",
+  "status": "success",
+  "started_at": null,
+  "finished_at": "2026-11-04T16:18:02.483972+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/来源原图.png": "8c0df2f399316d00978e39d5620d056a1d880c4a80bd863d776d2e4d527c56ee"
+  },
+  "output": "01_三视图/A01_三视图_正面.png",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "elapsed_seconds": 41.2,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "12f0e5090c17fd44e16b219f64565240cc74f82432a3318db113e27732d4f01d",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-82485ed1-3109-439c-99ff-9f4ae1d89cb5.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。",
+  "review_status": "superseded: replaced during the eye-highlight iteration"
+}

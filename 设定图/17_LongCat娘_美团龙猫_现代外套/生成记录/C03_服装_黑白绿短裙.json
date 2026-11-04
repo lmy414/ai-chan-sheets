@@ -1,0 +1,34 @@
+{
+  "id": "C03_服装_黑白绿短裙",
+  "group": "03_服装",
+  "refs": [
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 17_LongCat娘_美团龙猫_现代外套. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the white short skirt with black side pleated panels, white waist belt and small white rectangular pouch, green inner hem as in reference, detached garment front view. No torso, legs, jacket or tail. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "17_LongCat娘_美团龙猫_现代外套",
+  "status": "success",
+  "started_at": "2026-11-04T17:02:15.150Z",
+  "finished_at": "2026-11-04T17:02:50.571470+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/参考图_白底.png": "233a6bb6cb017b9e171aec89f044a4dad0daa16c7d68744d427eb5e728a53c9c"
+  },
+  "output": "03_服装/C03_服装_黑白绿短裙.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 34.707,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "4742bac35f54df4778c13a4a46996d098f0bb0d78bfda353212d427c57270851",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-668f70dd-7358-4df4-9047-a630f08cffea.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

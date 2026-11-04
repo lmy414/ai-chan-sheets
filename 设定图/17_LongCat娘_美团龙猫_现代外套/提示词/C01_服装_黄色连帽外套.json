@@ -1,0 +1,14 @@
+{
+  "id": "C01_服装_黄色连帽外套",
+  "group": "03_服装",
+  "refs": [
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 17_LongCat娘_美团龙猫_现代外套. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the yellow modern hooded jacket, removed from body and shown front on invisible form; black/white angular edge panels, loose sleeves, white cuffs with black rectangles, original hood and rounded yellow shoulder details, black hem. No shirt, tie, skirt, body or head. Preserve streetwear silhouette. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "17_LongCat娘_美团龙猫_现代外套"
+}

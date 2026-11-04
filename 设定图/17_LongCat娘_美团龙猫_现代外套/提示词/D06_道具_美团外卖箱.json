@@ -1,0 +1,14 @@
+{
+  "id": "D06_道具_美团外卖箱",
+  "group": "04_道具细节",
+  "refs": [
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/外卖箱.png"
+  ],
+  "prompt": "Source reference: 17_LongCat娘_美团龙猫_现代外套. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the modern yellow Meituan delivery box from the attachment lower-middle panel, three-quarter product view: white-gray lid rim, black corner protectors, yellow body, exact BLACK Chinese characters 美团 on front, green horizontal indicator on lid edge and green glow/insert near base. Show full box unobstructed, no human hand, kangaroo, antique lock, letter or fantasy chest. Hidden side inferred conservatively. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "17_LongCat娘_美团龙猫_现代外套"
+}

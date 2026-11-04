@@ -1,0 +1,34 @@
+{
+  "id": "D06_道具_美团外卖箱",
+  "group": "04_道具细节",
+  "refs": [
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/外卖箱.png"
+  ],
+  "prompt": "Source reference: 17_LongCat娘_美团龙猫_现代外套. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the modern yellow Meituan delivery box from the attachment lower-middle panel, three-quarter product view: white-gray lid rim, black corner protectors, yellow body, exact BLACK Chinese characters 美团 on front, green horizontal indicator on lid edge and green glow/insert near base. Show full box unobstructed, no human hand, kangaroo, antique lock, letter or fantasy chest. Hidden side inferred conservatively. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "17_LongCat娘_美团龙猫_现代外套",
+  "status": "success",
+  "started_at": "2026-11-04T17:05:49.184Z",
+  "finished_at": "2026-11-04T17:06:14.135189+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/外卖箱.png": "018b3ba693db65a90dad985a5f9f7fda4955143c33081c39e83f011ab5e44ad1"
+  },
+  "output": "04_道具细节/D06_道具_美团外卖箱.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 24.244,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "513e4eb4af871a0abc600b682c246ca40566831a8cdc0079cd0780e4abb7eb58",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-70925175-31b0-4d49-9c0d-93053f505bd2.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

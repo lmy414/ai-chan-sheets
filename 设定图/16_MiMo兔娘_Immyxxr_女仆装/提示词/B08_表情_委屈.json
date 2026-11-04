@@ -1,0 +1,14 @@
+{
+  "id": "B08_表情_委屈",
+  "group": "02_表情",
+  "refs": [
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/裁切/正面.png"
+  ],
+  "prompt": "Faithfully preserve the supplied MiMo rabbit-ear maid design by @Immyxxr, distinct from the other MiMo author: long voluminous silver-white wavy hair, pale warm-brown/orange eyes, white floppy rabbit ears with pink inner fur on a frilled white headband edged orange, circular orange mi hair badge and orange bows at both sides; back hair has a braided crown gathered with the round orange mi badge. White off-shoulder blouse with ruffles, orange upper-arm bows and puffy white sleeves, black neck bow with gold round center, orange fitted waist and orange skirt with white layered frills, white apron trimmed orange with exact text Xiaomi MiMo, large white back bow and small round white rabbit tail. White thigh-highs and glossy black low-heeled Mary Jane shoes with gold buckles. Keep original anime face, proportions and costume; do not add the other MiMo mechanical headband or streetwear.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY ONE front-facing head-and-shoulders portrait, square frame, same camera and face size as other expression assets. The expression is hurt pout, slightly raised inner brows, watery eyes but no large streams of tears. Both ears and upper hairstyle fully visible with a small margin, shoulders at bottom; keep the source hair ornaments and upper clothing. No hands, text, tears effects, bubbles or extra heads. This expression is newly generated, not from the original author.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "16_MiMo兔娘_Immyxxr_女仆装"
+}

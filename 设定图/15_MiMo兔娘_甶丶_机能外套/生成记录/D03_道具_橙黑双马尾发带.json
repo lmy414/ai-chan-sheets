@@ -1,0 +1,34 @@
+{
+  "id": "D03_道具_橙黑双马尾发带",
+  "group": "04_道具细节",
+  "refs": [
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 15_MiMo兔娘_甶丶_机能外套. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the orange and black twin-tail ribbon ties as one matching accessory pair, preserving the orange loops and dark hanging ribbon strips. No hair or head. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "15_MiMo兔娘_甶丶_机能外套",
+  "status": "success",
+  "started_at": "2026-11-04T16:38:02.541Z",
+  "finished_at": "2026-11-04T16:38:39.420486+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/参考图_白底.png": "2a10988302c9187f18168c5f77f208c19d79c215f56f8cb2ba240492da511488"
+  },
+  "output": "04_道具细节/D03_道具_橙黑双马尾发带.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 36.106,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "36cb950022820bf24e5fd5d8d5ad2bd42134005e6f3b90b71267dbac5d3575b8",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-2445b9a3-1050-4fd7-88cb-4eaf07da1c15.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

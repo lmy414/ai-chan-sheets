@@ -1,0 +1,16 @@
+{
+  "id": "C04_服装_黑黄过膝袜",
+  "group": "03_服装",
+  "refs": [
+    "设定图/17_LongCat娘_美团龙猫_现代外套/审图历史/C04_服装_黑黄过膝袜_v01.png",
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/正面.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET, a pair of black stockings on white. Image 2 is the original character front-view reference, supplied only for the stocking markings. Change ONLY the white markings on Image 1: the stocking on viewer LEFT must be SOLID BLACK under its yellow band, absolutely no white patch or diamond anywhere. The stocking on viewer RIGHT must keep ONLY the ONE large white angular bent stripe on its upper shin. REMOVE the small lower white diamond from viewer-right stocking. Preserve both yellow top bands, stocking shapes, length, folds, black fabric shading, foot openings, original square framing and pure white background. Exactly TWO detached stockings, no person or other object, no text. No other changes.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "17_LongCat娘_美团龙猫_现代外套",
+  "revision": 2
+}

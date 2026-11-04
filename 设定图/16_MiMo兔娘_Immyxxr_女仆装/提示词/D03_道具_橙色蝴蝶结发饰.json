@@ -1,0 +1,14 @@
+{
+  "id": "D03_道具_橙色蝴蝶结发饰",
+  "group": "04_道具细节",
+  "refs": [
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 16_MiMo兔娘_Immyxxr_女仆装. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the matching pair of orange side hair bows with long orange ribbon tails. No head, hair, rabbit ears or other props. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "16_MiMo兔娘_Immyxxr_女仆装"
+}

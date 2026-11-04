@@ -1,0 +1,34 @@
+{
+  "id": "A03_三视图_背面",
+  "group": "01_三视图",
+  "refs": [
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/裁切/背面.png"
+  ],
+  "prompt": "Faithfully preserve the supplied MiMo design by @甶丶: silver-white very long twin tails with orange streaks; orange eyes with rice-shaped white highlights; white-and-orange mechanical rabbit-ear headband with tiny black buckles and mi mark; orange X hair clip on viewer-right in the front view; orange-and-black twin-tail ribbons. White hoodie beneath orange/black/white strapped jacket with mi marks, black pleated skirt with a white panel, asymmetrical thigh-high socks: FRONT VIEW ONLY: viewer-left white sock and viewer-right black sock. When viewed from BACK, this is REVERSED: viewer-left sock must be BLACK and viewer-right WHITE, with NO front lettering or orange X visible; orange/white/black high-top sneakers. Match the original anime face, body proportions, materials, colors and all side-specific placements. Do not borrow the maid costume from another MiMo author.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY ONE full-body orthographic standing view: strict BACK, completely facing away, no visible face, show original back construction. Full silhouette from ears to shoe soles, vertical portrait composition approximately 2:3. Arms naturally down and slightly outward, empty hands. Follow supplied original matching view; no re-design. Do not include separate props or view labels.\nBACK VIEW OVERRIDES FRONT-ONLY LOCATIONS. Follow the supplied BACK reference precisely: black stocking viewer-LEFT, white stocking viewer-RIGHT. White vertical skirt panel viewer-RIGHT in rear view. No mi or MIMO text on back of stockings, no orange X on rear thigh. Empty hands, NO plush.",
+  "inferred_details": false,
+  "requested_aspect": "portrait 2:3",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "portrait 2:3",
+  "character": "15_MiMo兔娘_甶丶_机能外套",
+  "status": "success",
+  "started_at": "2026-11-04T16:28:52.806Z",
+  "finished_at": "2026-11-04T16:29:18.041776+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/裁切/背面.png": "ccb86979b91e802bdf87ccf0a85316fada277607155906e1f72739eb389a4cda"
+  },
+  "output": "01_三视图/A03_三视图_背面.png",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "elapsed_seconds": 24.475,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "898414db54f5a9a06a7ee7ab6a3fe0003a6fa189b15ff7cea6902fc9990e4e23",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-76f3d431-745e-493b-84b6-65239c7c96ea.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "A03_三视图_背面",
+  "group": "01_三视图",
+  "refs": [
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/背面.png"
+  ],
+  "prompt": "Faithfully preserve ONLY the LongCat B modern streetwear design in the supplied attachment, by @甶丶 according to user attribution. Long silver-white HIGH PONYTAIL with vivid green streaks and green hair tips, green cat ears with white inner fur, bright green eyes, small black flower and yellow X hair clips, black/yellow ponytail bow and green ribbons. Yellow hooded jacket with black and white angular trim and long loose sleeves; white collared top, yellow necktie and green stylized M emblem on chest; white short skirt with black side panels and green underskirt edge; small white rectangular belt pouch; black thigh-high socks with yellow top bands, original angular white shin panel on one side; white/black/yellow chunky sneakers. Long black CAT tail with green tip. Preserve original anime face and body proportions. This task contains ONLY the character; no props of any kind.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY ONE full-body orthographic standing view: strict BACK, completely facing away, no visible face, show original back construction. Full silhouette from ears to shoe soles, vertical portrait composition approximately 2:3. Arms naturally down and slightly outward, empty hands. Follow supplied original matching view; no re-design. Do not include separate props or view labels.\nOnly ONE character. NO kangaroo, toy, delivery box or floor objects. BACKS of BOTH stockings are plain BLACK below yellow bands, NO white panels or text at all.",
+  "inferred_details": false,
+  "requested_aspect": "portrait 2:3",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "portrait 2:3",
+  "character": "17_LongCat娘_美团龙猫_现代外套",
+  "status": "success",
+  "started_at": "2026-11-04T16:30:37.547Z",
+  "finished_at": "2026-11-04T16:31:08.861616+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/背面.png": "18f3df00ae05f4728206e7c53364d77186341066c9c72994c129d36b1b25ffb6"
+  },
+  "output": "01_三视图/A03_三视图_背面.png",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "elapsed_seconds": 25.527,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "4dde305060c66c6e4a96d540aba4ea97f9c33af44ca624c842f39f260fd86547",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-ed48d0f0-2fc9-4777-8487-ad5686755526.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

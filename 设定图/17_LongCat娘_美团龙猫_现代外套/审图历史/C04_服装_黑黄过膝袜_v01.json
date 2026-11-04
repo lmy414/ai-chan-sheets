@@ -1,0 +1,35 @@
+{
+  "id": "C04_服装_黑黄过膝袜",
+  "group": "03_服装",
+  "refs": [
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 17_LongCat娘_美团龙猫_现代外套. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the matching pair of black thigh-high stockings with yellow top bands and the single angular white shin panel visible in reference; preserve asymmetry, front-view white panel on viewer-right sock. Detached pair, no legs or shoes. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "17_LongCat娘_美团龙猫_现代外套",
+  "status": "success",
+  "started_at": "2026-11-04T17:02:50.722Z",
+  "finished_at": "2026-11-04T17:03:23.882257+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/参考图_白底.png": "233a6bb6cb017b9e171aec89f044a4dad0daa16c7d68744d427eb5e728a53c9c"
+  },
+  "output": "03_服装/C04_服装_黑黄过膝袜.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 32.423,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "2ff2c49f38425c52b264f719404e560a5de4bfef716a55eed24e2ac95d8d12fe",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-51a7467a-a688-40de-b96d-3df734f5dbf7.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。",
+  "review_status": "superseded: removed extra white sock markings to retain reference asymmetry"
+}

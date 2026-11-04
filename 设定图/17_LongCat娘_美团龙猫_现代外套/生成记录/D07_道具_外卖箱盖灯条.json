@@ -1,0 +1,34 @@
+{
+  "id": "D07_道具_外卖箱盖灯条",
+  "group": "04_道具细节",
+  "refs": [
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/箱盖细节.png"
+  ],
+  "prompt": "Source reference: 17_LongCat娘_美团龙猫_现代外套. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY one enlarged detail crop of the delivery box lid corner: white-gray lid rim, green horizontal indicator light, black reinforced corner and top of yellow wall. Match lower-right reference panel. No whole box, hand, kangaroo or text labels. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "17_LongCat娘_美团龙猫_现代外套",
+  "status": "success",
+  "started_at": "2026-11-04T17:06:14.216Z",
+  "finished_at": "2026-11-04T17:06:43.981595+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/箱盖细节.png": "0fd41d82fe8ee9c75b08fbf77cffc1c9bf768d6a36476f269827137f8719247e"
+  },
+  "output": "04_道具细节/D07_道具_外卖箱盖灯条.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 29.1,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "ee67af2dee010997934e1e7d5476aa3654c658192ce19c728d28459fee335618",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-74b8b7f0-3c9f-4cb1-89c9-f2965c605dae.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

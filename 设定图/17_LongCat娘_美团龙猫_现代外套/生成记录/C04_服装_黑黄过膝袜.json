@@ -1,0 +1,38 @@
+{
+  "id": "C04_服装_黑黄过膝袜",
+  "group": "03_服装",
+  "refs": [
+    "设定图/17_LongCat娘_美团龙猫_现代外套/审图历史/C04_服装_黑黄过膝袜_v01.png",
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/正面.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET, a pair of black stockings on white. Image 2 is the original character front-view reference, supplied only for the stocking markings. Change ONLY the white markings on Image 1: the stocking on viewer LEFT must be SOLID BLACK under its yellow band, absolutely no white patch or diamond anywhere. The stocking on viewer RIGHT must keep ONLY the ONE large white angular bent stripe on its upper shin. REMOVE the small lower white diamond from viewer-right stocking. Preserve both yellow top bands, stocking shapes, length, folds, black fabric shading, foot openings, original square framing and pure white background. Exactly TWO detached stockings, no person or other object, no text. No other changes.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "17_LongCat娘_美团龙猫_现代外套",
+  "status": "success",
+  "started_at": "2026-11-04T17:11:24.943Z",
+  "finished_at": "2026-11-04T17:12:03.178448+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "设定图/17_LongCat娘_美团龙猫_现代外套/审图历史/C04_服装_黑黄过膝袜_v01.png": "2ff2c49f38425c52b264f719404e560a5de4bfef716a55eed24e2ac95d8d12fe",
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/正面.png": "7ef0be3ee3dc315903bddea7725ab64daa748d976cd04a070c1ee63ce696f3ed"
+  },
+  "output": "03_服装/C04_服装_黑黄过膝袜.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 37.588,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "a7da261777be84d55ecc193b8bea7e57caa8aced8029880c8fd363b9f665abe6",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-3cf1b211-e499-43db-b46f-b210a18db9ab.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。",
+  "revision": 2,
+  "review_note": "保留左右不对称袜面，仅一侧有原图的白色折线。"
+}

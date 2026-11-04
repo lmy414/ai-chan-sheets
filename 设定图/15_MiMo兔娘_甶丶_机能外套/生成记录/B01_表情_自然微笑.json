@@ -1,0 +1,38 @@
+{
+  "id": "B01_表情_自然微笑",
+  "group": "02_表情",
+  "refs": [
+    "设定图/15_MiMo兔娘_甶丶_机能外套/审图历史/B01_表情_自然微笑_v01.png",
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/裁切/米字瞳_原图局部.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET. Image 2 is a small crop of the original author artwork, supplied ONLY as the iris motif reference. Change ONLY the WHITE IRIS MOTIF inside each visible orange eye in Image 1. It must be the Chinese character 米: a compact white eight-ray asterisk made of one vertical stroke, one horizontal stroke and two crossed diagonal strokes. Exactly this shape: 米. NOT the letters mi, NOT U, NOT a smile, NOT a pair of vertical pills, NOT a plus with missing diagonal rays. Keep the orange iris color and pupil depth, put one small white 米 motif centered inside EACH visible iris. Preserve every other pixel-level design decision as closely as possible: same facial expression, eyebrow angle, eye shape, eyelids, tears if present, face, camera, hair, ear headband, clothes, marks, body, pose and white background. Do not add text outside the eyes, do not add accessories, no collage. Keep the complete original framing and aspect ratio of Image 1. This is an eye-highlight correction only, not a redesign.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "15_MiMo兔娘_甶丶_机能外套",
+  "status": "success",
+  "started_at": "2026-11-04T16:48:22.762Z",
+  "finished_at": "2026-11-04T16:49:09.645365+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "设定图/15_MiMo兔娘_甶丶_机能外套/审图历史/B01_表情_自然微笑_v01.png": "fef2b30657bd7c31cfc3bf61f4abf28fe1a1b858b67da24894c6b88402120a06",
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/裁切/米字瞳_原图局部.png": "f65cc20780128fd3139e969afdc4641a8d3a37e947d0b02a743c62b73786e677"
+  },
+  "output": "02_表情/B01_表情_自然微笑.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 42.824,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "b58f6e0f2fb5cee564ccb2beb3602268688d29269b2f5a4afbef2d7a95d1807d",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-2ad0d186-6b86-45cd-bee2-56a7e3fd9d8a.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。",
+  "revision": 2,
+  "review_note": "本次采用米字样式的眼部高光。该生成表现不用于定义原作的米字瞳含义。"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "A02_三视图_左侧",
+  "group": "01_三视图",
+  "refs": [
+    "参考原图/17_LongCat娘_美团龙猫_现代外套/裁切/左侧.png"
+  ],
+  "prompt": "Faithfully preserve ONLY the LongCat B modern streetwear design in the supplied attachment, by @甶丶 according to user attribution. Long silver-white HIGH PONYTAIL with vivid green streaks and green hair tips, green cat ears with white inner fur, bright green eyes, small black flower and yellow X hair clips, black/yellow ponytail bow and green ribbons. Yellow hooded jacket with black and white angular trim and long loose sleeves; white collared top, yellow necktie and green stylized M emblem on chest; white short skirt with black side panels and green underskirt edge; small white rectangular belt pouch; black thigh-high socks with yellow top bands, original angular white shin panel on one side; white/black/yellow chunky sneakers. Long black CAT tail with green tip. Preserve original anime face and body proportions. This task contains ONLY the character; no props of any kind.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY ONE full-body orthographic standing view: strict LEFT PROFILE, nose and toes pointing to image LEFT, not a three-quarter view. Full silhouette from ears to shoe soles, vertical portrait composition approximately 2:3. Arms naturally down and slightly outward, empty hands. Follow supplied original matching view; no re-design. Do not include separate props or view labels.\nOnly ONE character. NO kangaroo, toy, delivery box or floor objects. Preserve source side-view single white angular shin patch.",
+  "inferred_details": false,
+  "requested_aspect": "portrait 2:3",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "portrait 2:3",
+  "character": "17_LongCat娘_美团龙猫_现代外套"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "C04_服装_黑色玛丽珍鞋",
+  "group": "03_服装",
+  "refs": [
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 16_MiMo兔娘_Immyxxr_女仆装. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the matching pair of glossy black Mary Jane shoes with short block heel, closed rounded toes, single instep straps and small gold buckles, detached product view. No feet, legs or socks. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "16_MiMo兔娘_Immyxxr_女仆装",
+  "status": "success",
+  "started_at": "2026-11-04T16:47:52.441Z",
+  "finished_at": "2026-11-04T16:48:49.651649+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/参考图_白底.png": "a4f76163207db565229b5cb32ee07215ff4ca0d85a0e3ef13b67293970d60fa5"
+  },
+  "output": "03_服装/C04_服装_黑色玛丽珍鞋.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 56.447,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "b22d9ac5f05bbb99fd47d77996c97cc46f7d2045719fbcffd54fd48d2e6f3efa",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-9a168b51-914d-439a-99a2-e5fc969fa918.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

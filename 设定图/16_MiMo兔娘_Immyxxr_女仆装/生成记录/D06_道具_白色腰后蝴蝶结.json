@@ -1,0 +1,34 @@
+{
+  "id": "D06_道具_白色腰后蝴蝶结",
+  "group": "04_道具细节",
+  "refs": [
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 16_MiMo兔娘_Immyxxr_女仆装. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the large white waist-back bow and its white fabric tails seen above the rabbit tail. Detached white fabric accessory with crisp folds. No skirt, rabbit tail, hair or body. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "16_MiMo兔娘_Immyxxr_女仆装",
+  "status": "success",
+  "started_at": "2026-11-04T16:52:39.087Z",
+  "finished_at": "2026-11-04T16:53:17.178456+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/参考图_白底.png": "a4f76163207db565229b5cb32ee07215ff4ca0d85a0e3ef13b67293970d60fa5"
+  },
+  "output": "04_道具细节/D06_道具_白色腰后蝴蝶结.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 37.364,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "ce2b3ca022046e1e8d30d300b1c41178547e363bbc9a189862bd60af338df8f3",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-195da872-030c-4215-b82a-ca46179b53fc.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

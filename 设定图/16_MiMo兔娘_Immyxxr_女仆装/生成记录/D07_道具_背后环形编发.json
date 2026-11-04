@@ -1,0 +1,34 @@
+{
+  "id": "D07_道具_背后环形编发",
+  "group": "04_道具细节",
+  "refs": [
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 16_MiMo兔娘_Immyxxr_女仆装. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY an isolated rear-head hairstyle detail showing the original silver-white braided crown, gathered central orange mi badge, long wavy white hair locks and orange side bows. Crop at shoulders; no face, body or clothing, no new hairstyle. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "16_MiMo兔娘_Immyxxr_女仆装",
+  "status": "success",
+  "started_at": "2026-11-04T16:53:17.328Z",
+  "finished_at": "2026-11-04T16:53:39.687773+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/参考图_白底.png": "a4f76163207db565229b5cb32ee07215ff4ca0d85a0e3ef13b67293970d60fa5"
+  },
+  "output": "04_道具细节/D07_道具_背后环形编发.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 21.633,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "7ff4df6f7572d07e4ba2fbbebdc4a55dd27d113baa243acb10739abd9bb7a6f0",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-9fd9bd1b-fb02-449d-a8f4-a0e550296be5.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}

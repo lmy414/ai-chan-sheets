@@ -1,0 +1,72 @@
+{
+  "character": "MiMo 兔娘（@Immyxxr · 女仆装）",
+  "source_character_dir": "参考原图/16_MiMo兔娘_Immyxxr_女仆装",
+  "primary_reference": "参考原图/16_MiMo兔娘_Immyxxr_女仆装/来源原图.png",
+  "extra_references": [
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/裁切/正面.png",
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/裁切/左侧.png",
+    "参考原图/16_MiMo兔娘_Immyxxr_女仆装/裁切/背面.png"
+  ],
+  "source_urls": [
+    "https://xn--pssy23gqgbz2d718b.com/works/mimo202609300001.html"
+  ],
+  "source_credit": "@Immyxxr",
+  "rights": "来源页署名 @Immyxxr；授权状态不明（unknown）。投稿者账号不代替作者署名。",
+  "orientation": "landscape",
+  "board_title": "MiMo 兔娘（@Immyxxr · 女仆装） · 横版完整设定图",
+  "board_subtitle": "22 张独立素材 / 3 视图 · 8 表情 · 4 服装 · 7 细节 / 原生像素 1:1 拼接",
+  "native_name": "16_MiMo兔娘_Immyxxr_女仆装_横版完整设定图_原像素.png",
+  "preview_name": "16_MiMo兔娘_Immyxxr_女仆装_横版完整设定图_浏览预览.jpg",
+  "accent": "#EB8238",
+  "footnote": "原图已有三视图；新表情、拆解单品及遮挡结构为模型推定，不代表原作者确认。",
+  "workflow": "内置 image_gen 逐张生成 -> 原生像素 1:1 拼接 -> 独立核验 -> 分区切片",
+  "unseen_design": "三视图依据原图对应视角；新表情、单品隐藏面及不可见连接均为推定。",
+  "generation_tool": "image_gen (built-in)",
+  "sections": [
+    {
+      "group": "01_三视图",
+      "title": "01 三视图",
+      "note": "正面 / 左侧 / 背面 · 依据原图已有视角"
+    },
+    {
+      "group": "02_表情",
+      "title": "02 表情拆分 · 8 种",
+      "note": "同一机位与脸型基准"
+    },
+    {
+      "group": "03_服装",
+      "title": "03 服装设计 · 4 项",
+      "note": "脱下摆放的单品 · 遮挡面为推定"
+    },
+    {
+      "group": "04_道具细节",
+      "title": "04 道具与饰品细节 · 7 项",
+      "note": "独立细节 · 结构按原图保留"
+    }
+  ],
+  "tasks": [
+    "A01_三视图_正面",
+    "A02_三视图_左侧",
+    "A03_三视图_背面",
+    "B01_表情_自然微笑",
+    "B02_表情_平静",
+    "B03_表情_惊讶",
+    "B04_表情_害羞",
+    "B05_表情_鼓腮",
+    "B06_表情_闭眼轻笑",
+    "B07_表情_认真",
+    "B08_表情_委屈",
+    "C01_服装_橙白女仆连衣裙",
+    "C02_服装_XiaomiMiMo围裙",
+    "C03_服装_白色过膝袜",
+    "C04_服装_黑色玛丽珍鞋",
+    "D01_道具_软兔耳女仆头箍",
+    "D02_道具_橙色mi发徽",
+    "D03_道具_橙色蝴蝶结发饰",
+    "D04_道具_黑色领结金扣",
+    "D05_道具_白色圆兔尾",
+    "D06_道具_白色腰后蝴蝶结",
+    "D07_道具_背后环形编发"
+  ],
+  "selections": {}
+}

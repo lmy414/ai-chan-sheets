@@ -1,0 +1,14 @@
+{
+  "id": "B05_表情_鼓腮",
+  "group": "02_表情",
+  "refs": [
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/裁切/正面.png"
+  ],
+  "prompt": "Faithfully preserve the supplied MiMo design by @甶丶: silver-white very long twin tails with orange streaks; orange eyes with rice-shaped white highlights; white-and-orange mechanical rabbit-ear headband with tiny black buckles and mi mark; orange X hair clip on viewer-right in the front view; orange-and-black twin-tail ribbons. White hoodie beneath orange/black/white strapped jacket with mi marks, black pleated skirt with a white panel, asymmetrical thigh-high socks: front-view viewer-left WHITE with orange mi, viewer-right BLACK with MIMO; black band with an orange X above the black sock; orange/white/black high-top sneakers. Match the original anime face, body proportions, materials, colors and all side-specific placements. Do not borrow the maid costume from another MiMo author.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY ONE front-facing head-and-shoulders portrait, square frame, same camera and face size as other expression assets. The expression is puffed cheeks with closed pursed lips, playful mild displeasure. Both ears and upper hairstyle fully visible with a small margin, shoulders at bottom; keep the source hair ornaments and upper clothing. No hands, text, tears effects, bubbles or extra heads. This expression is newly generated, not from the original author.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "15_MiMo兔娘_甶丶_机能外套"
+}

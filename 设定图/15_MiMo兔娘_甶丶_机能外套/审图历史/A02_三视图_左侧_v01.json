@@ -1,0 +1,35 @@
+{
+  "id": "A02_三视图_左侧",
+  "group": "01_三视图",
+  "refs": [
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/裁切/左侧.png"
+  ],
+  "prompt": "Faithfully preserve the supplied MiMo design by @甶丶: silver-white very long twin tails with orange streaks; orange eyes with rice-shaped white highlights; white-and-orange mechanical rabbit-ear headband with tiny black buckles and mi mark; orange X hair clip on viewer-right in the front view; orange-and-black twin-tail ribbons. White hoodie beneath orange/black/white strapped jacket with mi marks, black pleated skirt with a white panel, asymmetrical thigh-high socks: front-view viewer-left WHITE with orange mi, viewer-right BLACK with MIMO; black band with an orange X above the black sock; orange/white/black high-top sneakers. Match the original anime face, body proportions, materials, colors and all side-specific placements. Do not borrow the maid costume from another MiMo author.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY ONE full-body orthographic standing view: strict LEFT PROFILE, nose and toes pointing to image LEFT, not a three-quarter view. Full silhouette from ears to shoe soles, vertical portrait composition approximately 2:3. Arms naturally down and slightly outward, empty hands. Follow supplied original matching view; no re-design. Do not include separate props or view labels.",
+  "inferred_details": false,
+  "requested_aspect": "portrait 2:3",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "portrait 2:3",
+  "character": "15_MiMo兔娘_甶丶_机能外套",
+  "status": "success",
+  "started_at": "2026-11-04T16:18:52.736Z",
+  "finished_at": "2026-11-04T16:27:09.967864+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/裁切/左侧.png": "6807446eaa73a4666ec2d78959263f2aba48fd05b7fd74b353fd779d0035ddde"
+  },
+  "output": "01_三视图/A02_三视图_左侧.png",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "elapsed_seconds": 187.864,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "dd0a72265bfe7498913f4ab1f11155ddf99c3b1c3744637496b5153a69f8b008",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-e9a395f8-8bce-42be-8198-3d5ea9fc9cea.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。",
+  "review_status": "superseded: replaced during the eye-highlight iteration"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "C04_服装_左右异色长袜",
+  "group": "03_服装",
+  "refs": [
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/参考图_白底.png"
+  ],
+  "prompt": "Source reference: 15_MiMo兔娘_甶丶_机能外套. Use the supplied image only as the source of the requested object's shape, colors and details. This output is an ISOLATED OBJECT study, not a character illustration.\nPreserve the original polished detailed anime illustration style. Pure white featureless background, clean line art and soft cel shading. Single asset only, no sheet layout, no collage, no grid, no captions, scale bars, signature or watermark. Do not invent accessories. Keep a small white margin, never crop the requested asset. Technical hidden construction is an inference, not an author-confirmed design.\nRender ONLY the matching asymmetrical thigh-high sock PAIR on a white background, detached and shown upright side by side: viewer-left white with orange top stripe and orange mi; viewer-right black with orange stripe and white MIMO. Include the separate black upper thigh band with orange X beside the black sock. No legs, shoes, mannequin or other clothes. Square composition, asset large and centered with clear white margin. No anatomy unless explicitly requested for the eye or hair detail.",
+  "inferred_details": true,
+  "requested_aspect": "square",
+  "model": "image_gen (built-in)",
+  "quality": "tool-managed",
+  "size": "square",
+  "character": "15_MiMo兔娘_甶丶_机能外套",
+  "status": "success",
+  "started_at": "2026-11-04T16:36:57.461Z",
+  "finished_at": "2026-11-04T16:37:21.814379+00:00",
+  "endpoint": "image_gen built-in tool",
+  "reference_sha256": {
+    "参考原图/15_MiMo兔娘_甶丶_机能外套/参考图_白底.png": "2a10988302c9187f18168c5f77f208c19d79c215f56f8cb2ba240492da511488"
+  },
+  "output": "03_服装/C04_服装_左右异色长袜.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "elapsed_seconds": 23.584,
+  "usage": null,
+  "returned_model": null,
+  "returned_settings": null,
+  "output_sha256": "6f45373ee1285a3536cc8d767bbd876bdc2bbc52c3d9249ce61ef410fcab5df5",
+  "returned_file_format": "PNG",
+  "tool_output_name": "exec-27f9ccc3-b6cc-4a31-a877-8c8126ef4594.png",
+  "settings_note": "内置工具未暴露模型版本、质量档位和用量；仅记录实际工具和实际文件尺寸。"
+}
