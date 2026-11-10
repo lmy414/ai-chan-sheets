@@ -1,204 +1,176 @@
-# AI 娘 · 横版完整设定图补全
+# AI 娘设定图集
 
-把 AI 娘角色立绘逐张拆解成三视图、表情、服装与道具细节等独立素材。
-原图只有正面的角色，用图像模型推定侧面与背面。原图已有侧背面的角色，以已有视图为依据。
-各素材按原生像素 1:1 拼成一张横版完整设定图。
+把 AI 娘立绘整理成横版设定板。一张板上可以看全角色的三视图、表情、服装和道具细节。
 
-角色形象与设定主要来自 ZipZipPipe。第 12、13、14 条的来源作者未标注；第 15、17 条署名 @甶丶，第 16 条署名 @Immyxxr。各条目的出处与授权见[版权与授权](版权与授权.md)。本仓库做的是设定图补全。
+[角色图鉴](#角色图鉴) · [Star 曲线](#star-曲线) · [素材与制作](#素材与制作) · [版权与授权](版权与授权.md)
 
-## 一张参考图能补出什么
+## 角色图鉴
 
-以通义千问娘 Qwen 为例。左边是原作者的原始立绘，右边是补全后的横版完整设定图。
+收录 17 个条目、18 张设定板。点图片看大图，点角色名进入目录查找原像素切片和制作记录。
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%">
-
-**原作者原始立绘（唯一输入）**
-
-<img src="参考原图/05_通义千问娘_Qwen/原图_立绘_全身.jpg" alt="Qwen 原始立绘" width="100%">
-
+<td width="50%" align="center" valign="top">
+<a href="设定图/01_智谱GLM娘_阔耳狐娘/完整设定图_浏览预览.jpg"><img src="docs/previews/01.webp" alt="智谱 GLM 娘（阔耳狐娘）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/01_智谱GLM娘_阔耳狐娘/">智谱 GLM 娘</a></strong><br>
+<sub>01 · 阔耳狐娘</sub>
 </td>
-<td width="50%">
-
-**补全后的横版完整设定图**
-
-<img src="设定图/05_通义千问娘_Qwen/完整设定图_浏览预览.jpg" alt="Qwen 横版完整设定图" width="100%">
-
+<td width="50%" align="center" valign="top">
+<a href="设定图/02_GPT娘_白龙娘/完整设定图_浏览预览.jpg"><img src="docs/previews/02.webp" alt="GPT 娘（白龙娘）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/02_GPT娘_白龙娘/">GPT 娘</a></strong><br>
+<sub>02 · 白龙娘</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="设定图/03_DeepSeek娘_鲸鱼娘/完整设定图_浏览预览.jpg"><img src="docs/previews/03.webp" alt="DeepSeek 娘（鲸鱼娘）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/03_DeepSeek娘_鲸鱼娘/">DeepSeek 娘</a></strong><br>
+<sub>03 · 鲸鱼娘</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="设定图/04_文心一言娘/完整设定图_浏览预览.jpg"><img src="docs/previews/04.webp" alt="文心一言娘（蓝发轮椅少女）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/04_文心一言娘/">文心一言娘</a></strong><br>
+<sub>04 · 蓝发轮椅少女</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="设定图/05_通义千问娘_Qwen/完整设定图_浏览预览.jpg"><img src="docs/previews/05.webp" alt="通义千问娘（Qwen）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/05_通义千问娘_Qwen/">通义千问娘</a></strong><br>
+<sub>05 · Qwen</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="设定图/06_Kimi娘_Moonshot/完整设定图_浏览预览.jpg"><img src="docs/previews/06.webp" alt="Kimi 娘（Moonshot）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/06_Kimi娘_Moonshot/">Kimi 娘</a></strong><br>
+<sub>06 · Moonshot</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="设定图/07_豆包Seed娘/完整设定图_浏览预览.jpg"><img src="docs/previews/07.webp" alt="豆包 Seed 娘（紫发高马尾）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/07_豆包Seed娘/">豆包 Seed 娘</a></strong><br>
+<sub>07 · 紫发高马尾</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="设定图/08_MiniMax娘_海螺AI/完整设定图_浏览预览.jpg"><img src="docs/previews/08.webp" alt="MiniMax 娘（海螺 AI）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/08_MiniMax娘_海螺AI/">MiniMax 娘</a></strong><br>
+<sub>08 · 海螺 AI</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="设定图/09_Grok娘_xAI/完整设定图_浏览预览.jpg"><img src="docs/previews/09.webp" alt="Grok 娘（金发吸血鬼）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/09_Grok娘_xAI/">Grok 娘</a></strong><br>
+<sub>09 · 金发吸血鬼</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="设定图/10_Gemini娘/完整设定图_浏览预览.jpg"><img src="docs/previews/10.webp" alt="Gemini 娘（四角星猫耳）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/10_Gemini娘/">Gemini 娘</a></strong><br>
+<sub>10 · 四角星猫耳</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="设定图/11_Claude娘_Anthropic/完整设定图_浏览预览.jpg"><img src="docs/previews/11.webp" alt="Claude 娘（橘发与菊花纹）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/11_Claude娘_Anthropic/">Claude 娘</a></strong><br>
+<sub>11 · 橘发与菊花纹</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="设定图/12_DeepSeek娘_Q版冬装/冬装小肥鱼/完整设定图_浏览预览.jpg"><img src="docs/previews/12a.webp" alt="DeepSeek 娘（Q 版冬装 · 冬装小肥鱼）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/12_DeepSeek娘_Q版冬装/冬装小肥鱼/">DeepSeek 娘</a></strong><br>
+<sub>12A · Q 版冬装 · 冬装小肥鱼</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="设定图/12_DeepSeek娘_Q版冬装/冬装小肥鱼2/完整设定图_浏览预览.jpg"><img src="docs/previews/12b.webp" alt="DeepSeek 娘（Q 版冬装 · 冬装小肥鱼 2）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/12_DeepSeek娘_Q版冬装/冬装小肥鱼2/">DeepSeek 娘</a></strong><br>
+<sub>12B · Q 版冬装 · 冬装小肥鱼 2</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="设定图/13_GPT娘_Q版白紫龙娘/完整设定图_浏览预览.jpg"><img src="docs/previews/13.webp" alt="GPT 娘（Q 版白紫龙娘）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/13_GPT娘_Q版白紫龙娘/">GPT 娘</a></strong><br>
+<sub>13 · Q 版白紫龙娘</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="设定图/14_DeepSeek娘_Claude工牌工作服/完整设定图_浏览预览.jpg"><img src="docs/previews/14.webp" alt="DeepSeek 娘（Claude 工牌工作服）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/14_DeepSeek娘_Claude工牌工作服/">DeepSeek 娘</a></strong><br>
+<sub>14 · Claude 工牌工作服</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="设定图/15_MiMo兔娘_甶丶_机能外套/完整设定图_浏览预览.jpg"><img src="docs/previews/15.webp" alt="MiMo 兔娘（机能外套 · @甶丶）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/15_MiMo兔娘_甶丶_机能外套/">MiMo 兔娘</a></strong><br>
+<sub>15 · 机能外套 · @甶丶</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="设定图/16_MiMo兔娘_Immyxxr_女仆装/完整设定图_浏览预览.jpg"><img src="docs/previews/16.webp" alt="MiMo 兔娘（女仆装 · @Immyxxr）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/16_MiMo兔娘_Immyxxr_女仆装/">MiMo 兔娘</a></strong><br>
+<sub>16 · 女仆装 · @Immyxxr</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="设定图/17_LongCat娘_美团龙猫_现代外套/完整设定图_浏览预览.jpg"><img src="docs/previews/17.webp" alt="LongCat 娘（现代外套 · @甶丶）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/17_LongCat娘_美团龙猫_现代外套/">LongCat 娘</a></strong><br>
+<sub>17 · 现代外套 · @甶丶</sub>
 </td>
 </tr>
 </table>
 
-## 各个部件的说明图
-
-设定板分四个区，横向排开。下面是 Qwen 的四个分区，其余角色在各角色目录的 `便于查看/` 下。
-
-### 01 三视图：正面、左侧、背面
-
-原图只有正面。左侧面与背面依据可见结构推定补全，包括被遮挡的裙片连接、外披内侧与鞋跟。
-
-<img src="设定图/05_通义千问娘_Qwen/便于查看/横版完整设定图_01_三视图_查看用.jpg" alt="三视图" width="100%">
-
-### 02 表情拆分：8 种
-
-自然微笑、平静、惊讶、害羞、鼓腮、闭眼轻笑、认真、委屈，共 8 张，同一机位与脸型基准。
-
-<img src="设定图/05_通义千问娘_Qwen/便于查看/横版完整设定图_02_表情_查看用.jpg" alt="表情" width="100%">
-
-### 03 服装设计：4 项
-
-把角色身上的服装拆成脱下摆放的单品，便于看清剪裁、层次与纹样。
-
-<img src="设定图/05_通义千问娘_Qwen/便于查看/横版完整设定图_03_服装_查看用.jpg" alt="服装" width="100%">
-
-### 04 道具与饰品细节：7 项
-
-立绘上被手遮挡或过小的配件，逐个放大成独立素材。
-
-<img src="设定图/05_通义千问娘_Qwen/便于查看/横版完整设定图_04_道具细节_查看用.jpg" alt="道具细节" width="100%">
-
-## 原图切片：分区 1:1 原像素
-
-`便于查看/` 里的 JPG 是为了任何看图器都能打开而缩到长边 4000 的预览。
-每个角色目录下的 `原图切片/` 保留同一分区在母版上的原始像素，不缩放、不重采样，
-适合直接当描线底图或细节参考。四个分区各一张 PNG：
-
-| 文件 | 内容 |
-|---|---|
-| `横版完整设定图_01_三视图_原图.png` | 正面 / 左侧 / 背面 |
-| `横版完整设定图_02_表情_原图.png` | 8 种表情 |
-| `横版完整设定图_03_服装_原图.png` | 4 件服装单品 |
-| `横版完整设定图_04_道具细节_原图.png` | 7 项道具与饰品 |
-
-裁切范围与 `scripts/make_viewable.py` 完全一致，只是去掉缩放；生成脚本见
-[`scripts/make_native_slices.py`](scripts/make_native_slices.py)。
-
-## 生图流程
-
-```
- 原始参考图（有多个视图时按需裁切）
-        │
-        │  ① 逐张辨认：身份锚点、配色、服装层次、被遮挡的配件
-        ▼
- 制作清单.json（22 条任务）
-        │
-        │  ② 为每条任务写提示词，写明保留什么、修改什么、本张只画什么
-        ▼
- 提示词/*.json（22 条）
-        │
-        │  ③ 逐条调用本机图像模型，原立绘作为参考图传入
-        │     模型 gpt-image-2.5-sunburst
-        │     三视图 1536x2560，表情与道具 1536x1536
-        │     质量 high，细小徽记与文字标识用 xhigh
-        ▼
- 01_三视图/ 02_表情/ 03_服装/ 04_道具细节/
-        │   22 张独立素材 + 22 条生成记录
-        │
-        │  ④ 逐张目检：身份是否走形、左右是否镜像、标识文字是否正确
-        │     不合格的另存 v02 重生成，v01 记录保留
-        ▼
- scripts/compose_landscape.py
-        │   分区横向并排，每分区一行，行内素材从左到右
-        │   原生像素 1:1 粘贴，不缩放、不裁切，透明像素合成白底
-        ▼
- 05_横版设定板/  *_原像素.png（本地母版，不入库）
-                 *_浏览预览.jpg
-                 拼接布局与素材索引.json（每条素材的坐标与校验结果）
-        │
-        │  ⑤ 独立核验：从磁盘重算，不采信拼接脚本的自述
-        ▼
- scripts/verify_board.py  → 逐字节比对 22/22，零重叠、零越界、零缩放
-        │
-        │  ⑥ 生成便于查看的小尺寸图
-        ▼
- 06_便于查看/  全板总览 + 4 张分区查看图
-```
-
-上图记录第 1 至 14 条使用的本机生图流程。第 15 至 17 条使用内置 `image_gen` 工具，仍按每套 22 张独立素材制作，再用相同脚本按原生像素拼板。内置工具未暴露底层模型和质量档位，生成记录仅保留实际可确认的信息。
-
-脚本在 [`scripts/`](scripts/README.md)，完整流程与故障处理见 [`docs/生图流程.md`](docs/生图流程.md)。
-
-## 已完成的角色
-
-| # | 角色 | 对应品牌 | 素材 | 横版母版尺寸 | 宽高比 | 设定图 |
-|---|---|---|---|---|---|---|
-| 01 | 智谱 GLM 娘（阔耳狐娘） | 智谱 / GLM | 22 | 13366 × 7572 | 1.77 : 1 | [查看](设定图/01_智谱GLM娘_阔耳狐娘/) |
-| 02 | GPT 娘（白龙娘） | OpenAI | 22 | 14388 × 8152 | 1.77 : 1 | [查看](设定图/02_GPT娘_白龙娘/) |
-| 03 | DeepSeek 娘（鲸鱼娘） | DeepSeek | 22 | 11700 × 8008 | 1.46 : 1 | [查看](设定图/03_DeepSeek娘_鲸鱼娘/) |
-| 04 | 文心一言娘（蓝发轮椅少女） | 百度 | 22 | 11700 × 7956 | 1.47 : 1 | [查看](设定图/04_文心一言娘/) |
-| 05 | 通义千问娘 Qwen | 阿里 | 22 | 15536 × 7954 | 1.95 : 1 | [查看](设定图/05_通义千问娘_Qwen/) |
-| 06 | Kimi 娘 | 月之暗面 Moonshot | 22 | 14829 × 7655 | 1.94 : 1 | [查看](设定图/06_Kimi娘_Moonshot/) |
-| 07 | 豆包 Seed 娘（紫发高马尾） | 字节跳动 | 22 | 11556 × 7956 | 1.45 : 1 | [查看](设定图/07_豆包Seed娘/) |
-| 08 | MiniMax 娘（海螺 AI） | MiniMax | 22 | 12652 × 7935 | 1.59 : 1 | [查看](设定图/08_MiniMax娘_海螺AI/) |
-| 09 | Grok 娘（金发吸血鬼） | xAI | 22 | 14619 × 7953 | 1.84 : 1 | [查看](设定图/09_Grok娘_xAI/) |
-| 10 | Gemini 娘（四角星猫耳） | Google | 22 | 16152 × 7648 | 2.11 : 1 | [查看](设定图/10_Gemini娘/) |
-| 11 | Claude 娘（橘发与菊花纹） | Anthropic | 22 | 10596 × 7698 | 1.38 : 1 | [查看](设定图/11_Claude娘_Anthropic/) |
-| 12 | DeepSeek 娘（Q版冬装） | DeepSeek | 44（2 套 × 22） | 11700 × 7052 / 11700 × 7261 | 1.66 : 1 / 1.61 : 1 | [查看](设定图/12_DeepSeek娘_Q版冬装/) |
-| 13 | GPT 娘（Q 版白紫龙娘） | OpenAI | 22 | 12001 × 7981 | 1.50 : 1 | [查看](设定图/13_GPT娘_Q版白紫龙娘/) |
-| 14 | DeepSeek 娘（Claude 工牌工作服） | DeepSeek | 22 | 13366 × 7348 | 1.82 : 1 | [查看](设定图/14_DeepSeek娘_Claude工牌工作服/) |
-| 15 | MiMo 兔娘（@甶丶 · 机能外套） | 小米 / MiMo | 22 | 11092 × 6842 | 1.62 : 1 | [查看](设定图/15_MiMo兔娘_甶丶_机能外套/) |
-| 16 | MiMo 兔娘（@Immyxxr · 女仆装） | 小米 / MiMo | 22 | 11092 × 6842 | 1.62 : 1 | [查看](设定图/16_MiMo兔娘_Immyxxr_女仆装/) |
-| 17 | LongCat 娘（美团龙猫 · 现代外套） | 美团 / LongCat | 22 | 11092 × 6842 | 1.62 : 1 | [查看](设定图/17_LongCat娘_美团龙猫_现代外套/) |
-
-### 12 DeepSeek 娘（Q版冬装）
-
-两套 Q 版冬装，各 22 张素材、各一张横版设定板，合并为一个角色条目。
-
-| 套 | 素材 | 横版母版尺寸 | 宽高比 | 设定图 |
-|---|---|---|---|---|
-| 冬装小肥鱼 | 22 | 11700 × 7052 | 1.66 : 1 | [查看](设定图/12_DeepSeek娘_Q版冬装/冬装小肥鱼/) |
-| 冬装小肥鱼2 | 22 | 11700 × 7261 | 1.61 : 1 | [查看](设定图/12_DeepSeek娘_Q版冬装/冬装小肥鱼2/) |
-
-两套来源页均未标注作者，授权记录为 unknown；见[版权与授权](版权与授权.md)。
-
-第 13 条的来源图已有三视图，生成时分别参考对应视图。第 14 条只有正面与服装拆解，
-侧面和背面为推定。两条来源页的作者和授权均未标注，详情见各角色目录。
-
-第 15、16 条为两位作者独立的 MiMo 兔娘设计，分别收录机能外套版与女仆装版。第 17 条为 LongCat（美团龙猫）现代外套款，仅收录用户提供的第一张附件。三套原图均已提供三视图；新表情、拆解单品及遮挡结构属于推定。
-
-每套 22 张素材，含 3 张三视图、8 张表情、4 件服装、7 项道具饰品，全部通过逐字节核验；
-另有 4 张分区原图切片，保留母版上的原始像素。第 12 条为两套冬装，共 44 张素材、两张母版。
-
-横版母版是 1:1 拼接的原像素文件，因此不入库，规则见 `.gitignore`。仓库保留浏览预览、
-分区查看图和原图切片。第 13 至 17 条也保留独立素材，可以使用 `scripts/compose_landscape.py`
-重建母版。旧条目的独立素材保存在本地工程，重建时需要先提供相应素材。
-
-## 目录结构
-
-```
-ZipZipPipe/
-├── README.md                 本文件
-├── 版权与授权.md              原作者与出处链接
-├── LICENSE                   许可范围声明
-├── docs/
-│   └── 生图流程.md            工作流详述与故障速查
-├── scripts/                  完整工作流脚本，路径可配置
-├── 参考原图/<角色>/           原作者原始作品；裁切/ 为局部细节裁切
-└── 设定图/<角色>/
-    ├── 制作清单.json          22 条任务清单
-    ├── 提示词/*.json          22 条完整提示词
-    ├── 生成记录/*.json        每张的模型、质量、尺寸、耗时、sha256
-    ├── 01_三视图/ 等          第 13 至 17 条的 22 张独立素材
-    ├── 拼接布局与素材索引.json   每条素材在板上的坐标与校验结果
-    ├── 完整设定图_浏览预览.jpg
-    ├── 原图切片/*.png          4 个分区的 1:1 原像素切片
-    └── 便于查看/              全板总览 + 4 张分区查看图
-```
-
-第 12 条是合并条目，内部按套分为 `冬装小肥鱼/` 与 `冬装小肥鱼2/`，每套都保持上面的标准结构。
-
 ## Star 曲线
 
-2026 年 10 月 20 日 [X 上的这条推文](https://x.com/ScarletKc/status/2112406550186967218)发布后，Star 一天涨了 195。下图是按 UTC 日期聚合的累计
-Star 数，数据来自 GitHub REST API 的 stargazers 接口：
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/star-history-dark.svg">
+  <img src="docs/star-history.svg" alt="仓库 Star 历史：从 2026 年 10 月建库开始，10 月 20 日出现最大单日增长" width="100%">
+</picture>
 
-<img src="docs/star-history.svg" alt="Star 增长曲线" width="100%">
+曲线更新至 2026 年 11 月 10 日，按 UTC 日期累计。10 月 20 日增加 190 条，为这次快照中的最高单日增量。
 
-图中历史数据截至 2026-10-22，共 265 Stars。
-2026-11-05 查询 [GitHub 实时仓库接口](https://api.github.com/repos/lmy414/ai-chan-sheets)，为 **449 Stars、37 Forks**。本次数量核对未补采逐日数据，历史曲线仍保留原统计区间。
+[逐日数据](docs/star-history.json)来自 [GitHub 的 Star 列表接口](https://docs.github.com/en/rest/activity/starring#list-stargazers)。列表返回 518 条带时间戳的记录，同期仓库概览显示 517 Stars。曲线以列表为准，已取消的 Star 无法从列表还原。
 
-特别感谢 [@scarletkc](https://github.com/scarletkc) 在 X 上[发推分享](https://x.com/ScarletKc/status/2112406550186967218)了这个项目，那天的 Star 基本都是这条推带来的；也谢谢他在 [#7](https://github.com/lmy414/ai-chan-sheets/issues/7) 里帮忙纠正了来源数据 🙏
+感谢 [@scarletkc](https://github.com/scarletkc) 在 [X](https://x.com/ScarletKc/status/2112406550186967218) 分享图集，并在 [#7](https://github.com/lmy414/ai-chan-sheets/issues/7) 帮忙纠正来源记录。
 
----
+## 素材与制作
 
-角色设定主要来自 [ZipZipPipe](https://space.bilibili.com/4168597)。新增 MiMo 与 LongCat 的作者、出处和授权分别记录于 [版权与授权](版权与授权.md)。
+以通义千问娘为例：原图只有正面，侧面和背面由图像模型根据可见结构推定。有现成三视图的条目会分别参考原图对应视角。新表情、隐藏面和不可见结构属于补全推定。
+
+[Qwen 原始立绘](参考原图/05_通义千问娘_Qwen/原图_立绘_全身.jpg) · [四个分区的查看图](设定图/05_通义千问娘_Qwen/便于查看/) · [原像素切片](设定图/05_通义千问娘_Qwen/原图切片/)
+
+每套设定板包含 22 张素材：3 张三视图、8 张表情、4 件服装和 7 项道具与饰品。素材按 1:1 原像素拼接，并逐字节核验。仓库保留浏览预览、分区查看图和 4 张原像素切片；全尺寸母版留在制作工程中。第 13 至 17 条另附独立素材，可用脚本重建母版。
+
+[原始参考图目录](参考原图/) · [制作流程](docs/生图流程.md) · [拼板、切片与核验脚本](scripts/README.md)
+
+<details>
+<summary>展开查看各套设定板规格</summary>
+
+| 编号 | 角色 | 对应品牌 | 素材 | 横版母版尺寸（像素） | 宽高比 |
+| --- | --- | --- | ---: | --- | --- |
+| 01 | [智谱 GLM 娘（阔耳狐娘）](设定图/01_智谱GLM娘_阔耳狐娘/) | 智谱 / GLM | 22 | 13,366 × 7572 | 1.77 : 1 |
+| 02 | [GPT 娘（白龙娘）](设定图/02_GPT娘_白龙娘/) | OpenAI | 22 | 14,388 × 8152 | 1.77 : 1 |
+| 03 | [DeepSeek 娘（鲸鱼娘）](设定图/03_DeepSeek娘_鲸鱼娘/) | DeepSeek | 22 | 11,700 × 8008 | 1.46 : 1 |
+| 04 | [文心一言娘（蓝发轮椅少女）](设定图/04_文心一言娘/) | 百度 | 22 | 11,700 × 7956 | 1.47 : 1 |
+| 05 | [通义千问娘 Qwen](设定图/05_通义千问娘_Qwen/) | 阿里 | 22 | 15,536 × 7954 | 1.95 : 1 |
+| 06 | [Kimi 娘](设定图/06_Kimi娘_Moonshot/) | 月之暗面 Moonshot | 22 | 14,829 × 7655 | 1.94 : 1 |
+| 07 | [豆包 Seed 娘（紫发高马尾）](设定图/07_豆包Seed娘/) | 字节跳动 | 22 | 11,556 × 7956 | 1.45 : 1 |
+| 08 | [MiniMax 娘（海螺 AI）](设定图/08_MiniMax娘_海螺AI/) | MiniMax | 22 | 12,652 × 7935 | 1.59 : 1 |
+| 09 | [Grok 娘（金发吸血鬼）](设定图/09_Grok娘_xAI/) | xAI | 22 | 14,619 × 7953 | 1.84 : 1 |
+| 10 | [Gemini 娘（四角星猫耳）](设定图/10_Gemini娘/) | Google | 22 | 16,152 × 7648 | 2.11 : 1 |
+| 11 | [Claude 娘（橘发与菊花纹）](设定图/11_Claude娘_Anthropic/) | Anthropic | 22 | 10,596 × 7698 | 1.38 : 1 |
+| 12 | [DeepSeek 娘（Q版冬装）](设定图/12_DeepSeek娘_Q版冬装/) | DeepSeek | 44（2 套 × 22） | 11,700 × 7052 / 11,700 × 7261 | 1.66 : 1 / 1.61 : 1 |
+| 13 | [GPT 娘（Q 版白紫龙娘）](设定图/13_GPT娘_Q版白紫龙娘/) | OpenAI | 22 | 12,001 × 7981 | 1.50 : 1 |
+| 14 | [DeepSeek 娘（Claude 工牌工作服）](设定图/14_DeepSeek娘_Claude工牌工作服/) | DeepSeek | 22 | 13,366 × 7348 | 1.82 : 1 |
+| 15 | [MiMo 兔娘（@甶丶 · 机能外套）](设定图/15_MiMo兔娘_甶丶_机能外套/) | 小米 / MiMo | 22 | 11,092 × 6842 | 1.62 : 1 |
+| 16 | [MiMo 兔娘（@Immyxxr · 女仆装）](设定图/16_MiMo兔娘_Immyxxr_女仆装/) | 小米 / MiMo | 22 | 11,092 × 6842 | 1.62 : 1 |
+| 17 | [LongCat 娘（美团龙猫 · 现代外套）](设定图/17_LongCat娘_美团龙猫_现代外套/) | 美团 / LongCat | 22 | 11,092 × 6842 | 1.62 : 1 |
+
+第 12 条包括 [冬装小肥鱼](设定图/12_DeepSeek娘_Q版冬装/冬装小肥鱼/) 和 [冬装小肥鱼 2](设定图/12_DeepSeek娘_Q版冬装/冬装小肥鱼2/)，各 22 张素材。
+
+</details>
+
+## 出处与授权
+
+角色形象与原始设定主要来自 [ZipZipPipe（胖次狐）](https://space.bilibili.com/4168597)。第 12 至 14 条的原作者未标注；第 15、17 条署名 @甶丶，第 16 条署名 @Immyxxr。
+
+本仓库收录非商业设定图补全。各原作的权利状态和使用范围以[版权与授权记录](版权与授权.md)为准。

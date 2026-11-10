@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="382" viewBox="0 0 760 382" role="img" aria-labelledby="title desc">
+  <title id="title">AI 娘设定图集 · Star 曲线</title>
+  <desc id="desc">按 UTC 日期累计，2026 年 10 月 8 日至 11 月 10 日。快照包含 518 条带时间戳的 Star 记录，最大单日增长为 10 月 20 日的 190 条。</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#211a34"/><stop offset="1" stop-color="#171425"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#c8a3ff" stop-opacity=".36"/><stop offset="1" stop-color="#c8a3ff" stop-opacity=".03"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="759" height="381" rx="22" fill="url(#card)" stroke="#44375c"/>
+  <g font-family="system-ui, Segoe UI, sans-serif" font-variant-numeric="tabular-nums">
+    <path d="M43 26l2.7 7.3L53 36l-7.3 2.7L43 46l-2.7-7.3L33 36l7.3-2.7z" fill="#c7a4ff"/>
+    <text x="63" y="42" font-size="17" letter-spacing="2.4" font-weight="650" fill="#c4b4de">STAR HISTORY</text>
+    <text x="32" y="100" font-size="53" letter-spacing="-2" font-weight="760" fill="#f6eeff">518</text>
+    <text x="135" y="97" font-size="16" letter-spacing="1.2" font-weight="650" fill="#c4b4de">STARS IN SNAPSHOT</text>
+    <text x="725" y="46" text-anchor="end" font-size="22" font-weight="690" fill="#f6eeff">OCT – NOV 2026</text>
+    <text x="725" y="73" text-anchor="end" font-size="16" letter-spacing="1.1" fill="#c4b4de">DAILY · UTC</text>
+    <g fill="#c4b4de" font-size="17">
+    <path d="M67 321.0H709" stroke="#3c3250"/>
+    <text x="54" y="327.0" text-anchor="end">0</text>
+    <path d="M67 259.67H709" stroke="#3c3250"/>
+    <text x="54" y="265.67" text-anchor="end">200</text>
+    <path d="M67 198.33H709" stroke="#3c3250"/>
+    <text x="54" y="204.33" text-anchor="end">400</text>
+    <path d="M67 137.0H709" stroke="#3c3250"/>
+    <text x="54" y="143.0" text-anchor="end">600</text>
+    <text x="67.0" y="354" text-anchor="start">10/08</text>
+    <text x="203.18" y="354" text-anchor="middle">10/15</text>
+    <text x="339.36" y="354" text-anchor="middle">10/22</text>
+    <text x="475.55" y="354" text-anchor="middle">10/29</text>
+    <text x="611.73" y="354" text-anchor="middle">11/05</text>
+    <text x="709.0" y="354" text-anchor="end">11/10</text>
+    </g>
+    <path d="M67.0 321.0 L86.45 321.0 L105.91 321.0 L125.36 320.69 L144.82 320.69 L164.27 320.39 L183.73 320.39 L203.18 320.39 L222.64 320.08 L242.09 319.77 L261.55 319.47 L281.0 319.16 L300.45 260.89 L319.91 244.03 L339.36 237.28 L358.82 232.37 L378.27 227.16 L397.73 222.25 L417.18 215.2 L436.64 212.13 L456.09 207.84 L475.55 204.77 L495.0 201.09 L514.45 195.88 L533.91 193.43 L553.36 191.28 L572.82 187.29 L592.27 183.0 L611.73 178.71 L631.18 174.41 L650.64 171.04 L670.09 166.44 L689.55 162.76 L709.0 162.15 L709 321H67Z" fill="url(#area)"/>
+    <path d="M67.0 321.0 L86.45 321.0 L105.91 321.0 L125.36 320.69 L144.82 320.69 L164.27 320.39 L183.73 320.39 L203.18 320.39 L222.64 320.08 L242.09 319.77 L261.55 319.47 L281.0 319.16 L300.45 260.89 L319.91 244.03 L339.36 237.28 L358.82 232.37 L378.27 227.16 L397.73 222.25 L417.18 215.2 L436.64 212.13 L456.09 207.84 L475.55 204.77 L495.0 201.09 L514.45 195.88 L533.91 193.43 L553.36 191.28 L572.82 187.29 L592.27 183.0 L611.73 178.71 L631.18 174.41 L650.64 171.04 L670.09 166.44 L689.55 162.76 L709.0 162.15" fill="none" stroke="#c7a4ff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M300.45 260.89V321" stroke="#c7a4ff" stroke-opacity=".46" stroke-dasharray="3 4"/>
+    <path d="M258 187h17l25.45 73.89" fill="none" stroke="#c7a4ff" stroke-opacity=".65" stroke-width="1.4"/>
+    <rect x="115" y="169" width="143" height="36" rx="18" fill="#35254e"/>
+    <text x="186.5" y="193" text-anchor="middle" fill="#c7a4ff" font-size="17" font-weight="720">OCT 20  +190</text>
+    <circle cx="300.45" cy="260.89" r="4.8" fill="#211a34" stroke="#c7a4ff" stroke-width="2.6"/>
+    <circle cx="709" cy="162.15" r="11" fill="#c7a4ff" opacity=".17"/>
+    <circle cx="709" cy="162.15" r="5.7" fill="#211a34" stroke="#c7a4ff" stroke-width="3"/>
+  </g>
+</svg>
