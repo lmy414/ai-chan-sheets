@@ -1,0 +1,48 @@
+{
+  "id": "B01_表情_自然微笑",
+  "group": "02_表情",
+  "label": "自然微笑",
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "参考原图/18_Mistral娘_法棍猫猫/来源原图.png",
+    "参考原图/18_Mistral娘_法棍猫猫/裁切/头部与帽饰.png",
+    "@A01_三视图_正面"
+  ],
+  "prompt": "Faithfully preserve the SAME adult anime Mistral catgirl in the supplied original artwork, nicknamed 法棍猫猫. Long voluminous wavy honey-gold/orange hair with coral and deep red ends; amber-gold eyes; orange-gold furry cat ears with cream inner tufts; ONE long fluffy golden tail with a deep red tip. Mature adult body proportions, same face and elegant silhouette as source. A burgundy-red wide-brim musketeer hat with gold edging, red ribbon bows, two curled white feather plumes, gold fleur-de-lis, and a square orange-red badge with the source's white pixel M symbol. Ivory high ruffled collar and white pleated blouse, dark red bow with red-gold oval gem, fitted dark red and ivory corset with delicate gold piping and fleur-de-lis, white puff sleeves and fitted embroidered forearms with red cuffs and white gloves, asymmetric red-gold shoulder armor visible in source. Full ankle-length layered ivory overskirt with delicate gold fleur-de-lis embroidery and gold trim, white ruffled layer, red inner panels with orange-gold hem lining. Gold waist chains and ornate long gold key with square orange-red pixel M tag. White fitted ankle boots with burgundy toes, block high heels, gold borders and gold fleur-de-lis details. The prop is ONE unmistakable long golden-brown crusty French baguette used as a sword blade, mounted to a long ornate gold/red hilt with fleur-de-lis guard and square pixel M badge. Keep every material, shape, palette and proportion coherent with reference. Back and hidden construction are inferred, never a new outfit.\nPolished detailed Japanese anime illustration matching source, clean thin brown linework, warm soft cel shading and carefully drawn gold ornament. Pure white featureless opaque background. ONE requested asset or ONE character view only, no contact sheet, no collage, no grid, no extra panels, no captions, no watermark. Keep full requested silhouette inside frame with white margins. Pixel M is a blocky geometric white emblem on a warm orange-red square, NOT a serif letter, not a cat face, not a random rune. No invented accessories, no extra tails or ears. For detached items draw only the requested item, no head, no human skin, no mannequin, no floating body parts.\nRender ONE FRONT-FACING head-and-shoulders portrait from upper chest up. Keep entire feather hat and both ear tips inside frame, no cropped hat. Same camera, face size and centered framing across expression assets. No hands, no props, no body below upper chest. Show source hair, high collar and chest bow. Expression: A gentle natural closed-mouth smile, warm amber eyes.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-12T07:00:04.870505+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "参考原图/18_Mistral娘_法棍猫猫/来源原图.png": "be0139577d355c66d1251fe7f84c57cfe2364bba86132b47eca4dab392e1ad40",
+    "参考原图/18_Mistral娘_法棍猫猫/裁切/头部与帽饰.png": "bf602b3b6fb21cf2e379b5b35c1d7ed4bbeb2d1e510f594eb1c38f645f8a2a2f",
+    "设定图/18_Mistral娘_法棍猫猫/01_三视图/A01_三视图_正面.png": "394070f82f0b318a6d10da6e67dc1cc3f23f9cba4e758e3f0c6177a794213ebb"
+  },
+  "finished_at": "2026-11-12T07:03:41.107351+00:00",
+  "elapsed_seconds": 216.221,
+  "output": "02_表情/B01_表情_自然微笑.png",
+  "dimensions": [
+    1536,
+    1536
+  ],
+  "output_sha256": "e1aa5b66f14fdb175506c0a21a23b42b3331b7d15a2c46976243348588b2167c",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-sunburst",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 4521,
+    "output_tokens": 2511,
+    "total_tokens": 7032
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

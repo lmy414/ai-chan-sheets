@@ -1,0 +1,104 @@
+{
+  "status": "pass",
+  "date": "2026-11-12",
+  "character": "Mistral 娘（法棍猫猫）",
+  "expected_assets": 22,
+  "asset_count": 22,
+  "prompt_count": 22,
+  "record_count": 22,
+  "generation_channel": "本机 Magpie /v1/images/edits",
+  "models": {
+    "gpt-image-2.6-sunburst": 5,
+    "gpt-image-2.6-flare": 17
+  },
+  "quality": "high",
+  "reference_hash_checks": 59,
+  "board": {
+    "project": "18_Mistral娘_法棍猫猫",
+    "status": "pass",
+    "native": "18_Mistral娘_法棍猫猫_横版完整设定图_原像素.png",
+    "native_size": [
+      13348,
+      8712
+    ],
+    "aspect_ratio": 1.5321,
+    "placements": 22,
+    "byte_match": 22,
+    "byte_mismatch": [],
+    "size_issues": [],
+    "asset_overlaps": 0,
+    "cell_overlaps": 0,
+    "duplicate_assets": 0,
+    "problems": []
+  },
+  "slices": [
+    {
+      "group": "01_三视图",
+      "file": "横版完整设定图_01_三视图_原图.png",
+      "crop": [
+        4190,
+        238,
+        9158,
+        3098
+      ],
+      "size": [
+        4968,
+        2860
+      ],
+      "sha256": "28f8104fd2da3d0cefbf6c6dd561fda56cfe02c74226d1d0979f9dd82b431df2"
+    },
+    {
+      "group": "02_表情",
+      "file": "横版完整设定图_02_表情_原图.png",
+      "crop": [
+        70,
+        3098,
+        13278,
+        4934
+      ],
+      "size": [
+        13208,
+        1836
+      ],
+      "sha256": "e46125afb17952a77b138068dafba8c70b0004735398836618901a4cb53af29c"
+    },
+    {
+      "group": "03_服装",
+      "file": "横版完整设定图_03_服装_原图.png",
+      "crop": [
+        3366,
+        4934,
+        9982,
+        6770
+      ],
+      "size": [
+        6616,
+        1836
+      ],
+      "sha256": "3793ab020e0c25ab42d3c9c270dcd786a60a08b962a803bc6be592269eea6f9b"
+    },
+    {
+      "group": "04_道具细节",
+      "file": "横版完整设定图_04_道具细节_原图.png",
+      "crop": [
+        894,
+        6770,
+        12454,
+        8682
+      ],
+      "size": [
+        11560,
+        1912
+      ],
+      "sha256": "8f67a0910bbda106bab31510c1ad95781646db4270e442b0f3ef5fa9ff489d0e"
+    }
+  ],
+  "local_link_checks": 104,
+  "accepted_asset_usage": {
+    "input_tokens": 88981,
+    "output_tokens": 53904,
+    "note": "仅统计当前采用的 22 张素材，修正前版本的用量保存在审图历史。"
+  },
+  "source_png_sha256": "be0139577d355c66d1251fe7f84c57cfe2364bba86132b47eca4dab392e1ad40",
+  "note": "独立核验母版中的 22 张素材和 4 张原像素切片。原像素母版留在本地，可从独立素材重建。"
+}

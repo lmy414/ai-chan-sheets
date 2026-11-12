@@ -1,0 +1,14 @@
+{
+  "id": "D03_道具_金红渐色猫尾",
+  "group": "04_道具细节",
+  "label": "金红渐色猫尾",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "参考原图/18_Mistral娘_法棍猫猫/裁切/猫尾.png"
+  ],
+  "prompt": "Create a clean isolated anatomical detail illustration of ONLY the ONE furry cat TAIL shown in the reference close-up. Match the original tail color and texture: cream-golden at base, honey gold through the long curved length, orange toward the end, and a deep burgundy-red curled tip. ONE long tail only, an elegant single downward C-shaped arc. Preserve the pointed fur tufts and soft anime cel shading from the reference. Center the entire tail in a square canvas with white margins. Completely REMOVE ALL HUMAN CHARACTERS, body, face, head, hat, ears, hair, hands, legs, clothing, dress, baguette and sword. The output must contain ONLY ONE detached tail on a pure WHITE background. No labels, no watermark, no other objects. This is a tail detail asset, never a full-character illustration.",
+  "inferred_details": true
+}

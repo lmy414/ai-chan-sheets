@@ -1,0 +1,15 @@
+{
+  "id": "A03_三视图_背面",
+  "group": "01_三视图",
+  "label": "背面",
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "size": "1536x2560",
+  "route": "gateway",
+  "refs": [
+    "设定图/18_Mistral娘_法棍猫猫/审图历史/A03_三视图_背面_v01.png",
+    "参考原图/18_Mistral娘_法棍猫猫/来源原图.png"
+  ],
+  "prompt": "Edit target: image 1, the already generated STRICT BACK VIEW of this adult Mistral catgirl. Image 2 is the original design reference only. Make exactly one local correction to the rear of the HAT CROWN: remove the orange square white pixel M badge from the back-facing crown panel and remove the large gold fleur-de-lis directly above that badge. Restore plain burgundy-red felt there, matching existing shading and texture. The original single M badge and fleur-de-lis are on the FRONT of the crown, so they cannot be repeated on the rear. Preserve the hat gold band and brim border, red bow and ribbons, white feathers. Keep EVERYTHING ELSE exactly unchanged: strict back view, hair, ears hidden behind hat, shoulder armor, corset lacing, waist chains and hanging key badge, tail, skirt gold ornament and its original skirt badge, boots, pose, proportions, complete silhouette, pure white background. Do not remove the pixel M emblem on the KEY or SKIRT. No face visible. No other design changes. Output one full-body back view at the same canvas dimensions.",
+  "inferred_details": true
+}

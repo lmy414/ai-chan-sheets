@@ -1,0 +1,15 @@
+{
+  "id": "C03_服装_刺绣衣袖与白手套",
+  "group": "03_服装",
+  "label": "刺绣衣袖与白手套",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "设定图/18_Mistral娘_法棍猫猫/审图历史/C03_服装_刺绣衣袖与白手套_v01.png",
+    "参考原图/18_Mistral娘_法棍猫猫/来源原图.png"
+  ],
+  "prompt": "Edit target: image 1, the detached pair of ivory sleeves and white gloves. Image 2 is the original outfit for material reference only. Correct ONLY the TOP PUFFED UPPER SLEEVE areas: remove the burgundy-red and gold SHOULDER ARMOR PLATES from BOTH sleeve tops and restore plain soft IVORY PUFFED FABRIC there. Keep only subtle fine gold fabric edging at the sleeve opening; no rigid metal cap, red panel, shoulder jewel or large gold plate on either sleeve. The source shoulder armor is a separate ONE-SIDED item and must not be included in this pair of sleeve garments. Preserve everything below the upper puffs exactly: small bows at sleeve seams, fitted ivory forearms with gold botanical embroidery, burgundy cuffs, gold fleur-de-lis on cuffs, white ruffles and white empty fabric gloves. Preserve pair layout, size, colors, linework and white background. No human skin, no torso, no mannequin, no added objects. One matching detached pair of soft sleeves with gloves, complete silhouettes in square frame.",
+  "inferred_details": true
+}

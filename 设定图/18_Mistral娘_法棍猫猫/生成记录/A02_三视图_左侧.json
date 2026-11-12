@@ -1,0 +1,46 @@
+{
+  "id": "A02_三视图_左侧",
+  "group": "01_三视图",
+  "label": "左侧",
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "size": "1536x2560",
+  "route": "gateway",
+  "refs": [
+    "参考原图/18_Mistral娘_法棍猫猫/来源原图.png",
+    "@A01_三视图_正面"
+  ],
+  "prompt": "Faithfully preserve the SAME adult anime Mistral catgirl in the supplied original artwork, nicknamed 法棍猫猫. Long voluminous wavy honey-gold/orange hair with coral and deep red ends; amber-gold eyes; orange-gold furry cat ears with cream inner tufts; ONE long fluffy golden tail with a deep red tip. Mature adult body proportions, same face and elegant silhouette as source. A burgundy-red wide-brim musketeer hat with gold edging, red ribbon bows, two curled white feather plumes, gold fleur-de-lis, and a square orange-red badge with the source's white pixel M symbol. Ivory high ruffled collar and white pleated blouse, dark red bow with red-gold oval gem, fitted dark red and ivory corset with delicate gold piping and fleur-de-lis, white puff sleeves and fitted embroidered forearms with red cuffs and white gloves, asymmetric red-gold shoulder armor visible in source. Full ankle-length layered ivory overskirt with delicate gold fleur-de-lis embroidery and gold trim, white ruffled layer, red inner panels with orange-gold hem lining. Gold waist chains and ornate long gold key with square orange-red pixel M tag. White fitted ankle boots with burgundy toes, block high heels, gold borders and gold fleur-de-lis details. The prop is ONE unmistakable long golden-brown crusty French baguette used as a sword blade, mounted to a long ornate gold/red hilt with fleur-de-lis guard and square pixel M badge. Keep every material, shape, palette and proportion coherent with reference. Back and hidden construction are inferred, never a new outfit.\nPolished detailed Japanese anime illustration matching source, clean thin brown linework, warm soft cel shading and carefully drawn gold ornament. Pure white featureless opaque background. ONE requested asset or ONE character view only, no contact sheet, no collage, no grid, no extra panels, no captions, no watermark. Keep full requested silhouette inside frame with white margins. Pixel M is a blocky geometric white emblem on a warm orange-red square, NOT a serif letter, not a cat face, not a random rune. No invented accessories, no extra tails or ears. For detached items draw only the requested item, no head, no human skin, no mannequin, no floating body parts.\nFull-body orthographic character reference view, relaxed neutral upright standing pose, entire hat feathers to boot soles visible, vertical 3:5 composition. Hands relaxed slightly away from hips, both hands EMPTY, no baguette, sword, wand or independent props. Keep attached waist key and chains. Do not repeat source hand-on-hip pose. Keep long dress, shoulder details, hat, tail and shoes. No character labels. STRICT LEFT PROFILE: the character faces image LEFT, showing her anatomical left side; no three-quarter angle. One coherent full-body silhouette. Same character, outfit length and scale as the supplied front anchor. Infer the rear dress and hat construction conservatively. Keep the fitted waist, white outer panels over red layers and the red-tipped tail.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-12T07:00:04.871067+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "参考原图/18_Mistral娘_法棍猫猫/来源原图.png": "be0139577d355c66d1251fe7f84c57cfe2364bba86132b47eca4dab392e1ad40",
+    "设定图/18_Mistral娘_法棍猫猫/01_三视图/A01_三视图_正面.png": "394070f82f0b318a6d10da6e67dc1cc3f23f9cba4e758e3f0c6177a794213ebb"
+  },
+  "finished_at": "2026-11-12T07:03:25.824671+00:00",
+  "elapsed_seconds": 200.939,
+  "output": "01_三视图/A02_三视图_左侧.png",
+  "dimensions": [
+    1536,
+    2560
+  ],
+  "output_sha256": "7e9c80f07b16588c1538aef6001dd14a23fad68966127ece9f5d963c243c83c3",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-sunburst",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 3658,
+    "output_tokens": 2065,
+    "total_tokens": 5723
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

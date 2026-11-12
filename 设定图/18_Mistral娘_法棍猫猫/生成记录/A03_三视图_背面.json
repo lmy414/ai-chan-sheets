@@ -1,0 +1,47 @@
+{
+  "id": "A03_三视图_背面",
+  "group": "01_三视图",
+  "label": "背面",
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "size": "1536x2560",
+  "route": "gateway",
+  "refs": [
+    "设定图/18_Mistral娘_法棍猫猫/审图历史/A03_三视图_背面_v01.png",
+    "参考原图/18_Mistral娘_法棍猫猫/来源原图.png"
+  ],
+  "prompt": "Edit target: image 1, the already generated STRICT BACK VIEW of this adult Mistral catgirl. Image 2 is the original design reference only. Make exactly one local correction to the rear of the HAT CROWN: remove the orange square white pixel M badge from the back-facing crown panel and remove the large gold fleur-de-lis directly above that badge. Restore plain burgundy-red felt there, matching existing shading and texture. The original single M badge and fleur-de-lis are on the FRONT of the crown, so they cannot be repeated on the rear. Preserve the hat gold band and brim border, red bow and ribbons, white feathers. Keep EVERYTHING ELSE exactly unchanged: strict back view, hair, ears hidden behind hat, shoulder armor, corset lacing, waist chains and hanging key badge, tail, skirt gold ornament and its original skirt badge, boots, pose, proportions, complete silhouette, pure white background. Do not remove the pixel M emblem on the KEY or SKIRT. No face visible. No other design changes. Output one full-body back view at the same canvas dimensions.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-12T07:30:00.459097+00:00",
+  "finished_at": "2026-11-12T07:32:38.155484+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "设定图/18_Mistral娘_法棍猫猫/审图历史/A03_三视图_背面_v01.png": "e745395201a48ecf76d2c87d5c4f103da5bd631815ac6ed647608e520695798d",
+    "参考原图/18_Mistral娘_法棍猫猫/来源原图.png": "be0139577d355c66d1251fe7f84c57cfe2364bba86132b47eca4dab392e1ad40"
+  },
+  "elapsed_seconds": 157.707,
+  "output": "01_三视图/A03_三视图_背面_v02.png",
+  "dimensions": [
+    1536,
+    2560
+  ],
+  "output_sha256": "3f07d6afe5491920e6e5b1167da0aafe013a36e1e7eb01fcfb23b0eda0ee39b6",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGBA",
+  "returned_model": "openai/gpt-image-2.6-sunburst",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 3258,
+    "output_tokens": 2065,
+    "total_tokens": 5323
+  },
+  "revised_prompt": null,
+  "settings_note": "同模型 high 档局部修正，保留初版和记录；不回退纯文生图。",
+  "review_note": "去除背面帽冠错误重复的正面 M 徽章与金色鸢尾纹。"
+}

@@ -1,0 +1,68 @@
+{
+  "character": "Mistral 娘（法棍猫猫）",
+  "source_character_dir": "参考原图/18_Mistral娘_法棍猫猫",
+  "primary_reference": "参考原图/18_Mistral娘_法棍猫猫/来源原图.png",
+  "extra_references": [],
+  "source_urls": [
+    "https://www.bilibili.com/opus/1236803362705375305"
+  ],
+  "source_credit": "ZipZipPipe（胖次狐）",
+  "rights": "原图出自 ZipZipPipe 的公开图文《AI娘第二批，有Seed（豆包底模）》第 4 张。当前未核实本角色原图的具体许可，记录为 unknown。仓库许可仅覆盖补全工作，不代替原图授权。",
+  "orientation": "landscape",
+  "board_title": "Mistral 娘（法棍猫猫） · 横版完整设定图",
+  "board_subtitle": "22 张独立素材 / 3 视图 · 8 表情 · 4 服装 · 7 细节 / 原生像素 1:1 拼接",
+  "native_name": "18_Mistral娘_法棍猫猫_横版完整设定图_原像素.png",
+  "preview_name": "18_Mistral娘_法棍猫猫_横版完整设定图_浏览预览.jpg",
+  "accent": "#B4412D",
+  "footnote": "原图仅有单张立绘；侧背面、新表情与遮挡结构由模型推定，不代表原作者确认。",
+  "workflow": "本机 Magpie Images API 逐张图生图 -> 原生像素 1:1 拼接 -> 独立核验 -> 分区切片",
+  "unseen_design": "原图为单张立绘。标准正面姿势、左侧、背面、新表情、拆解单品及不可见连接均含推定。",
+  "generation_tool": "本机 API / gpt-image-gen / gpt-image-2.6-sunburst 与 gpt-image-2.6-flare / high",
+  "sections": [
+    {
+      "group": "01_三视图",
+      "title": "01 三视图",
+      "note": "正面 / 左侧 / 背面 · 姿势与隐藏面含推定"
+    },
+    {
+      "group": "02_表情",
+      "title": "02 表情拆分 · 8 种",
+      "note": "同一机位与脸型基准"
+    },
+    {
+      "group": "03_服装",
+      "title": "03 服装设计 · 4 项",
+      "note": "脱下摆放的单品 · 遮挡面为推定"
+    },
+    {
+      "group": "04_道具细节",
+      "title": "04 道具与饰品细节 · 7 项",
+      "note": "独立细节 · 结构按原图保留"
+    }
+  ],
+  "tasks": [
+    "A01_三视图_正面",
+    "A02_三视图_左侧",
+    "A03_三视图_背面",
+    "B01_表情_自然微笑",
+    "B02_表情_平静",
+    "B03_表情_惊讶",
+    "B04_表情_害羞",
+    "B05_表情_鼓腮",
+    "B06_表情_闭眼轻笑",
+    "B07_表情_认真",
+    "B08_表情_委屈",
+    "C01_服装_白金衬衣与红色束腰",
+    "C02_服装_红白金层叠长裙",
+    "C03_服装_刺绣衣袖与白手套",
+    "C04_服装_红白金高跟短靴",
+    "D01_道具_羽饰宽檐帽",
+    "D02_道具_金色猫耳",
+    "D03_道具_金红渐色猫尾",
+    "D04_道具_法棍剑",
+    "D05_道具_像素M钥匙与腰链",
+    "D06_道具_红金宝石领结",
+    "D07_道具_红金肩甲"
+  ],
+  "selections": {}
+}

@@ -1,0 +1,45 @@
+{
+  "id": "D03_道具_金红渐色猫尾",
+  "group": "04_道具细节",
+  "label": "金红渐色猫尾",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "参考原图/18_Mistral娘_法棍猫猫/裁切/猫尾.png"
+  ],
+  "prompt": "Create a clean isolated anatomical detail illustration of ONLY the ONE furry cat TAIL shown in the reference close-up. Match the original tail color and texture: cream-golden at base, honey gold through the long curved length, orange toward the end, and a deep burgundy-red curled tip. ONE long tail only, an elegant single downward C-shaped arc. Preserve the pointed fur tufts and soft anime cel shading from the reference. Center the entire tail in a square canvas with white margins. Completely REMOVE ALL HUMAN CHARACTERS, body, face, head, hat, ears, hair, hands, legs, clothing, dress, baguette and sword. The output must contain ONLY ONE detached tail on a pure WHITE background. No labels, no watermark, no other objects. This is a tail detail asset, never a full-character illustration.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-12T07:33:25.149274+00:00",
+  "finished_at": "2026-11-12T07:33:37.606828+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "参考原图/18_Mistral娘_法棍猫猫/裁切/猫尾.png": "81ebd1c35209c6496d41c6b6f59d25d7097e943c70a30c29f314fb5faf2c4456"
+  },
+  "elapsed_seconds": 12.458,
+  "output": "04_道具细节/D03_道具_金红渐色猫尾_v02.png",
+  "dimensions": [
+    1536,
+    1536
+  ],
+  "output_sha256": "79bc05175dcb72d424ff4bf65253c9e5227609f65f50536cd9971bef989870eb",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-flare",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 912,
+    "output_tokens": 2511,
+    "total_tokens": 3423
+  },
+  "revised_prompt": null,
+  "settings_note": "同模型 high 档局部修正，保留初版和记录；不回退纯文生图。",
+  "review_note": "初版未按要求拆出猫尾，改用原图猫尾裁切作唯一参考，单独绘制一条金红渐色猫尾。"
+}

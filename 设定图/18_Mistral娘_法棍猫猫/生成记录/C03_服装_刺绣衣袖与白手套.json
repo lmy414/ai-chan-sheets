@@ -1,0 +1,47 @@
+{
+  "id": "C03_服装_刺绣衣袖与白手套",
+  "group": "03_服装",
+  "label": "刺绣衣袖与白手套",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "设定图/18_Mistral娘_法棍猫猫/审图历史/C03_服装_刺绣衣袖与白手套_v01.png",
+    "参考原图/18_Mistral娘_法棍猫猫/来源原图.png"
+  ],
+  "prompt": "Edit target: image 1, the detached pair of ivory sleeves and white gloves. Image 2 is the original outfit for material reference only. Correct ONLY the TOP PUFFED UPPER SLEEVE areas: remove the burgundy-red and gold SHOULDER ARMOR PLATES from BOTH sleeve tops and restore plain soft IVORY PUFFED FABRIC there. Keep only subtle fine gold fabric edging at the sleeve opening; no rigid metal cap, red panel, shoulder jewel or large gold plate on either sleeve. The source shoulder armor is a separate ONE-SIDED item and must not be included in this pair of sleeve garments. Preserve everything below the upper puffs exactly: small bows at sleeve seams, fitted ivory forearms with gold botanical embroidery, burgundy cuffs, gold fleur-de-lis on cuffs, white ruffles and white empty fabric gloves. Preserve pair layout, size, colors, linework and white background. No human skin, no torso, no mannequin, no added objects. One matching detached pair of soft sleeves with gloves, complete silhouettes in square frame.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-12T07:31:50.247243+00:00",
+  "finished_at": "2026-11-12T07:33:15.273679+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "设定图/18_Mistral娘_法棍猫猫/审图历史/C03_服装_刺绣衣袖与白手套_v01.png": "3217e74f79528558a0d9b98822e014e0d70401dd94bdbbce0c92a74cdaff35c8",
+    "参考原图/18_Mistral娘_法棍猫猫/来源原图.png": "be0139577d355c66d1251fe7f84c57cfe2364bba86132b47eca4dab392e1ad40"
+  },
+  "elapsed_seconds": 85.033,
+  "output": "03_服装/C03_服装_刺绣衣袖与白手套_v02.png",
+  "dimensions": [
+    1536,
+    1536
+  ],
+  "output_sha256": "5c855e00d4da55a5311ee13bd7c03a8469d0c1cbfffc607e79e91f7da0ef7262",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGBA",
+  "returned_model": "openai/gpt-image-2.6-flare",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 3272,
+    "output_tokens": 2511,
+    "total_tokens": 5783
+  },
+  "revised_prompt": null,
+  "settings_note": "同模型 high 档局部修正，保留初版和记录；不回退纯文生图。",
+  "review_note": "去除两只袖子顶部多余的红金肩甲，恢复白色灯笼袖；肩甲另作独立单侧配件。"
+}

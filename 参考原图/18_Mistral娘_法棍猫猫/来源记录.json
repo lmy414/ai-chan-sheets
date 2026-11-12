@@ -1,0 +1,74 @@
+{
+  "file": "来源原图.png",
+  "sha256": "be0139577d355c66d1251fe7f84c57cfe2364bba86132b47eca4dab392e1ad40",
+  "dimensions": [
+    1143,
+    2048
+  ],
+  "supplied_at": "2026-11-12",
+  "source": "用户指定的本地收藏导出图",
+  "credit": "ZipZipPipe（胖次狐）",
+  "rights": "原图出自 ZipZipPipe 的公开图文《AI娘第二批，有Seed（豆包底模）》第 4 张。当前未核实本角色原图的具体许可，记录为 unknown。仓库许可仅覆盖补全工作，不代替原图授权。",
+  "crops": {
+    "裁切/头部与帽饰.png": [
+      215,
+      5,
+      780,
+      500
+    ],
+    "裁切/胸衣与腰链.png": [
+      310,
+      375,
+      900,
+      1120
+    ],
+    "裁切/裙装.png": [
+      20,
+      740,
+      1135,
+      1855
+    ],
+    "裁切/鞋靴.png": [
+      610,
+      1740,
+      895,
+      2048
+    ],
+    "裁切/法棍剑.png": [
+      760,
+      165,
+      1143,
+      1370
+    ],
+    "裁切/猫尾.png": [
+      35,
+      960,
+      440,
+      1400
+    ]
+  },
+  "verification": {
+    "source_page": "https://www.bilibili.com/opus/1236803362705375305",
+    "source_author": "ZipZipPipe",
+    "image_url": "https://i0.hdslb.com/bfs/new_dyn/60bb256121d10c9f54af8d8f9e80e6c14168597.jpg",
+    "post_image_number": 4,
+    "download_bytes": 7649944,
+    "download_sha256": "49239c83fbcccd23fd2061fbac02059fc9390f653b92cab6838da65fbaabbfa9",
+    "matches_local_archived_jpg": true,
+    "supplied_png_size": [
+      1143,
+      2048
+    ],
+    "archived_jpg_size": [
+      3072,
+      5504
+    ],
+    "resized_mean_absolute_rgb_difference": [
+      1.2697307489884078,
+      1.3354483643646107,
+      1.2946142962598426
+    ],
+    "comparison_note": "用户指定 PNG 为缩小版收藏图；与原帖 JPG 缩放对齐后对比。制作参考始终使用用户指定 PNG。",
+    "verified_at": "2026-11-12"
+  }
+}
