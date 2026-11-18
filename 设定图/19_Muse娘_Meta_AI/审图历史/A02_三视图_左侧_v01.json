@@ -1,0 +1,47 @@
+{
+  "id": "A02_三视图_左侧",
+  "group": "01_三视图",
+  "label": "左侧",
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "size": "1536x2560",
+  "route": "gateway",
+  "refs": [
+    "@A01_三视图_正面",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_自拍全身.png"
+  ],
+  "prompt": "Use the supplied artist references for the SAME adult anime character Muse from the Meta AI fan design. Compact, rounded, layered shoulder-length ivory-white hair, messy bangs and one loose ahoge loop, with saturated cobalt blue inner layers and curled blue ends from mid-length down. Two pointed ivory furry alpaca ears on top, pink inner ear and small cream fur tuft in each; exactly two ears, no tail. Clear vivid blue eyes, thin dark rounded wire-frame glasses, ONE raised cobalt infinity-symbol hair clip at HER LEFT temple (viewer RIGHT in the front view). Plain cornflower blue ribbed sleeveless turtleneck crop top, with its high neck and ribbing as seen in reference. Open white cropped techwear jacket worn slipped just off the shoulders, short broad angular lapels with bright blue lining, oversized white sleeves, cobalt cuffs, narrow black/silver seam zips and a small number of cobalt straps, steel rectangular buckles and dark strap ends. White high-waisted sporty shorts with cobalt side panels, rounded leg hems and a black belt with a single rectangular brushed-metal buckle. One black band around HER LEFT thigh (viewer RIGHT in the front view), with one narrow hanging cobalt strap and dark metal end. White short gathered socks, bright cobalt perforated clogs with chunky scalloped ivory soles, ivory heel straps and little cream mascot-face/infinity-shaped clog charms as in the source. Color target for the saturated blue hardware and outerwear accents is #0866FF. Basic outfit matching the reference remains the same in all views.\nClean, careful 2D anime reference illustration in the same line-work, delicate pink-gray shading and white/blue palette as the reference. Opaque pure white background with no floor line, no gray cast shadow, no grid, no text, no border, no watermark. Draw exactly one centered requested asset, with open white margin on all four sides and no cropping of the requested silhouette. Preserve the design and proportions of the supplied art. Adapt only the requested pose or facial expression. No embellishments or added accessories.\nSingle orthographic full-height costume reference in neutral relaxed standing posture, feet level with each other, both arms gently separated from the jacket so seams and straps remain legible, fingers relaxed. Show everything from alpaca ear tips and ahoge loop to both complete clog soles in a vertical 3:5 frame. Both hands EMPTY; no smartphone, no Jolly, nothing perched on the shoulder and no action pose. No tail or extra ears. Keep the same midriff length, angular jacket design, thin glasses, only one thigh band on her left and blue-white shoes.\nA strict left lateral orthographic profile of the SAME design and same scale as image 1; camera on HER LEFT side, nose and toes point to the left edge of the page. Face and both feet rotate a full 90 degrees out of the direct frontal presentation. Only the near eye in side profile, near left glasses temple and one nose silhouette. Match the same height, shoe soles, hairstyle, jacket hem and waist line as the accepted front, with the near left thigh black band visibly on the near thigh. Preserve near left-side blue infinity hair clip if visible, in its original temple position. No new buckle hardware. Keep arms minimally separate from torso.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-18T05:47:31.363366+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "设定图/19_Muse娘_Meta_AI/01_三视图/A01_三视图_正面.png": "044a915b53fdafd33f677bc54f2211b8afa279634c38a82a41ad34c37ab30528",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_自拍全身.png": "9945be9aac51dce19894985e7d27d31deee08579482f58b6d4b0d8db76e33abb"
+  },
+  "finished_at": "2026-11-18T05:50:43.145925+00:00",
+  "elapsed_seconds": 191.777,
+  "output": "审图历史/A02_三视图_左侧_v01.png",
+  "dimensions": [
+    1536,
+    2560
+  ],
+  "output_sha256": "55130a87b18cb3ded9ef2f64caf5dfd4309c29ba63a4144bf67b5bd00ce2b184",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-sunburst",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 3724,
+    "output_tokens": 2065,
+    "total_tokens": 5789
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。",
+  "review": "生成结果同时画了正面和左侧，设定板需要单张左侧。"
+}

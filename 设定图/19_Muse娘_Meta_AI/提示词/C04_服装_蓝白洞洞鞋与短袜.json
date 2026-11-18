@@ -1,0 +1,15 @@
+{
+  "id": "C04_服装_蓝白洞洞鞋与短袜",
+  "group": "03_服装",
+  "label": "蓝白洞洞鞋与短袜",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "参考原图/19_Muse娘_Meta_AI/来源原图_自拍全身.png",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_挥手.png"
+  ],
+  "prompt": "Muse character design fabric/prop study. Match the item depicted in the supplied original illustration of white-haired Muse, especially its actual shape, seams and material finish. Use the same detailed 2D anime linework and restrained cel shading. Large centered readable product silhouette on opaque pure white, in a single 1:1 square. Show only the requested detached item or explicitly named matching set. No person, hands, skin, mannequin, separate callouts, letters, captions, framing or other items.\nOne styled detached FOOTWEAR SET. Place a matched left and right pair of the exact cobalt blue clogs together, at a shallow 3/4 angle, with their two small white scrunched ankle socks folded behind. Rounded blue perforated clog toes, chunky scalloped ivory sole with blue side trim, short white heel straps, tiny cream mascot face and flat white infinity clog charms on the toes. No feet in the shoes, no person. All four set components on the same white background, within frame.",
+  "inferred_details": true
+}

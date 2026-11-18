@@ -1,0 +1,15 @@
+{
+  "id": "B02_表情_平静",
+  "group": "02_表情",
+  "label": "平静",
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "@A01_三视图_正面",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_小得意.png"
+  ],
+  "prompt": "Recreate the SAME Muse character head and upper shoulders. Keep exactly the reference chin and eyes, bright blue irises, thin dark rounded wire glasses, slightly wavy layered ivory bob with curled cobalt ends, a loose ahoge loop, two furry white alpaca ears with pink centers, and the single cobalt infinity clip on HER LEFT, shown on viewer RIGHT. Visible neck and shoulders retain the blue ribbed high neck, wide white jacket lapels with cobalt lining and short cropped fitted silhouette. Copy the face identity from the close-up art and the standard front, maintaining the same gentle anime linework and pink-white shading.\nClean, careful 2D anime reference illustration in the same line-work, delicate pink-gray shading and white/blue palette as the reference. Opaque pure white background with no floor line, no gray cast shadow, no grid, no text, no border, no watermark. Draw exactly one centered requested asset, with open white margin on all four sides and no cropping of the requested silhouette. Preserve the design and proportions of the supplied art. Adapt only the requested pose or facial expression. No embellishments or added accessories.\nSingle square head-and-shoulders expression reference. Head level and nearly straight-on, entire ear tips and both hair tips in frame, similar scale to the accepted front. Show collar and shoulders along lower edge. Only change the brows, eyes and mouth for this expression. Leave hands, Jolly, phone and speech bubbles out of frame. \nExpression: calm attentive neutral face with level brows, both bright blue eyes naturally open and a straight relaxed closed lip line.",
+  "inferred_details": true
+}

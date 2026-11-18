@@ -1,0 +1,81 @@
+{
+  "character": "Muse 娘（Meta AI）",
+  "source_character_dir": "参考原图/19_Muse娘_Meta_AI",
+  "primary_reference": "参考原图/19_Muse娘_Meta_AI/来源原图_自拍全身.png",
+  "extra_references": [
+    "参考原图/19_Muse娘_Meta_AI/来源原图_挥手.png",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_宣传立绘.png",
+    "参考原图/19_Muse娘_Meta_AI/设计拆解_用户附件.png",
+    "参考原图/19_Muse娘_Meta_AI/委屈立绘_用户附件.png",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_小得意.png",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_笑眯眯.png"
+  ],
+  "source_urls": [
+    "https://xn--pssy23gqgbz2d718b.com/works/other202611130007.html",
+    "https://xn--pssy23gqgbz2d718b.com/works/other202611130001.html",
+    "https://xn--pssy23gqgbz2d718b.com/works/other202611130002.html",
+    "https://xn--pssy23gqgbz2d718b.com/works/other202611130003.html",
+    "https://xn--pssy23gqgbz2d718b.com/works/other202611130004.html",
+    "https://xn--pssy23gqgbz2d718b.com/works/other202611130005.html",
+    "https://xn--pssy23gqgbz2d718b.com/works/other202611130006.html"
+  ],
+  "source_credit": "蓝色大肥鱼作品页署名：B 站 识知不失智",
+  "rights": "蓝色大肥鱼作品页记录图片署名为 B 站 识知不失智。参考图上的二创邀请随图保存，原图许可范围记录为 unknown。",
+  "orientation": "landscape",
+  "board_title": "Muse 娘（Meta AI） · 横版完整设定图",
+  "board_subtitle": "22 张独立素材 / 3 视图 · 8 表情 · 4 服装 · 7 细节 / 原生像素 1:1 拼接",
+  "native_name": "19_Muse娘_Meta_AI_横版完整设定图_原像素.png",
+  "preview_name": "19_Muse娘_Meta_AI_横版完整设定图_浏览预览.jpg",
+  "accent": "#0866FF",
+  "footnote": "图片署名：B 站 识知不失智。中立姿势、侧背面、新增表情及遮挡结构含模型推定。",
+  "workflow": "本机 Magpie Images API 逐张图生图 -> 原生像素 1:1 拼接 -> 独立核验 -> 分区切片",
+  "unseen_design": "现有参考展示宣传立绘、全身姿势和表情。中立姿势、左侧和背面、未见表情与拆件的隐藏结构含模型推定。",
+  "generation_tool": "本机 API / gpt-image-gen / gpt-image-2.6-sunburst 与 gpt-image-2.6-flare / high",
+  "sections": [
+    {
+      "group": "01_三视图",
+      "title": "01 三视图",
+      "note": "正面 / 左侧 / 背面 · 姿势与隐藏面含推定"
+    },
+    {
+      "group": "02_表情",
+      "title": "02 表情拆分 · 8 种",
+      "note": "参考表情与新增表情 · 同一胸像机位"
+    },
+    {
+      "group": "03_服装",
+      "title": "03 服装设计 · 4 项",
+      "note": "机能外套 / 针织上衣 / 短裤与腰带 / 洞洞鞋与短袜"
+    },
+    {
+      "group": "04_道具细节",
+      "title": "04 道具与饰品细节 · 7 项",
+      "note": "单件造型与材质 · 不可见结构含推定"
+    }
+  ],
+  "tasks": [
+    "A01_三视图_正面",
+    "A02_三视图_左侧",
+    "A03_三视图_背面",
+    "B01_表情_自然微笑",
+    "B02_表情_平静",
+    "B03_表情_惊讶",
+    "B04_表情_害羞",
+    "B05_表情_小得意",
+    "B06_表情_笑眯眯",
+    "B07_表情_认真",
+    "B08_表情_委屈",
+    "C01_服装_蓝白机能外套",
+    "C02_服装_蓝色高领针织上衣",
+    "C03_服装_白蓝短裤与腰带",
+    "C04_服装_蓝白洞洞鞋与短袜",
+    "D01_道具_羊驼耳",
+    "D02_道具_无限符号发夹",
+    "D03_道具_细框圆眼镜",
+    "D04_道具_自拍手机",
+    "D05_道具_Jolly玩偶",
+    "D06_道具_单侧腿环",
+    "D07_道具_洞洞鞋鞋花"
+  ],
+  "selections": {}
+}

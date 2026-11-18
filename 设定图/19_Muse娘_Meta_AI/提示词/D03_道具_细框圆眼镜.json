@@ -1,0 +1,15 @@
+{
+  "id": "D03_道具_细框圆眼镜",
+  "group": "04_道具细节",
+  "label": "细框圆眼镜",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "参考原图/19_Muse娘_Meta_AI/委屈立绘_用户附件.png",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_小得意.png"
+  ],
+  "prompt": "Muse character design fabric/prop study. Match the item depicted in the supplied original illustration of white-haired Muse, especially its actual shape, seams and material finish. Use the same detailed 2D anime linework and restrained cel shading. Large centered readable product silhouette on opaque pure white, in a single 1:1 square. Show only the requested detached item or explicitly named matching set. No person, hands, skin, mannequin, separate callouts, letters, captions, framing or other items.\nOnly the original slender dark wire-frame glasses as a shallow three-quarter product view. Two fine dark graphite almost-round oval frames with clear lenses, thin nose bridge, tiny subtle metallic hinge details and slim temples. Match the delicate glasses in the first image, avoid thick plastic corners, sunglasses, electronics, writing and decoration. Both lens shapes very clear.",
+  "inferred_details": true
+}

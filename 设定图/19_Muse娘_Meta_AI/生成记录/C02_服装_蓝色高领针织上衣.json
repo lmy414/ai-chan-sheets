@@ -1,0 +1,46 @@
+{
+  "id": "C02_服装_蓝色高领针织上衣",
+  "group": "03_服装",
+  "label": "蓝色高领针织上衣",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "@A01_三视图_正面",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_挥手.png"
+  ],
+  "prompt": "Muse character design fabric/prop study. Match the item depicted in the supplied original illustration of white-haired Muse, especially its actual shape, seams and material finish. Use the same detailed 2D anime linework and restrained cel shading. Large centered readable product silhouette on opaque pure white, in a single 1:1 square. Show only the requested detached item or explicitly named matching set. No person, hands, skin, mannequin, separate callouts, letters, captions, framing or other items.\nOne detached plain blue fitted sleeveless ribbed mock-turtleneck knit crop top, flat frontal apparel view with the full garment visible. Fine vertical ribbing, small folded high collar, rounded armholes, short straight cropped hem. Use the original cornflower blue knit. Keep shoulders sleeveless and the knitted fabric opaque. No white jacket, no decorations.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-18T05:59:30.211722+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "设定图/19_Muse娘_Meta_AI/01_三视图/A01_三视图_正面.png": "044a915b53fdafd33f677bc54f2211b8afa279634c38a82a41ad34c37ab30528",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_挥手.png": "b78e4951aa33fd6e1eaf64f9ab9535329d982a7be6c79e55fc894e4d98e528e3"
+  },
+  "finished_at": "2026-11-18T06:01:44.054941+00:00",
+  "elapsed_seconds": 133.837,
+  "output": "03_服装/C02_服装_蓝色高领针织上衣.png",
+  "dimensions": [
+    1536,
+    1536
+  ],
+  "output_sha256": "3dfcc3dc2f87a942bcf5405a1d48f815a0bf8a8b66a6261492faf448274f9da6",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-flare",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 3233,
+    "output_tokens": 2511,
+    "total_tokens": 5744
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

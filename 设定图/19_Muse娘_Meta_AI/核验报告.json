@@ -1,0 +1,105 @@
+{
+  "status": "pass",
+  "date": "2026-11-18",
+  "character": "Muse 娘（Meta AI）",
+  "expected_assets": 22,
+  "asset_count": 22,
+  "prompt_count": 22,
+  "record_count": 22,
+  "generation_channel": "本机 Magpie /v1/images/edits",
+  "models": {
+    "gpt-image-2.6-sunburst": 5,
+    "gpt-image-2.6-flare": 17
+  },
+  "quality": "high",
+  "reference_hash_checks": 42,
+  "source_files_verified": 7,
+  "board": {
+    "project": "19_Muse娘_Meta_AI",
+    "status": "pass",
+    "native": "19_Muse娘_Meta_AI_横版完整设定图_原像素.png",
+    "native_size": [
+      13348,
+      8712
+    ],
+    "aspect_ratio": 1.5321,
+    "placements": 22,
+    "byte_match": 22,
+    "byte_mismatch": [],
+    "size_issues": [],
+    "asset_overlaps": 0,
+    "cell_overlaps": 0,
+    "duplicate_assets": 0,
+    "problems": []
+  },
+  "slices": [
+    {
+      "group": "01_三视图",
+      "file": "横版完整设定图_01_三视图_原图.png",
+      "crop": [
+        4190,
+        238,
+        9158,
+        3098
+      ],
+      "size": [
+        4968,
+        2860
+      ],
+      "sha256": "e1a83e0ed83ee9500af0490f14f51bfe90eaecb0ccfb6a31f3368b664148b346"
+    },
+    {
+      "group": "02_表情",
+      "file": "横版完整设定图_02_表情_原图.png",
+      "crop": [
+        70,
+        3098,
+        13278,
+        4934
+      ],
+      "size": [
+        13208,
+        1836
+      ],
+      "sha256": "6c1208cd65bb444642afc2a453f8ffdf94232ecad4ca4fcc360bc4fe0890b98b"
+    },
+    {
+      "group": "03_服装",
+      "file": "横版完整设定图_03_服装_原图.png",
+      "crop": [
+        3366,
+        4934,
+        9982,
+        6770
+      ],
+      "size": [
+        6616,
+        1836
+      ],
+      "sha256": "b3fc82cbc5ea4035976b882928e6b058408e20b17140fb8a7f6f1988c5316d21"
+    },
+    {
+      "group": "04_道具细节",
+      "file": "横版完整设定图_04_道具细节_原图.png",
+      "crop": [
+        894,
+        6770,
+        12454,
+        8682
+      ],
+      "size": [
+        11560,
+        1912
+      ],
+      "sha256": "555eab06193a60cb82c955bc73f469079960f9fdda30041ef073e85b0cf0ff9e"
+    }
+  ],
+  "local_link_checks": 121,
+  "accepted_asset_usage": {
+    "input_tokens": 65645,
+    "output_tokens": 53904,
+    "note": "仅统计当前采用的 22 张素材，修正前版本的用量保存在审图历史。"
+  },
+  "primary_reference_sha256": "9945be9aac51dce19894985e7d27d31deee08579482f58b6d4b0d8db76e33abb",
+  "note": "独立核验母版中的 22 张素材和 4 张原像素切片。原像素母版留在本地，可从独立素材重建。"
+}

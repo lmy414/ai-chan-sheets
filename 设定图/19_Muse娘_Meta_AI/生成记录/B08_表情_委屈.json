@@ -1,0 +1,46 @@
+{
+  "id": "B08_表情_委屈",
+  "group": "02_表情",
+  "label": "委屈",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "@B01_表情_自然微笑",
+    "参考原图/19_Muse娘_Meta_AI/委屈立绘_用户附件.png"
+  ],
+  "prompt": "Edit the first image in place. Show precisely the same single centered bust and white margin, head at the identical scale and position. Retain her eye size, bangs, alpaca ears, blue curls, left infinity clip, wire-frame glasses and shoulders. Apply only the requested facial expression in the last paragraph. If there is a second image, borrow ONLY its facial expression. Keep the white background and omit the plush, hands, captions, extra poses and panels.\nRecreate the SAME Muse character head and upper shoulders. Keep exactly the reference chin and eyes, bright blue irises, thin dark rounded wire glasses, slightly wavy layered ivory bob with curled cobalt ends, a loose ahoge loop, two furry white alpaca ears with pink centers, and the single cobalt infinity clip on HER LEFT, shown on viewer RIGHT. Visible neck and shoulders retain the blue ribbed high neck, wide white jacket lapels with cobalt lining and short cropped fitted silhouette. Copy the face identity from the close-up art and the standard front, maintaining the same gentle anime linework and pink-white shading.\nClean, careful 2D anime reference illustration in the same line-work, delicate pink-gray shading and white/blue palette as the reference. Opaque pure white background with no floor line, no gray cast shadow, no grid, no text, no border, no watermark. Draw exactly one centered requested asset, with open white margin on all four sides and no cropping of the requested silhouette. Preserve the design and proportions of the supplied art. Adapt only the requested pose or facial expression. No embellishments or added accessories.\nSingle square head-and-shoulders expression reference. Head level and nearly straight-on, entire ear tips and both hair tips in frame, similar scale to the accepted front. Show collar and shoulders along lower edge. Only change the brows, eyes and mouth for this expression. Leave hands, Jolly, phone and speech bubbles out of frame. \nExpression: match the distressed face in the second image. Raised inner brows, blue eyes glossy with a few tears just under the lower lids, pink cheeks and a small wavy downturned open mouth. Keep face level.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-18T06:04:36.128036+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "设定图/19_Muse娘_Meta_AI/02_表情/B01_表情_自然微笑.png": "cc5fbe4bea4fe265c41420bd5a6ec70885bebf4a57f75508cc7be431fe3943a3",
+    "参考原图/19_Muse娘_Meta_AI/委屈立绘_用户附件.png": "f1a23d234c0dad293ce4a1974ec79483e190c98ef4c1c3c79b6d88129dd3888e"
+  },
+  "finished_at": "2026-11-18T06:07:02.148024+00:00",
+  "elapsed_seconds": 146.014,
+  "output": "02_表情/B08_表情_委屈.png",
+  "dimensions": [
+    1536,
+    1536
+  ],
+  "output_sha256": "0f6727fd5a93a344da0c96945ad828aa4e72c6a94d36f49c04ec847a8e89986b",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-flare",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 3061,
+    "output_tokens": 2511,
+    "total_tokens": 5572
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

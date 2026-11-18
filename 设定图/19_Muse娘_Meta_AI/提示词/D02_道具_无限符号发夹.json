@@ -1,0 +1,15 @@
+{
+  "id": "D02_道具_无限符号发夹",
+  "group": "04_道具细节",
+  "label": "无限符号发夹",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "参考原图/19_Muse娘_Meta_AI/委屈立绘_用户附件.png",
+    "参考原图/19_Muse娘_Meta_AI/设计拆解_用户附件.png"
+  ],
+  "prompt": "Muse character design fabric/prop study. Match the item depicted in the supplied original illustration of white-haired Muse, especially its actual shape, seams and material finish. Use the same detailed 2D anime linework and restrained cel shading. Large centered readable product silhouette on opaque pure white, in a single 1:1 square. Show only the requested detached item or explicitly named matching set. No person, hands, skin, mannequin, separate callouts, letters, captions, framing or other items.\nOnly the raised shiny cobalt infinity-symbol hair clip, floating as a small product study. Two exactly open oval connected loops, central crossing, rounded tubular enameled blue surfaces and restrained highlights. Rotate it along the diagonal seen on Muse: the lower loop toward image left, upper loop toward image right. The openings show white background. Simple discreet hairclip mounting inferred behind it if visible. No hair or ears.",
+  "inferred_details": true
+}

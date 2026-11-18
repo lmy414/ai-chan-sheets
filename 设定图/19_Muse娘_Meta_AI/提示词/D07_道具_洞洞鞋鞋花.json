@@ -1,0 +1,15 @@
+{
+  "id": "D07_道具_洞洞鞋鞋花",
+  "group": "04_道具细节",
+  "label": "洞洞鞋鞋花",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "参考原图/19_Muse娘_Meta_AI/来源原图_自拍全身.png",
+    "参考原图/19_Muse娘_Meta_AI/设计拆解_用户附件.png"
+  ],
+  "prompt": "Muse character design fabric/prop study. Match the item depicted in the supplied original illustration of white-haired Muse, especially its actual shape, seams and material finish. Use the same detailed 2D anime linework and restrained cel shading. Large centered readable product silhouette on opaque pure white, in a single 1:1 square. Show only the requested detached item or explicitly named matching set. No person, hands, skin, mannequin, separate callouts, letters, captions, framing or other items.\nOne small matching set of two detached charms from the cobalt clogs, evenly spaced side by side at the same scale on a white product-detail image. Left charm: small round plush-mascot-face motif, cream disk, black dot eyes, tiny smile and pink blush. Right charm: flat little white linked infinity symbol with two equal oval holes and dark blue backing as on the shoe. Both smooth small molded pin charms, no extra designs, no shoes and no hands.",
+  "inferred_details": true
+}

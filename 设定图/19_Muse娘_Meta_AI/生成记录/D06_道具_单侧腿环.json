@@ -1,0 +1,46 @@
+{
+  "id": "D06_道具_单侧腿环",
+  "group": "04_道具细节",
+  "label": "单侧腿环",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "@A01_三视图_正面",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_自拍全身.png"
+  ],
+  "prompt": "Draw only the black band on Muse’s anatomical left thigh in the supplied reference. One detached black leather or webbing loop, medium width, single flat rectangular brushed-silver buckle and short black tip. Show a shallow three-quarter product view with the round opening and metal buckle visible. In the references the long blue strap beside it hangs from the waist; omit that strap from this isolated black ring. Match the thoughtful detailed 2D anime prop illustration style of the references. Use a single centered prop on an opaque featureless white square, with open margins. No person, leg, other straps, second ring, text, caption or floor.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-18T06:10:21.316906+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "设定图/19_Muse娘_Meta_AI/01_三视图/A01_三视图_正面.png": "044a915b53fdafd33f677bc54f2211b8afa279634c38a82a41ad34c37ab30528",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_自拍全身.png": "9945be9aac51dce19894985e7d27d31deee08579482f58b6d4b0d8db76e33abb"
+  },
+  "finished_at": "2026-11-18T06:12:37.819669+00:00",
+  "elapsed_seconds": 136.497,
+  "output": "04_道具细节/D06_道具_单侧腿环.png",
+  "dimensions": [
+    1536,
+    1536
+  ],
+  "output_sha256": "c879c917249123100ce4637aa963983f22c51cb53046bdfd115089e3d6f58073",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-flare",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 3190,
+    "output_tokens": 2511,
+    "total_tokens": 5701
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

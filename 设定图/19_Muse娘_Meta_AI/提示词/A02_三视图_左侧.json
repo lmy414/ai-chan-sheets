@@ -1,0 +1,14 @@
+{
+  "id": "A02_三视图_左侧",
+  "group": "01_三视图",
+  "label": "左侧",
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "size": "1536x2560",
+  "route": "gateway",
+  "refs": [
+    "@A01_三视图_正面"
+  ],
+  "prompt": "EDIT THE INPUT IMAGE by turning that one character in place into a SINGLE LEFT-SIDE PROFILE. Replace the entire frontal figure with the rotated version. Keep one figure centered across the full width at x=50 percent. No turnaround sheet, no side-by-side reference, no front view retained anywhere. Use this large vertical canvas for exactly one head-to-toe character.\nRotate the entire body, head, both feet and costume by exactly 90 degrees. Camera on her anatomical left, nose and toes point left. Draw the visible near eye and the left temple of her thin wire-frame glasses in true flat profile. Left infinity hair clip and black left thigh band on the visible side. Preserve the exact source colors, stature, ear-to-shoe scale, hair ends, loose blue inner strands, white cropped techwear jacket, blue ribbed top, white shorts, left-side thigh strap and blue-white clogs. Keep her arms relaxed at her sides, hands empty, no toys or phone. Preserve white margin above the ahoge hair loop and below both soles.\nUse the original drawing style and clean opaque pure white background. The result contains only one profile silhouette. No label, lines, panels or duplicate figure.",
+  "inferred_details": true
+}

@@ -1,0 +1,15 @@
+{
+  "id": "C01_服装_蓝白机能外套",
+  "group": "03_服装",
+  "label": "蓝白机能外套",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "@A01_三视图_正面",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_挥手.png"
+  ],
+  "prompt": "Muse character design fabric/prop study. Match the item depicted in the supplied original illustration of white-haired Muse, especially its actual shape, seams and material finish. Use the same detailed 2D anime linework and restrained cel shading. Large centered readable product silhouette on opaque pure white, in a single 1:1 square. Show only the requested detached item or explicitly named matching set. No person, hands, skin, mannequin, separate callouts, letters, captions, framing or other items.\nOne empty, off-body cropped techwear jacket laid open and front-facing, floating at shape with no wearer. Match the large white puff sleeves and cropped white torso, the broad angular lapels in cobalt lining, blue cuffs with inset dark square rectangular brushed metal buckles, exposed zipper teeth in black/silver along side seams and lapel edges, and a handful of hanging cobalt webbing straps with dark rectangular tips. Use clean readable shape, both ends and hems visible. No hood, no undershirt, no pockets added over the open silhouette.",
+  "inferred_details": true
+}

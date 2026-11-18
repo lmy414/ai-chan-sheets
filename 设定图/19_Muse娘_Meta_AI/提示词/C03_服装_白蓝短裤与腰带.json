@@ -1,0 +1,15 @@
+{
+  "id": "C03_服装_白蓝短裤与腰带",
+  "group": "03_服装",
+  "label": "白蓝短裤与腰带",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "设定图/19_Muse娘_Meta_AI/审图历史/C03_服装_白蓝短裤与腰带_v01.png",
+    "@A01_三视图_正面"
+  ],
+  "prompt": "Edit ONLY the detached shorts in image 1. Preserve its one centered plain white square composition, black belt and side panel placement. Compare the front waistband and fly in image 2, the designated turn-around reference. Replace the existing white center fly placket with the same bright cobalt insert from image 2: immediately below the black belt buckle, a single narrow vertical blue panel tapering into a rounded tip near the crotch seam. Satin-matte fabric with stitched seams and no added lettering. Keep the same outer white material, brush-metal buckle, blue side trims and garment silhouette of image 1. Only the one detached shorts-with-belt item from image 1 remains in the result. No person, no thigh strap, no decorations, no secondary view and no caption.",
+  "inferred_details": true
+}

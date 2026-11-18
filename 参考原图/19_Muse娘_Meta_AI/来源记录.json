@@ -1,0 +1,146 @@
+{
+  "character": "Muse 娘（Meta AI）",
+  "checked_on": "2026-11-18",
+  "primary_archive_page": "https://xn--pssy23gqgbz2d718b.com/works/other202611130007.html",
+  "archive_image_credit": "B站 识知不失智",
+  "archive_source_author": "原作者未标注",
+  "original_license": "unknown",
+  "source_notice": "原创立绘与设定 · 欢迎二创",
+  "license_note": "图上有二创邀请。公开作品页未列明标准许可及原图分发条款。原图许可记录为 unknown。",
+  "reference_images": [
+    {
+      "file": "来源原图_宣传立绘.png",
+      "dimensions": [
+        1500,
+        2000
+      ],
+      "mode": "RGB",
+      "sha256": "10805a93eeb02741e3fac7308a000f95fb25fcc5377ba303e697b5c20fdcdade",
+      "archive_page": "https://xn--pssy23gqgbz2d718b.com/works/other202611130007.html",
+      "archive_download": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/other/10805a93eeb02741.png",
+      "archive_sha256": "10805a93eeb02741e3fac7308a000f95fb25fcc5377ba303e697b5c20fdcdade",
+      "archive_dimensions": [
+        1500,
+        2000
+      ],
+      "input_type": "archive_original",
+      "relation": "下载原图，文件字节一致"
+    },
+    {
+      "file": "来源原图_自拍全身.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "9945be9aac51dce19894985e7d27d31deee08579482f58b6d4b0d8db76e33abb",
+      "archive_page": "https://xn--pssy23gqgbz2d718b.com/works/other202611130001.html",
+      "archive_download": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/other/9945be9aac51dce1.png",
+      "archive_sha256": "9945be9aac51dce19894985e7d27d31deee08579482f58b6d4b0d8db76e33abb",
+      "archive_dimensions": [
+        1024,
+        1536
+      ],
+      "input_type": "archive_original",
+      "relation": "下载原图，文件字节一致"
+    },
+    {
+      "file": "来源原图_挥手.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "b78e4951aa33fd6e1eaf64f9ab9535329d982a7be6c79e55fc894e4d98e528e3",
+      "archive_page": "https://xn--pssy23gqgbz2d718b.com/works/other202611130002.html",
+      "archive_download": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/other/b78e4951aa33fd6e.png",
+      "archive_sha256": "b78e4951aa33fd6e1eaf64f9ab9535329d982a7be6c79e55fc894e4d98e528e3",
+      "archive_dimensions": [
+        1024,
+        1536
+      ],
+      "input_type": "archive_original",
+      "relation": "下载原图，文件字节一致"
+    },
+    {
+      "file": "来源原图_笑眯眯.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "4592543769de2eaf9f2e6e2aab405cd4fbd25b47cc7ec06d9894f1cd995a644d",
+      "archive_page": "https://xn--pssy23gqgbz2d718b.com/works/other202611130003.html",
+      "archive_download": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/other/4592543769de2eaf.png",
+      "archive_sha256": "4592543769de2eaf9f2e6e2aab405cd4fbd25b47cc7ec06d9894f1cd995a644d",
+      "archive_dimensions": [
+        1024,
+        1536
+      ],
+      "input_type": "archive_original",
+      "relation": "下载原图，文件字节一致"
+    },
+    {
+      "file": "来源原图_小得意.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "a0aa305ec85d72c1e09df24fd8a50eeeb75e496abfaec70b744b31f2b60247b3",
+      "archive_page": "https://xn--pssy23gqgbz2d718b.com/works/other202611130004.html",
+      "archive_download": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/other/a0aa305ec85d72c1.png",
+      "archive_sha256": "a0aa305ec85d72c1e09df24fd8a50eeeb75e496abfaec70b744b31f2b60247b3",
+      "archive_dimensions": [
+        1024,
+        1536
+      ],
+      "input_type": "archive_original",
+      "relation": "下载原图，文件字节一致"
+    },
+    {
+      "file": "设计拆解_用户附件.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "mode": "RGB",
+      "sha256": "bfd7122b02a6ee38bff442e76ad128f50a7d16be9426b98cb038ce9999b2110f",
+      "archive_page": "https://xn--pssy23gqgbz2d718b.com/works/other202611130006.html",
+      "archive_download": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/other/d252def6519dbe70.png",
+      "archive_sha256": "d252def6519dbe70d144c4069c091c565dd4d659686bcdacf8f288826b243268",
+      "archive_dimensions": [
+        2560,
+        1440
+      ],
+      "input_type": "user_attachment",
+      "relation": "同一画面，输入为附件尺寸",
+      "archive_alignment": {
+        "method": "白底合成后，将归档版按附件尺寸做 Lanczos 缩放，计算 RGB 平均绝对差。",
+        "rgb_mean_absolute_difference": 2.115
+      }
+    },
+    {
+      "file": "委屈立绘_用户附件.png",
+      "dimensions": [
+        853,
+        1280
+      ],
+      "mode": "RGBA",
+      "sha256": "f1a23d234c0dad293ce4a1974ec79483e190c98ef4c1c3c79b6d88129dd3888e",
+      "archive_page": "https://xn--pssy23gqgbz2d718b.com/works/other202611130005.html",
+      "archive_download": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/other/43ec3bbf02732e33.png",
+      "archive_sha256": "43ec3bbf02732e33da91503f0eab04a55c495cc27471a1943aeff62faff43dc8",
+      "archive_dimensions": [
+        1024,
+        1536
+      ],
+      "input_type": "user_attachment",
+      "relation": "同一画面，输入为附件尺寸",
+      "archive_alignment": {
+        "method": "白底合成后，将归档版按附件尺寸做 Lanczos 缩放，计算 RGB 平均绝对差。",
+        "rgb_mean_absolute_difference": 2.043
+      }
+    }
+  ]
+}

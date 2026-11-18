@@ -1,0 +1,15 @@
+{
+  "id": "D05_道具_Jolly玩偶",
+  "group": "04_道具细节",
+  "label": "Jolly玩偶",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "参考原图/19_Muse娘_Meta_AI/委屈立绘_用户附件.png",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_笑眯眯.png"
+  ],
+  "prompt": "Muse character design fabric/prop study. Match the item depicted in the supplied original illustration of white-haired Muse, especially its actual shape, seams and material finish. Use the same detailed 2D anime linework and restrained cel shading. Large centered readable product silhouette on opaque pure white, in a single 1:1 square. Show only the requested detached item or explicitly named matching set. No person, hands, skin, mannequin, separate callouts, letters, captions, framing or other items.\nOnly the exact Jolly plush mascot from the first and second provided images, centered front-facing, full plush from crown to little feet. Warm ivory-beige soft fuzzy rounded bean body and hood, low broad cream oval inner face, two tiny black round eyes, small black curved smile and soft pink cheek circles. Two short plush hands holding ONE small glowing iridescent blue-purple bubble at chest height. Two short rounded feet, no new marking, ears, clothes or backdrop. Keep the mascot shape as shown, especially the face proportions and warm fleece texture.",
+  "inferred_details": true
+}

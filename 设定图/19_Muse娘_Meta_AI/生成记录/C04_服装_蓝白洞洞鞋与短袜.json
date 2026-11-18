@@ -1,0 +1,46 @@
+{
+  "id": "C04_服装_蓝白洞洞鞋与短袜",
+  "group": "03_服装",
+  "label": "蓝白洞洞鞋与短袜",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "参考原图/19_Muse娘_Meta_AI/来源原图_自拍全身.png",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_挥手.png"
+  ],
+  "prompt": "Muse character design fabric/prop study. Match the item depicted in the supplied original illustration of white-haired Muse, especially its actual shape, seams and material finish. Use the same detailed 2D anime linework and restrained cel shading. Large centered readable product silhouette on opaque pure white, in a single 1:1 square. Show only the requested detached item or explicitly named matching set. No person, hands, skin, mannequin, separate callouts, letters, captions, framing or other items.\nOne styled detached FOOTWEAR SET. Place a matched left and right pair of the exact cobalt blue clogs together, at a shallow 3/4 angle, with their two small white scrunched ankle socks folded behind. Rounded blue perforated clog toes, chunky scalloped ivory sole with blue side trim, short white heel straps, tiny cream mascot face and flat white infinity clog charms on the toes. No feet in the shoes, no person. All four set components on the same white background, within frame.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-18T06:03:52.574726+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "参考原图/19_Muse娘_Meta_AI/来源原图_自拍全身.png": "9945be9aac51dce19894985e7d27d31deee08579482f58b6d4b0d8db76e33abb",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_挥手.png": "b78e4951aa33fd6e1eaf64f9ab9535329d982a7be6c79e55fc894e4d98e528e3"
+  },
+  "finished_at": "2026-11-18T06:05:36.200973+00:00",
+  "elapsed_seconds": 103.622,
+  "output": "03_服装/C04_服装_蓝白洞洞鞋与短袜.png",
+  "dimensions": [
+    1536,
+    1536
+  ],
+  "output_sha256": "16d31b38de9408c14df15cc3fc8599aa3476ecc0c49eb0387aa65d6c36f941a3",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-flare",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 3301,
+    "output_tokens": 2511,
+    "total_tokens": 5812
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

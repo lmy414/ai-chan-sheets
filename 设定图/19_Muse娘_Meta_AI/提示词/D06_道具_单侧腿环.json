@@ -1,0 +1,15 @@
+{
+  "id": "D06_道具_单侧腿环",
+  "group": "04_道具细节",
+  "label": "单侧腿环",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "@A01_三视图_正面",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_自拍全身.png"
+  ],
+  "prompt": "Draw only the black band on Muse’s anatomical left thigh in the supplied reference. One detached black leather or webbing loop, medium width, single flat rectangular brushed-silver buckle and short black tip. Show a shallow three-quarter product view with the round opening and metal buckle visible. In the references the long blue strap beside it hangs from the waist; omit that strap from this isolated black ring. Match the thoughtful detailed 2D anime prop illustration style of the references. Use a single centered prop on an opaque featureless white square, with open margins. No person, leg, other straps, second ring, text, caption or floor.",
+  "inferred_details": true
+}

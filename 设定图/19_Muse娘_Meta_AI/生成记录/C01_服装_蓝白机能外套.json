@@ -1,0 +1,46 @@
+{
+  "id": "C01_服装_蓝白机能外套",
+  "group": "03_服装",
+  "label": "蓝白机能外套",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "@A01_三视图_正面",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_挥手.png"
+  ],
+  "prompt": "Muse character design fabric/prop study. Match the item depicted in the supplied original illustration of white-haired Muse, especially its actual shape, seams and material finish. Use the same detailed 2D anime linework and restrained cel shading. Large centered readable product silhouette on opaque pure white, in a single 1:1 square. Show only the requested detached item or explicitly named matching set. No person, hands, skin, mannequin, separate callouts, letters, captions, framing or other items.\nOne empty, off-body cropped techwear jacket laid open and front-facing, floating at shape with no wearer. Match the large white puff sleeves and cropped white torso, the broad angular lapels in cobalt lining, blue cuffs with inset dark square rectangular brushed metal buckles, exposed zipper teeth in black/silver along side seams and lapel edges, and a handful of hanging cobalt webbing straps with dark rectangular tips. Use clean readable shape, both ends and hems visible. No hood, no undershirt, no pockets added over the open silhouette.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-18T05:57:22.756996+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "设定图/19_Muse娘_Meta_AI/01_三视图/A01_三视图_正面.png": "044a915b53fdafd33f677bc54f2211b8afa279634c38a82a41ad34c37ab30528",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_挥手.png": "b78e4951aa33fd6e1eaf64f9ab9535329d982a7be6c79e55fc894e4d98e528e3"
+  },
+  "finished_at": "2026-11-18T05:59:30.205060+00:00",
+  "elapsed_seconds": 127.442,
+  "output": "03_服装/C01_服装_蓝白机能外套.png",
+  "dimensions": [
+    1536,
+    1536
+  ],
+  "output_sha256": "6518edf0c3bae17aa0e5587051147e9084ff0ab91f83ec030e4c0ece65ac6380",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGBA",
+  "returned_model": "openai/gpt-image-2.6-flare",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 3272,
+    "output_tokens": 2511,
+    "total_tokens": 5783
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

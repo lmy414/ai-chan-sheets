@@ -1,0 +1,46 @@
+{
+  "id": "D02_道具_无限符号发夹",
+  "group": "04_道具细节",
+  "label": "无限符号发夹",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "参考原图/19_Muse娘_Meta_AI/委屈立绘_用户附件.png",
+    "参考原图/19_Muse娘_Meta_AI/设计拆解_用户附件.png"
+  ],
+  "prompt": "Muse character design fabric/prop study. Match the item depicted in the supplied original illustration of white-haired Muse, especially its actual shape, seams and material finish. Use the same detailed 2D anime linework and restrained cel shading. Large centered readable product silhouette on opaque pure white, in a single 1:1 square. Show only the requested detached item or explicitly named matching set. No person, hands, skin, mannequin, separate callouts, letters, captions, framing or other items.\nOnly the raised shiny cobalt infinity-symbol hair clip, floating as a small product study. Two exactly open oval connected loops, central crossing, rounded tubular enameled blue surfaces and restrained highlights. Rotate it along the diagonal seen on Muse: the lower loop toward image left, upper loop toward image right. The openings show white background. Simple discreet hairclip mounting inferred behind it if visible. No hair or ears.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-18T06:07:24.202839+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "参考原图/19_Muse娘_Meta_AI/委屈立绘_用户附件.png": "f1a23d234c0dad293ce4a1974ec79483e190c98ef4c1c3c79b6d88129dd3888e",
+    "参考原图/19_Muse娘_Meta_AI/设计拆解_用户附件.png": "bfd7122b02a6ee38bff442e76ad128f50a7d16be9426b98cb038ce9999b2110f"
+  },
+  "finished_at": "2026-11-18T06:08:14.122095+00:00",
+  "elapsed_seconds": 49.917,
+  "output": "04_道具细节/D02_道具_无限符号发夹.png",
+  "dimensions": [
+    1536,
+    1536
+  ],
+  "output_sha256": "52552072d8c6ba81c5b88edb3dbe85df06cd9c4b42796b5b252b889342ce14ae",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGBA",
+  "returned_model": "openai/gpt-image-2.6-flare",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 2208,
+    "output_tokens": 2511,
+    "total_tokens": 4719
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

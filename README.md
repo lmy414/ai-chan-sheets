@@ -6,7 +6,7 @@
 
 ## 角色图鉴
 
-收录 18 个条目、19 张设定板。点图片看大图，点角色名进入目录查找原像素切片和制作记录。
+收录 19 个条目、20 张设定板。点图片看大图，点角色名进入目录查找原像素切片和制作记录。
 
 <table width="100%">
 <tr>
@@ -123,7 +123,11 @@
 <strong><a href="设定图/18_Mistral娘_法棍猫猫/">Mistral 娘</a></strong><br>
 <sub>18 · 法棍猫猫</sub>
 </td>
-<td width="50%"></td>
+<td width="50%" align="center" valign="top">
+<a href="设定图/19_Muse娘_Meta_AI/完整设定图_浏览预览.jpg"><img src="docs/previews/19.webp" alt="Muse 娘（Meta AI）的横版设定图" width="100%"></a><br>
+<strong><a href="设定图/19_Muse娘_Meta_AI/">Muse 娘</a></strong><br>
+<sub>19 · Meta AI</sub>
+</td>
 </tr>
 </table>
 
@@ -131,12 +135,12 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/star-history-dark.svg">
-  <img src="docs/star-history.svg" alt="仓库 Star 历史：从 2026 年 10 月建库开始，10 月 20 日出现最大单日增长" width="100%">
+  <img src="docs/star-history.svg" alt="2026 年 10 月 8 日至 11 月 18 日的仓库 Star 累计曲线" width="100%">
 </picture>
 
-曲线更新至 2026 年 11 月 10 日，按 UTC 日期累计。10 月 20 日增加 190 条，为这次快照中的最高单日增量。
+曲线更新至 2026 年 11 月 18 日，按 UTC 日期累计。10 月 20 日记录数最多，当天有 191 条。
 
-[逐日数据](docs/star-history.json)来自 [GitHub 的 Star 列表接口](https://docs.github.com/en/rest/activity/starring#list-stargazers)。列表返回 518 条带时间戳的记录，同期仓库概览显示 517 Stars。曲线以列表为准，已取消的 Star 无法从列表还原。
+本次快照包含 609 条带时间戳的记录，与取数时的仓库 Star 数一致。曲线按当前仍保留的 Star 记录绘制。[逐日数据](docs/star-history.json) · [GitHub 的 Star 列表接口](https://docs.github.com/en/rest/activity/starring#list-stargazers)
 
 感谢 [@scarletkc](https://github.com/scarletkc) 在 [X](https://x.com/ScarletKc/status/2112406550186967218) 分享图集，并在 [#7](https://github.com/lmy414/ai-chan-sheets/issues/7) 帮忙纠正来源记录。
 
@@ -146,7 +150,7 @@
 
 [Qwen 原始立绘](参考原图/05_通义千问娘_Qwen/原图_立绘_全身.jpg) · [四个分区的查看图](设定图/05_通义千问娘_Qwen/便于查看/) · [原像素切片](设定图/05_通义千问娘_Qwen/原图切片/)
 
-每套设定板包含 22 张素材：3 张三视图、8 张表情、4 件服装和 7 项道具与饰品。素材按 1:1 原像素拼接，并逐字节核验。仓库保留浏览预览、分区查看图和 4 张原像素切片；全尺寸母版留在制作工程中。第 13 至 18 条另附独立素材，可用脚本重建母版。
+每套设定板包含 22 张素材：3 张三视图、8 张表情、4 件服装和 7 项道具与饰品。素材按 1:1 原像素拼接，并逐字节核验。仓库保留浏览预览、分区查看图和 4 张原像素切片；全尺寸母版留在制作工程中。第 13 至 19 条另附独立素材，可用脚本重建母版。
 
 [原始参考图目录](参考原图/) · [制作流程](docs/生图流程.md) · [拼板、切片与核验脚本](scripts/README.md)
 
@@ -173,6 +177,7 @@
 | 16 | [MiMo 兔娘（@Immyxxr · 女仆装）](设定图/16_MiMo兔娘_Immyxxr_女仆装/) | 小米 / MiMo | 22 | 11,092 × 6842 | 1.62 : 1 |
 | 17 | [LongCat 娘（美团龙猫 · 现代外套）](设定图/17_LongCat娘_美团龙猫_现代外套/) | 美团 / LongCat | 22 | 11,092 × 6842 | 1.62 : 1 |
 | 18 | [Mistral 娘（法棍猫猫）](设定图/18_Mistral娘_法棍猫猫/) | Mistral AI | 22 | 13,348 × 8,712 | 1.53 : 1 |
+| 19 | [Muse 娘（Meta AI）](设定图/19_Muse娘_Meta_AI/) | Meta AI / Muse | 22 | 13,348 × 8,712 | 1.53 : 1 |
 
 第 12 条包括 [冬装小肥鱼](设定图/12_DeepSeek娘_Q版冬装/冬装小肥鱼/) 和 [冬装小肥鱼 2](设定图/12_DeepSeek娘_Q版冬装/冬装小肥鱼2/)，各 22 张素材。
 
@@ -180,6 +185,6 @@
 
 ## 出处与授权
 
-角色形象与原始设定主要来自 [ZipZipPipe（胖次狐）](https://space.bilibili.com/4168597)。第 12 至 14 条的原作者未标注；第 15、17 条署名 @甶丶，第 16 条署名 @Immyxxr。
+角色形象与原始设定主要来自 [ZipZipPipe（胖次狐）](https://space.bilibili.com/4168597)。第 12 至 14 条的原作者未标注；第 15、17 条署名 @甶丶，第 16 条署名 @Immyxxr。第 19 条作品页署名为 B 站「识知不失智」。
 
 本仓库收录非商业设定图补全。各原作的权利状态和使用范围以[版权与授权记录](版权与授权.md)为准。

@@ -1,0 +1,44 @@
+{
+  "id": "A03_三视图_背面",
+  "group": "01_三视图",
+  "label": "背面",
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "size": "1536x2560",
+  "route": "gateway",
+  "refs": [
+    "@A01_三视图_正面"
+  ],
+  "prompt": "EDIT THE INPUT IMAGE. Turn the existing subject in place by 180 degrees so the viewer sees exactly ONE character entirely from the back. Completely replace the front drawing. No side-by-side figures, front copy, layout samples or turnaround sheet. Single centered full figure across the vertical canvas.\nShow the exact same adult Muse with the same silhouette, proportions, ear-to-sole scale, ivory hair over cobalt blue curls, two alpaca ears and blue-white clothes. Only the back of her head, her back and the backs of both feet are visible. No eye, no cheek, no eyewear from behind, no clip planted on the back of the head. The white cropped jacket remains lowered to the upper arms as in the front, with a simple inferred back yoke of white shell and cobalt edging, open near the blue knit top. Keep existing dark zippers and off-shoulder sleeves, white shorts, distinct black waist belt, white ankle socks and heel straps on the cobalt clogs. Single black ring on her LEFT THIGH (image left in this back view), plus one adjacent dangling blue strap. No band on the other thigh, no added back decorations, hood, logo or tail. Keep both arms loosely at the sides, both hands empty and both feet aligned. White space above the ear tips and below both soles.\nRetain the clean original anime colors, black and warm-pink detail linework and opaque white background. One orthographic back view only, no text, panels or duplicates.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-18T05:55:14.628820+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "设定图/19_Muse娘_Meta_AI/01_三视图/A01_三视图_正面.png": "044a915b53fdafd33f677bc54f2211b8afa279634c38a82a41ad34c37ab30528"
+  },
+  "finished_at": "2026-11-18T05:57:22.746835+00:00",
+  "elapsed_seconds": 128.115,
+  "output": "01_三视图/A03_三视图_背面.png",
+  "dimensions": [
+    1536,
+    2560
+  ],
+  "output_sha256": "10f8a35dbacc00ca1c15b8c2de35f02ffc0f1bb62f849836902b51bd02d80f17",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-sunburst",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 1819,
+    "output_tokens": 2065,
+    "total_tokens": 3884
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

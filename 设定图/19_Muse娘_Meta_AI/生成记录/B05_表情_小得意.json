@@ -1,0 +1,46 @@
+{
+  "id": "B05_表情_小得意",
+  "group": "02_表情",
+  "label": "小得意",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "@B01_表情_自然微笑",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_小得意.png"
+  ],
+  "prompt": "Edit the first image in place. Show precisely the same single centered bust and white margin, head at the identical scale and position. Retain her eye size, bangs, alpaca ears, blue curls, left infinity clip, wire-frame glasses and shoulders. Apply only the requested facial expression in the last paragraph. If there is a second image, borrow ONLY its facial expression. Keep the white background and omit the plush, hands, captions, extra poses and panels.\nRecreate the SAME Muse character head and upper shoulders. Keep exactly the reference chin and eyes, bright blue irises, thin dark rounded wire glasses, slightly wavy layered ivory bob with curled cobalt ends, a loose ahoge loop, two furry white alpaca ears with pink centers, and the single cobalt infinity clip on HER LEFT, shown on viewer RIGHT. Visible neck and shoulders retain the blue ribbed high neck, wide white jacket lapels with cobalt lining and short cropped fitted silhouette. Copy the face identity from the close-up art and the standard front, maintaining the same gentle anime linework and pink-white shading.\nClean, careful 2D anime reference illustration in the same line-work, delicate pink-gray shading and white/blue palette as the reference. Opaque pure white background with no floor line, no gray cast shadow, no grid, no text, no border, no watermark. Draw exactly one centered requested asset, with open white margin on all four sides and no cropping of the requested silhouette. Preserve the design and proportions of the supplied art. Adapt only the requested pose or facial expression. No embellishments or added accessories.\nSingle square head-and-shoulders expression reference. Head level and nearly straight-on, entire ear tips and both hair tips in frame, similar scale to the accepted front. Show collar and shoulders along lower edge. Only change the brows, eyes and mouth for this expression. Leave hands, Jolly, phone and speech bubbles out of frame. \nExpression: follow the second image, sly little asymmetrical closed smirk, slightly lowered upper eyelids, one brow raised a little. Both eyes readable behind thin glasses.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-18T05:58:55.138734+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "设定图/19_Muse娘_Meta_AI/02_表情/B01_表情_自然微笑.png": "cc5fbe4bea4fe265c41420bd5a6ec70885bebf4a57f75508cc7be431fe3943a3",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_小得意.png": "a0aa305ec85d72c1e09df24fd8a50eeeb75e496abfaec70b744b31f2b60247b3"
+  },
+  "finished_at": "2026-11-18T06:01:09.539980+00:00",
+  "elapsed_seconds": 134.396,
+  "output": "02_表情/B05_表情_小得意.png",
+  "dimensions": [
+    1536,
+    1536
+  ],
+  "output_sha256": "1cc98e6616ff7bba95e6ac30a3af1a22b0a35fc2c3e51673e5d6719ef253ff4d",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-flare",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 3507,
+    "output_tokens": 2511,
+    "total_tokens": 6018
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

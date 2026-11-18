@@ -1,0 +1,46 @@
+{
+  "id": "D03_道具_细框圆眼镜",
+  "group": "04_道具细节",
+  "label": "细框圆眼镜",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "参考原图/19_Muse娘_Meta_AI/委屈立绘_用户附件.png",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_小得意.png"
+  ],
+  "prompt": "Muse character design fabric/prop study. Match the item depicted in the supplied original illustration of white-haired Muse, especially its actual shape, seams and material finish. Use the same detailed 2D anime linework and restrained cel shading. Large centered readable product silhouette on opaque pure white, in a single 1:1 square. Show only the requested detached item or explicitly named matching set. No person, hands, skin, mannequin, separate callouts, letters, captions, framing or other items.\nOnly the original slender dark wire-frame glasses as a shallow three-quarter product view. Two fine dark graphite almost-round oval frames with clear lenses, thin nose bridge, tiny subtle metallic hinge details and slim temples. Match the delicate glasses in the first image, avoid thick plastic corners, sunglasses, electronics, writing and decoration. Both lens shapes very clear.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-18T06:08:14.128056+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "参考原图/19_Muse娘_Meta_AI/委屈立绘_用户附件.png": "f1a23d234c0dad293ce4a1974ec79483e190c98ef4c1c3c79b6d88129dd3888e",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_小得意.png": "a0aa305ec85d72c1e09df24fd8a50eeeb75e496abfaec70b744b31f2b60247b3"
+  },
+  "finished_at": "2026-11-18T06:10:05.615007+00:00",
+  "elapsed_seconds": 111.482,
+  "output": "04_道具细节/D03_道具_细框圆眼镜.png",
+  "dimensions": [
+    1536,
+    1536
+  ],
+  "output_sha256": "58a1b9c6165b910aaf1506880eda4c4ebb138cc9d52d96b034aa852a9313e143",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-flare",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 2811,
+    "output_tokens": 2511,
+    "total_tokens": 5322
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

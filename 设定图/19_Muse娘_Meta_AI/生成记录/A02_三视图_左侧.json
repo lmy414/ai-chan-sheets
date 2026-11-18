@@ -1,0 +1,44 @@
+{
+  "id": "A02_三视图_左侧",
+  "group": "01_三视图",
+  "label": "左侧",
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "size": "1536x2560",
+  "route": "gateway",
+  "refs": [
+    "@A01_三视图_正面"
+  ],
+  "prompt": "EDIT THE INPUT IMAGE by turning that one character in place into a SINGLE LEFT-SIDE PROFILE. Replace the entire frontal figure with the rotated version. Keep one figure centered across the full width at x=50 percent. No turnaround sheet, no side-by-side reference, no front view retained anywhere. Use this large vertical canvas for exactly one head-to-toe character.\nRotate the entire body, head, both feet and costume by exactly 90 degrees. Camera on her anatomical left, nose and toes point left. Draw the visible near eye and the left temple of her thin wire-frame glasses in true flat profile. Left infinity hair clip and black left thigh band on the visible side. Preserve the exact source colors, stature, ear-to-shoe scale, hair ends, loose blue inner strands, white cropped techwear jacket, blue ribbed top, white shorts, left-side thigh strap and blue-white clogs. Keep her arms relaxed at her sides, hands empty, no toys or phone. Preserve white margin above the ahoge hair loop and below both soles.\nUse the original drawing style and clean opaque pure white background. The result contains only one profile silhouette. No label, lines, panels or duplicate figure.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-18T05:51:39.292873+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "设定图/19_Muse娘_Meta_AI/01_三视图/A01_三视图_正面.png": "044a915b53fdafd33f677bc54f2211b8afa279634c38a82a41ad34c37ab30528"
+  },
+  "finished_at": "2026-11-18T05:54:22.063832+00:00",
+  "elapsed_seconds": 162.767,
+  "output": "01_三视图/A02_三视图_左侧.png",
+  "dimensions": [
+    1536,
+    2560
+  ],
+  "output_sha256": "9697bfd4f50a8a7a24f6c8e8533494b13ea16afefbd38ebe98e89dac7387ca4e",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-sunburst",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 1758,
+    "output_tokens": 2065,
+    "total_tokens": 3823
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

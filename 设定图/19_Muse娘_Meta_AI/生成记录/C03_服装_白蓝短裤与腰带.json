@@ -1,0 +1,46 @@
+{
+  "id": "C03_服装_白蓝短裤与腰带",
+  "group": "03_服装",
+  "label": "白蓝短裤与腰带",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "设定图/19_Muse娘_Meta_AI/审图历史/C03_服装_白蓝短裤与腰带_v01.png",
+    "@A01_三视图_正面"
+  ],
+  "prompt": "Edit ONLY the detached shorts in image 1. Preserve its one centered plain white square composition, black belt and side panel placement. Compare the front waistband and fly in image 2, the designated turn-around reference. Replace the existing white center fly placket with the same bright cobalt insert from image 2: immediately below the black belt buckle, a single narrow vertical blue panel tapering into a rounded tip near the crotch seam. Satin-matte fabric with stitched seams and no added lettering. Keep the same outer white material, brush-metal buckle, blue side trims and garment silhouette of image 1. Only the one detached shorts-with-belt item from image 1 remains in the result. No person, no thigh strap, no decorations, no secondary view and no caption.",
+  "inferred_details": true,
+  "status": "success",
+  "started_at": "2026-11-18T06:09:55.397384+00:00",
+  "attempt": 1,
+  "endpoint": "http://127.0.0.1:3425/v1/images/edits",
+  "reference_sha256": {
+    "设定图/19_Muse娘_Meta_AI/审图历史/C03_服装_白蓝短裤与腰带_v01.png": "b1299ef54b10ac151978c347af94833a717c1200524b0746912a9b3971dc6c1c",
+    "设定图/19_Muse娘_Meta_AI/01_三视图/A01_三视图_正面.png": "044a915b53fdafd33f677bc54f2211b8afa279634c38a82a41ad34c37ab30528"
+  },
+  "finished_at": "2026-11-18T06:11:57.345984+00:00",
+  "elapsed_seconds": 121.943,
+  "output": "03_服装/C03_服装_白蓝短裤与腰带.png",
+  "dimensions": [
+    1536,
+    1536
+  ],
+  "output_sha256": "228d09e2da3565208d3a13a19ae34be5cdea027e7e953c40a01c36bdd1da63b8",
+  "returned_file_format": "PNG",
+  "returned_mode": "RGB",
+  "returned_model": "openai/gpt-image-2.6-flare",
+  "returned_settings": {
+    "size": null,
+    "quality": null,
+    "output_format": null
+  },
+  "usage": {
+    "input_tokens": 3203,
+    "output_tokens": 2511,
+    "total_tokens": 5714
+  },
+  "revised_prompt": null,
+  "settings_note": "显式调用本机 edits 端点；不回退纯文生图。请求参数与实际文件尺寸分别记录。"
+}

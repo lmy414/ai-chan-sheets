@@ -1,0 +1,15 @@
+{
+  "id": "D01_道具_羊驼耳",
+  "group": "04_道具细节",
+  "label": "羊驼耳",
+  "model": "gpt-image-2.6-flare",
+  "quality": "high",
+  "size": "1536x1536",
+  "route": "gateway",
+  "refs": [
+    "参考原图/19_Muse娘_Meta_AI/委屈立绘_用户附件.png",
+    "参考原图/19_Muse娘_Meta_AI/来源原图_宣传立绘.png"
+  ],
+  "prompt": "Muse character design fabric/prop study. Match the item depicted in the supplied original illustration of white-haired Muse, especially its actual shape, seams and material finish. Use the same detailed 2D anime linework and restrained cel shading. Large centered readable product silhouette on opaque pure white, in a single 1:1 square. Show only the requested detached item or explicitly named matching set. No person, hands, skin, mannequin, separate callouts, letters, captions, framing or other items.\nA matching pair of Muse alpaca ears only, seen from the front as an isolated 2D character detail. Use the two upward pointed, broad ivory fur ear shapes from image 1, longer outer fur edge, pale pink inner triangles, a single soft ivory tuft near the base of each ear. Keep them simple and softly textured, positioned as a symmetrical wearable anatomy reference with a little implied root fur, no face, no ribbon, no band, no head.",
+  "inferred_details": true
+}
