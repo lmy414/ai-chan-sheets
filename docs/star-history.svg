@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="382" viewBox="0 0 760 382" role="img" aria-labelledby="title desc">
   <title id="title">AI 娘设定图集 · Star 曲线</title>
-  <desc id="desc">按 UTC 日期累计，2026 年 10 月 8 日至 11 月 18 日。快照包含 609 条带时间戳的 Star 记录，10 月 20 日的 191 条为单日最多。</desc>
+  <desc id="desc">按 UTC 日期累计，2026 年 10 月 8 日至 11 月 21 日。快照包含 642 条带时间戳的 Star 记录，10 月 20 日的 191 条为单日最多。</desc>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
       <stop stop-color="#fdfbff"/><stop offset="1" stop-color="#f1edff"/>
@@ -13,7 +13,7 @@
   <g font-family="system-ui, Segoe UI, sans-serif" font-variant-numeric="tabular-nums">
     <path d="M43 26l2.7 7.3L53 36l-7.3 2.7L43 46l-2.7-7.3L33 36l7.3-2.7z" fill="#6c42d5"/>
     <text x="63" y="42" font-size="17" letter-spacing="2.4" font-weight="650" fill="#655581">STAR HISTORY</text>
-    <text x="32" y="100" font-size="53" letter-spacing="-2" font-weight="760" fill="#21163b">609</text>
+    <text x="32" y="100" font-size="53" letter-spacing="-2" font-weight="760" fill="#21163b">642</text>
     <text x="135" y="97" font-size="16" letter-spacing="1.2" font-weight="650" fill="#655581">STARS IN SNAPSHOT</text>
     <text x="725" y="46" text-anchor="end" font-size="22" font-weight="690" fill="#21163b">OCT – NOV 2026</text>
     <text x="725" y="73" text-anchor="end" font-size="16" letter-spacing="1.1" fill="#655581">DAILY · UTC</text>
@@ -29,21 +29,21 @@
     <path d="M67 137.00H709" stroke="#e0d8ef"/>
     <text x="54" y="143.00" text-anchor="end">800</text>
     <text x="67.00" y="354" text-anchor="start">10/08</text>
-    <text x="176.61" y="354" text-anchor="middle">10/15</text>
-    <text x="286.22" y="354" text-anchor="middle">10/22</text>
-    <text x="395.83" y="354" text-anchor="middle">10/29</text>
-    <text x="505.44" y="354" text-anchor="middle">11/05</text>
-    <text x="615.05" y="354" text-anchor="middle">11/12</text>
-    <text x="709.00" y="354" text-anchor="end">11/18</text>
+    <text x="169.14" y="354" text-anchor="middle">10/15</text>
+    <text x="271.27" y="354" text-anchor="middle">10/22</text>
+    <text x="373.41" y="354" text-anchor="middle">10/29</text>
+    <text x="475.55" y="354" text-anchor="middle">11/05</text>
+    <text x="577.68" y="354" text-anchor="middle">11/12</text>
+    <text x="709.00" y="354" text-anchor="end">11/21</text>
     </g>
-    <path d="M67.00 321.00 L82.66 321.00 L98.32 321.00 L113.98 320.77 L129.63 320.77 L145.29 320.54 L160.95 320.54 L176.61 320.54 L192.27 320.31 L207.93 320.08 L223.59 319.85 L239.24 319.62 L254.90 275.69 L270.56 263.04 L286.22 257.98 L301.88 254.30 L317.54 250.39 L333.20 246.71 L348.85 241.42 L364.51 239.12 L380.17 235.90 L395.83 233.60 L411.49 230.84 L427.15 226.93 L442.80 225.09 L458.46 223.48 L474.12 220.49 L489.78 217.50 L505.44 214.28 L521.10 211.06 L536.76 208.53 L552.41 205.08 L568.07 202.32 L583.73 201.17 L599.39 199.10 L615.05 196.11 L630.71 191.74 L646.37 190.36 L662.02 186.45 L677.68 184.15 L693.34 181.39 L709.00 180.93 L709 321H67Z" fill="url(#area)"/>
-    <path d="M67.00 321.00 L82.66 321.00 L98.32 321.00 L113.98 320.77 L129.63 320.77 L145.29 320.54 L160.95 320.54 L176.61 320.54 L192.27 320.31 L207.93 320.08 L223.59 319.85 L239.24 319.62 L254.90 275.69 L270.56 263.04 L286.22 257.98 L301.88 254.30 L317.54 250.39 L333.20 246.71 L348.85 241.42 L364.51 239.12 L380.17 235.90 L395.83 233.60 L411.49 230.84 L427.15 226.93 L442.80 225.09 L458.46 223.48 L474.12 220.49 L489.78 217.50 L505.44 214.28 L521.10 211.06 L536.76 208.53 L552.41 205.08 L568.07 202.32 L583.73 201.17 L599.39 199.10 L615.05 196.11 L630.71 191.74 L646.37 190.36 L662.02 186.45 L677.68 184.15 L693.34 181.39 L709.00 180.93" fill="none" stroke="#6c42d5" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M254.90 275.69V321" stroke="#6c42d5" stroke-opacity=".46" stroke-dasharray="3 4"/>
-    <path d="M222.00 187h12L254.90 275.69" fill="none" stroke="#6c42d5" stroke-opacity=".65" stroke-width="1.4"/>
+    <path d="M67.00 321.00 L81.59 321.00 L96.18 321.00 L110.77 320.77 L125.36 320.77 L139.95 320.54 L154.55 320.54 L169.14 320.54 L183.73 320.31 L198.32 320.08 L212.91 319.85 L227.50 319.62 L242.09 275.69 L256.68 263.04 L271.27 257.98 L285.86 254.30 L300.45 250.39 L315.05 246.71 L329.64 241.19 L344.23 238.89 L358.82 235.67 L373.41 233.37 L388.00 230.61 L402.59 226.70 L417.18 224.86 L431.77 223.25 L446.36 220.26 L460.95 217.27 L475.55 214.05 L490.14 210.83 L504.73 208.30 L519.32 204.85 L533.91 202.09 L548.50 200.94 L563.09 198.87 L577.68 195.88 L592.27 191.51 L606.86 190.36 L621.45 186.45 L636.05 184.38 L650.64 181.62 L665.23 179.55 L679.82 178.17 L694.41 173.34 L709.00 173.34 L709 321H67Z" fill="url(#area)"/>
+    <path d="M67.00 321.00 L81.59 321.00 L96.18 321.00 L110.77 320.77 L125.36 320.77 L139.95 320.54 L154.55 320.54 L169.14 320.54 L183.73 320.31 L198.32 320.08 L212.91 319.85 L227.50 319.62 L242.09 275.69 L256.68 263.04 L271.27 257.98 L285.86 254.30 L300.45 250.39 L315.05 246.71 L329.64 241.19 L344.23 238.89 L358.82 235.67 L373.41 233.37 L388.00 230.61 L402.59 226.70 L417.18 224.86 L431.77 223.25 L446.36 220.26 L460.95 217.27 L475.55 214.05 L490.14 210.83 L504.73 208.30 L519.32 204.85 L533.91 202.09 L548.50 200.94 L563.09 198.87 L577.68 195.88 L592.27 191.51 L606.86 190.36 L621.45 186.45 L636.05 184.38 L650.64 181.62 L665.23 179.55 L679.82 178.17 L694.41 173.34 L709.00 173.34" fill="none" stroke="#6c42d5" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M242.09 275.69V321" stroke="#6c42d5" stroke-opacity=".46" stroke-dasharray="3 4"/>
+    <path d="M222.00 187h12L242.09 275.69" fill="none" stroke="#6c42d5" stroke-opacity=".65" stroke-width="1.4"/>
     <rect x="79.00" y="169" width="143" height="36" rx="18" fill="#e9deff"/>
     <text x="150.50" y="193" text-anchor="middle" fill="#6c42d5" font-size="17" font-weight="720">OCT 20  +191</text>
-    <circle cx="254.90" cy="275.69" r="4.8" fill="#ffffff" stroke="#6c42d5" stroke-width="2.6"/>
-    <circle cx="709" cy="180.93" r="11" fill="#6c42d5" opacity=".17"/>
-    <circle cx="709" cy="180.93" r="5.7" fill="#ffffff" stroke="#6c42d5" stroke-width="3"/>
+    <circle cx="242.09" cy="275.69" r="4.8" fill="#ffffff" stroke="#6c42d5" stroke-width="2.6"/>
+    <circle cx="709" cy="173.34" r="11" fill="#6c42d5" opacity=".17"/>
+    <circle cx="709" cy="173.34" r="5.7" fill="#ffffff" stroke="#6c42d5" stroke-width="3"/>
   </g>
 </svg>

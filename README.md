@@ -1,5 +1,7 @@
 # AI 娘设定图集
 
+**简体中文** · [English](README.en.md)
+
 把 AI 娘立绘整理成横版设定板。一张板上可以看全角色的三视图、表情、服装和道具细节。
 
 [角色图鉴](#角色图鉴) · [Star 曲线](#star-曲线) · [素材与制作](#素材与制作) · [版权与授权](版权与授权.md)
@@ -135,12 +137,12 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/star-history-dark.svg">
-  <img src="docs/star-history.svg" alt="2026 年 10 月 8 日至 11 月 18 日的仓库 Star 累计曲线" width="100%">
+  <img src="docs/star-history.svg" alt="2026 年 10 月 8 日至 11 月 21 日的仓库 Star 累计曲线" width="100%">
 </picture>
 
-曲线更新至 2026 年 11 月 18 日，按 UTC 日期累计。10 月 20 日记录数最多，当天有 191 条。
+曲线更新至 2026 年 11 月 21 日，按 UTC 日期累计。10 月 20 日记录数最多，当天有 191 条。
 
-本次快照包含 609 条带时间戳的记录，与取数时的仓库 Star 数一致。曲线按当前仍保留的 Star 记录绘制。[逐日数据](docs/star-history.json) · [GitHub 的 Star 列表接口](https://docs.github.com/en/rest/activity/starring#list-stargazers)
+本次快照包含 642 条带时间戳的记录，与取数时的仓库 Star 数一致。曲线按取数时仍保留的 Star 记录绘制，最后一天统计至取数时刻。[逐日数据](docs/star-history.json) · [GitHub 的 Star 列表接口](https://docs.github.com/en/rest/activity/starring#list-stargazers)
 
 感谢 [@scarletkc](https://github.com/scarletkc) 在 [X](https://x.com/ScarletKc/status/2112406550186967218) 分享图集，并在 [#7](https://github.com/lmy414/ai-chan-sheets/issues/7) 帮忙纠正来源记录。
 
