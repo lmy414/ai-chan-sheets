@@ -1,0 +1,22 @@
+{
+  "id": "D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正",
+  "date": "2026-11-26",
+  "status": "success",
+  "group": "04_道具细节",
+  "label": "双马尾发结与蝙蝠翼飘带",
+  "output": "04_道具细节/D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正.png",
+  "dimensions": [
+    1928,
+    941
+  ],
+  "output_sha256": "02d6ccdf7a0fe961c4ed588a8729b9758e70d037bb56c776c60a17ceee1b4826",
+  "model": null,
+  "quality": null,
+  "size": null,
+  "method": "复用同一张拆分图的另一侧翼片，镜像合成",
+  "source_asset": {
+    "path": "04_道具细节/D03_道具_双马尾发结与蝙蝠翼飘带_20261022_125416_1.png",
+    "sha256": "316be3f2a9347dcd11227561fa85516c07079ead8ef7136235748976a70948af"
+  },
+  "intermediate_edit_sha256": null
+}

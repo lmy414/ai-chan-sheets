@@ -47,85 +47,75 @@
       "count": 7
     }
   ],
-  "selections": {},
+  "selections": {
+    "A01_三视图_正面": "A01_三视图_正面_原设定修正",
+    "A02_三视图_左侧": "A02_三视图_左侧_原设定修正",
+    "A03_三视图_背面": "A03_三视图_背面_原设定修正",
+    "D03_道具_双马尾发结与蝙蝠翼飘带": "D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正"
+  },
   "assets": [
     {
       "id": "A01_三视图_正面",
-      "selected_task": "A01_三视图_正面",
+      "selected_task": "A01_三视图_正面_原设定修正",
       "label": "正面",
       "group": "01_三视图",
-      "path": "01_三视图/A01_三视图_正面_20261022_112115_1.png",
+      "path": "01_三视图/A01_三视图_正面_原设定修正.png",
       "dimensions": [
         937,
         1679
       ],
       "mode": "RGB",
-      "sha256": "a40a730d84ba5238539df0baa97c5b78310c39a54426d2bd6fe768d7441aac78",
-      "model_requested": "gpt-image-2.5-sunburst",
+      "sha256": "d7205729a5d9db69d65e409263cb61a5c51035b7998aadccbf169fa0a20abbd4",
+      "model_requested": "gpt-image-2.6-sunburst",
       "quality_requested": "high",
-      "size_requested": "1536x2560",
+      "size_requested": "1024x1024",
       "returned_model": null,
-      "returned_settings": {
-        "size": "937x1679",
-        "quality": "medium",
-        "background": "opaque",
-        "output_format": "png"
-      },
+      "returned_settings": null,
       "inferred_details": false,
-      "prompt_file": "00_提示词/A01_三视图_正面.json",
-      "generation_record": "00_生成记录/A01_三视图_正面.json"
+      "prompt_file": "提示词/A01_三视图_正面_原设定修正.json",
+      "generation_record": "生成记录/A01_三视图_正面_原设定修正.json"
     },
     {
       "id": "A02_三视图_左侧",
-      "selected_task": "A02_三视图_左侧",
+      "selected_task": "A02_三视图_左侧_原设定修正",
       "label": "左侧",
       "group": "01_三视图",
-      "path": "01_三视图/A02_三视图_左侧_20261022_112356_1.png",
+      "path": "01_三视图/A02_三视图_左侧_原设定修正.png",
       "dimensions": [
         937,
         1678
       ],
       "mode": "RGBA",
-      "sha256": "fe8b37d46edff9de9de59d2c84eedc86eff03b0c2d548d2ed7a433d971a902bc",
-      "model_requested": "gpt-image-2.5-sunburst",
+      "sha256": "cc111a82ea7851b131f090cf4a88cf63171f0ad5f1da2e3c1ede6d04ef26e0da",
+      "model_requested": "gpt-image-2.6-sunburst",
       "quality_requested": "high",
-      "size_requested": "1536x2560",
+      "size_requested": "1024x1024",
       "returned_model": null,
-      "returned_settings": {
-        "size": "937x1678",
-        "quality": "medium",
-        "background": "transparent",
-        "output_format": "png"
-      },
+      "returned_settings": null,
       "inferred_details": false,
-      "prompt_file": "00_提示词/A02_三视图_左侧.json",
-      "generation_record": "00_生成记录/A02_三视图_左侧.json"
+      "prompt_file": "提示词/A02_三视图_左侧_原设定修正.json",
+      "generation_record": "生成记录/A02_三视图_左侧_原设定修正.json"
     },
     {
       "id": "A03_三视图_背面",
-      "selected_task": "A03_三视图_背面",
+      "selected_task": "A03_三视图_背面_原设定修正",
       "label": "背面",
       "group": "01_三视图",
-      "path": "01_三视图/A03_三视图_背面_20261022_112748_1.png",
+      "path": "01_三视图/A03_三视图_背面_原设定修正.png",
       "dimensions": [
         937,
         1678
       ],
       "mode": "RGB",
-      "sha256": "ca5b3e7beac0191204289cd0fc5a31569f3a94a75c0f2f54061c1da5cdb3463d",
-      "model_requested": "gpt-image-2.5-sunburst",
+      "sha256": "7f1924deff37d28c0c61267a04de874fd68194a5eb7ce7e717a6dc3ce1e4d7b2",
+      "model_requested": "gpt-image-2.6-sunburst",
       "quality_requested": "high",
-      "size_requested": "1536x2560",
+      "size_requested": "1024x1024",
       "returned_model": null,
-      "returned_settings": {
-        "size": "937x1678",
-        "quality": "medium",
-        "background": "opaque",
-        "output_format": "png"
-      },
+      "returned_settings": null,
       "inferred_details": false,
-      "prompt_file": "00_提示词/A03_三视图_背面.json",
-      "generation_record": "00_生成记录/A03_三视图_背面.json"
+      "prompt_file": "提示词/A03_三视图_背面_原设定修正.json",
+      "generation_record": "生成记录/A03_三视图_背面_原设定修正.json"
     },
     {
       "id": "B01_表情_自然微笑",
@@ -150,8 +140,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/B01_表情_自然微笑.json",
-      "generation_record": "00_生成记录/B01_表情_自然微笑.json"
+      "prompt_file": "提示词/B01_表情_自然微笑.json",
+      "generation_record": "生成记录/B01_表情_自然微笑.json"
     },
     {
       "id": "B02_表情_平静",
@@ -176,8 +166,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/B02_表情_平静.json",
-      "generation_record": "00_生成记录/B02_表情_平静.json"
+      "prompt_file": "提示词/B02_表情_平静.json",
+      "generation_record": "生成记录/B02_表情_平静.json"
     },
     {
       "id": "B03_表情_惊讶",
@@ -202,8 +192,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/B03_表情_惊讶.json",
-      "generation_record": "00_生成记录/B03_表情_惊讶.json"
+      "prompt_file": "提示词/B03_表情_惊讶.json",
+      "generation_record": "生成记录/B03_表情_惊讶.json"
     },
     {
       "id": "B04_表情_害羞",
@@ -228,8 +218,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/B04_表情_害羞.json",
-      "generation_record": "00_生成记录/B04_表情_害羞.json"
+      "prompt_file": "提示词/B04_表情_害羞.json",
+      "generation_record": "生成记录/B04_表情_害羞.json"
     },
     {
       "id": "B05_表情_鼓腮",
@@ -254,8 +244,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/B05_表情_鼓腮.json",
-      "generation_record": "00_生成记录/B05_表情_鼓腮.json"
+      "prompt_file": "提示词/B05_表情_鼓腮.json",
+      "generation_record": "生成记录/B05_表情_鼓腮.json"
     },
     {
       "id": "B06_表情_闭眼轻笑",
@@ -280,8 +270,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/B06_表情_闭眼轻笑.json",
-      "generation_record": "00_生成记录/B06_表情_闭眼轻笑.json"
+      "prompt_file": "提示词/B06_表情_闭眼轻笑.json",
+      "generation_record": "生成记录/B06_表情_闭眼轻笑.json"
     },
     {
       "id": "B07_表情_认真",
@@ -306,8 +296,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/B07_表情_认真.json",
-      "generation_record": "00_生成记录/B07_表情_认真.json"
+      "prompt_file": "提示词/B07_表情_认真.json",
+      "generation_record": "生成记录/B07_表情_认真.json"
     },
     {
       "id": "B08_表情_委屈",
@@ -332,8 +322,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/B08_表情_委屈.json",
-      "generation_record": "00_生成记录/B08_表情_委屈.json"
+      "prompt_file": "提示词/B08_表情_委屈.json",
+      "generation_record": "生成记录/B08_表情_委屈.json"
     },
     {
       "id": "C01_服装_黑色露肩礼服长裙",
@@ -358,8 +348,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/C01_服装_黑色露肩礼服长裙.json",
-      "generation_record": "00_生成记录/C01_服装_黑色露肩礼服长裙.json"
+      "prompt_file": "提示词/C01_服装_黑色露肩礼服长裙.json",
+      "generation_record": "生成记录/C01_服装_黑色露肩礼服长裙.json"
     },
     {
       "id": "C02_服装_吸血鬼立领与颈饰",
@@ -384,8 +374,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/C02_服装_吸血鬼立领与颈饰.json",
-      "generation_record": "00_生成记录/C02_服装_吸血鬼立领与颈饰.json"
+      "prompt_file": "提示词/C02_服装_吸血鬼立领与颈饰.json",
+      "generation_record": "生成记录/C02_服装_吸血鬼立领与颈饰.json"
     },
     {
       "id": "C03_服装_黑色束腰腰封",
@@ -410,8 +400,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/C03_服装_黑色束腰腰封.json",
-      "generation_record": "00_生成记录/C03_服装_黑色束腰腰封.json"
+      "prompt_file": "提示词/C03_服装_黑色束腰腰封.json",
+      "generation_record": "生成记录/C03_服装_黑色束腰腰封.json"
     },
     {
       "id": "C04_服装_酒红内裙与黑灰百褶衬裙",
@@ -436,8 +426,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/C04_服装_酒红内裙与黑灰百褶衬裙.json",
-      "generation_record": "00_生成记录/C04_服装_酒红内裙与黑灰百褶衬裙.json"
+      "prompt_file": "提示词/C04_服装_酒红内裙与黑灰百褶衬裙.json",
+      "generation_record": "生成记录/C04_服装_酒红内裙与黑灰百褶衬裙.json"
     },
     {
       "id": "D01_道具_X战斧",
@@ -462,8 +452,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/D01_道具_X战斧.json",
-      "generation_record": "00_生成记录/D01_道具_X战斧.json"
+      "prompt_file": "提示词/D01_道具_X战斧.json",
+      "generation_record": "生成记录/D01_道具_X战斧.json"
     },
     {
       "id": "D02_道具_月牙尖冠头饰",
@@ -488,34 +478,29 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/D02_道具_月牙尖冠头饰.json",
-      "generation_record": "00_生成记录/D02_道具_月牙尖冠头饰.json"
+      "prompt_file": "提示词/D02_道具_月牙尖冠头饰.json",
+      "generation_record": "生成记录/D02_道具_月牙尖冠头饰.json"
     },
     {
       "id": "D03_道具_双马尾发结与蝙蝠翼飘带",
-      "selected_task": "D03_道具_双马尾发结与蝙蝠翼飘带",
+      "selected_task": "D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正",
       "label": "双马尾发结与蝙蝠翼飘带",
       "group": "04_道具细节",
-      "path": "04_道具细节/D03_道具_双马尾发结与蝙蝠翼飘带_20261022_125416_1.png",
+      "path": "04_道具细节/D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正.png",
       "dimensions": [
-        1672,
+        1928,
         941
       ],
       "mode": "RGBA",
-      "sha256": "316be3f2a9347dcd11227561fa85516c07079ead8ef7136235748976a70948af",
-      "model_requested": "gpt-image-2.5-sunburst",
-      "quality_requested": "xhigh",
-      "size_requested": "1536x1536",
+      "sha256": "02d6ccdf7a0fe961c4ed588a8729b9758e70d037bb56c776c60a17ceee1b4826",
+      "model_requested": null,
+      "quality_requested": null,
+      "size_requested": null,
       "returned_model": null,
-      "returned_settings": {
-        "size": "1672x941",
-        "quality": "medium",
-        "background": "transparent",
-        "output_format": "png"
-      },
+      "returned_settings": null,
       "inferred_details": false,
-      "prompt_file": "00_提示词/D03_道具_双马尾发结与蝙蝠翼飘带.json",
-      "generation_record": "00_生成记录/D03_道具_双马尾发结与蝙蝠翼飘带.json"
+      "prompt_file": "提示词/D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正.json",
+      "generation_record": "生成记录/D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正.json"
     },
     {
       "id": "D04_道具_月相环针徽记",
@@ -540,8 +525,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/D04_道具_月相环针徽记.json",
-      "generation_record": "00_生成记录/D04_道具_月相环针徽记.json"
+      "prompt_file": "提示词/D04_道具_月相环针徽记.json",
+      "generation_record": "生成记录/D04_道具_月相环针徽记.json"
     },
     {
       "id": "D05_道具_黑色亮面玛丽珍粗跟鞋",
@@ -566,8 +551,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/D05_道具_黑色亮面玛丽珍粗跟鞋.json",
-      "generation_record": "00_生成记录/D05_道具_黑色亮面玛丽珍粗跟鞋.json"
+      "prompt_file": "提示词/D05_道具_黑色亮面玛丽珍粗跟鞋.json",
+      "generation_record": "生成记录/D05_道具_黑色亮面玛丽珍粗跟鞋.json"
     },
     {
       "id": "D06_道具_金色腰链与裙侧吊坠",
@@ -592,8 +577,8 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/D06_道具_金色腰链与裙侧吊坠.json",
-      "generation_record": "00_生成记录/D06_道具_金色腰链与裙侧吊坠.json"
+      "prompt_file": "提示词/D06_道具_金色腰链与裙侧吊坠.json",
+      "generation_record": "生成记录/D06_道具_金色腰链与裙侧吊坠.json"
     },
     {
       "id": "D07_道具_单侧大腿腿环",
@@ -618,14 +603,14 @@
         "output_format": "png"
       },
       "inferred_details": false,
-      "prompt_file": "00_提示词/D07_道具_单侧大腿腿环.json",
-      "generation_record": "00_生成记录/D07_道具_单侧大腿腿环.json"
+      "prompt_file": "提示词/D07_道具_单侧大腿腿环.json",
+      "generation_record": "生成记录/D07_道具_单侧大腿腿环.json"
     }
   ],
   "placements": [
     {
       "id": "A01_三视图_正面",
-      "file": "01_三视图/A01_三视图_正面_20261022_112115_1.png",
+      "file": "01_三视图/A01_三视图_正面_原设定修正.png",
       "group": "01_三视图",
       "x": 5792,
       "y": 456,
@@ -641,7 +626,7 @@
     },
     {
       "id": "A02_三视图_左侧",
-      "file": "01_三视图/A02_三视图_左侧_20261022_112356_1.png",
+      "file": "01_三视图/A02_三视图_左侧_原设定修正.png",
       "group": "01_三视图",
       "x": 6841,
       "y": 456,
@@ -657,7 +642,7 @@
     },
     {
       "id": "A03_三视图_背面",
-      "file": "01_三视图/A03_三视图_背面_20261022_112748_1.png",
+      "file": "01_三视图/A03_三视图_背面_原设定修正.png",
       "group": "01_三视图",
       "x": 7890,
       "y": 456,
@@ -897,11 +882,11 @@
     },
     {
       "id": "D03_道具_双马尾发结与蝙蝠翼飘带",
-      "file": "04_道具细节/D03_道具_双马尾发结与蝙蝠翼飘带_20261022_125416_1.png",
+      "file": "04_道具细节/D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正.png",
       "group": "04_道具细节",
-      "x": 4408,
+      "x": 4280,
       "y": 6455,
-      "width": 1672,
+      "width": 1928,
       "height": 941,
       "scale": 1.0,
       "cell": [
@@ -1134,9 +1119,9 @@
       "id": "D03_道具_双马尾发结与蝙蝠翼飘带",
       "pixel_match": true,
       "scale": 1.0,
-      "x": 4408,
+      "x": 4280,
       "y": 6455,
-      "width": 1672,
+      "width": 1928,
       "height": 941
     },
     {

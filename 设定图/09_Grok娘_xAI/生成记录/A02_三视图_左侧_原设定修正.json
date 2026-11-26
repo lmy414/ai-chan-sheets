@@ -1,0 +1,22 @@
+{
+  "id": "A02_三视图_左侧_原设定修正",
+  "date": "2026-11-26",
+  "status": "success",
+  "group": "01_三视图",
+  "label": "左侧",
+  "output": "01_三视图/A02_三视图_左侧_原设定修正.png",
+  "dimensions": [
+    937,
+    1678
+  ],
+  "output_sha256": "cc111a82ea7851b131f090cf4a88cf63171f0ad5f1da2e3c1ede6d04ef26e0da",
+  "model": "gpt-image-2.6-sunburst",
+  "quality": "high",
+  "size": "1024x1024",
+  "method": "局部图像编辑后仅合成目标像素",
+  "source_asset": {
+    "path": "01_三视图/A02_三视图_左侧_20261022_112356_1.png",
+    "sha256": "fe8b37d46edff9de9de59d2c84eedc86eff03b0c2d548d2ed7a433d971a902bc"
+  },
+  "intermediate_edit_sha256": "dcfd7af3ba4b8e32cb997d3e7b8b9c9e9e349a118b8afd1512a28b2cc6943e5f"
+}
