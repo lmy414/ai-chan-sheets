@@ -63,7 +63,7 @@
 <td width="50%" align="center" valign="top">
 <a href="设定图/09_Grok娘_xAI/完整设定图_浏览预览.jpg"><img src="docs/previews/09.webp" alt="Grok 娘（金发吸血鬼）的横版设定图" width="100%"></a><br>
 <strong><a href="设定图/09_Grok娘_xAI/">Grok 娘</a></strong><br>
-<sub>09 · 金发吸血鬼</sub>
+<sub>09 · 金发吸血鬼 · <a href="设定图/09_Grok娘_xAI/腿环露肤版/">腿环露肤版</a></sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="设定图/10_Gemini娘/完整设定图_浏览预览.jpg"><img src="docs/previews/10.webp" alt="Gemini 娘（四角星猫耳）的横版设定图" width="100%"></a><br>
