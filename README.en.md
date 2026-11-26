@@ -63,7 +63,7 @@ The gallery includes 19 entries and 20 sheets. Select a thumbnail for a larger p
 <td width="50%" align="center" valign="top">
 <a href="设定图/09_Grok娘_xAI/完整设定图_浏览预览.jpg"><img src="docs/previews/09.webp" alt="Grok-chan character sheet (Blonde vampire)" width="100%"></a><br>
 <strong><a href="设定图/09_Grok娘_xAI/">Grok-chan</a></strong><br>
-<sub>09 · Blonde vampire</sub>
+<sub>09 · Blonde vampire · <a href="设定图/09_Grok娘_xAI/腿环露肤版/">Exposed-thigh variant</a></sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="设定图/10_Gemini娘/完整设定图_浏览预览.jpg"><img src="docs/previews/10.webp" alt="Gemini-chan character sheet (Four-point stars and cat ears)" width="100%"></a><br>

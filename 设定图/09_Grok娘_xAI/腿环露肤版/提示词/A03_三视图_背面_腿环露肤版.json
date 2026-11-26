@@ -1,0 +1,8 @@
+{
+  "id": "A03_三视图_背面_腿环露肤版",
+  "group": "01_三视图",
+  "prompt": null,
+  "edit_summary": "局部重绘腿环上方至裙摆之间的区域，改为露肤。",
+  "source": "https://github.com/lmy414/ai-chan-sheets/pull/9",
+  "original_task": "A03_三视图_背面"
+}

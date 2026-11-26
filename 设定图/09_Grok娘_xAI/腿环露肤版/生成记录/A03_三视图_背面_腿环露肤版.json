@@ -1,0 +1,31 @@
+{
+  "id": "A03_三视图_背面_腿环露肤版",
+  "status": "success",
+  "group": "01_三视图",
+  "label": "背面",
+  "output": "01_三视图/A03_三视图_背面_腿环露肤版.png",
+  "dimensions": [
+    937,
+    1678
+  ],
+  "output_sha256": "dbc08a6b34566868b3d94ea4ec2b4c2bbd5b01f9afe4d831ba20d5d0805bdc46",
+  "model": "Anima v1.0 + LLLite Inpainting v2",
+  "quality": null,
+  "size": null,
+  "seed": 42,
+  "method": "按拼接索引从贡献者的无损三视图切片提取",
+  "generation_details_source": "https://github.com/lmy414/ai-chan-sheets/pull/9",
+  "source": {
+    "author": "juanhanyu",
+    "pull_request": "https://github.com/lmy414/ai-chan-sheets/pull/9",
+    "commit": "580f88b586134d2f0b2b31b083a42e3ed5a61285",
+    "file": "设定图/09_Grok娘_xAI/原图切片/横版完整设定图_01_三视图_原图.png",
+    "file_sha256": "164473c8ac27d961354ec00ec26ec3ac191467d4128d465de68fe39a992c68a4",
+    "crop": [
+      2166,
+      218,
+      3103,
+      1896
+    ]
+  }
+}
