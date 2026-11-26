@@ -8,12 +8,12 @@
     937,
     1678
   ],
-  "output_sha256": "dbc08a6b34566868b3d94ea4ec2b4c2bbd5b01f9afe4d831ba20d5d0805bdc46",
+  "output_sha256": "ae8fdf4695bc5581904ee86d3b786a0230989fe40095c1aa126473972e0fddd8",
   "model": "Anima v1.0 + LLLite Inpainting v2",
   "quality": null,
   "size": null,
   "seed": 42,
-  "method": "按拼接索引从贡献者的无损三视图切片提取",
+  "method": "保留 PR #9 的腿环改图，复用现版的蝙蝠翼发饰修正像素",
   "generation_details_source": "https://github.com/lmy414/ai-chan-sheets/pull/9",
   "source": {
     "author": "juanhanyu",
@@ -27,5 +27,12 @@
       3103,
       1896
     ]
+  },
+  "wing_correction": {
+    "date": "2026-11-26",
+    "source_asset": "设定图/09_Grok娘_xAI/01_三视图/A03_三视图_背面_原设定修正.png",
+    "source_sha256": "7f1924deff37d28c0c61267a04de874fd68194a5eb7ce7e717a6dc3ce1e4d7b2",
+    "method": "从现版独立素材提取相对原素材的翼部差异，原位合成",
+    "changed_pixels": 4951
   }
 }

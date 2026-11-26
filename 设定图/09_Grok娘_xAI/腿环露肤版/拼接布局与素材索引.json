@@ -49,7 +49,8 @@
   ],
   "selections": {
     "A01_三视图_正面": "A01_三视图_正面_腿环露肤版",
-    "A03_三视图_背面": "A03_三视图_背面_腿环露肤版"
+    "A03_三视图_背面": "A03_三视图_背面_腿环露肤版",
+    "D03_道具_双马尾发结与蝙蝠翼飘带": "D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正"
   },
   "assets": [
     {
@@ -63,7 +64,7 @@
         1679
       ],
       "mode": "RGB",
-      "sha256": "f7b97a4fcf00c982f621198d1073b5f9b1d6388c37951922ca4388eb2d81b144",
+      "sha256": "d030e6c7528b26b75a6f98c76737db88a58b7bb4e4351b0b762edff596f3cead",
       "model_requested": "Anima v1.0 + LLLite Inpainting v2",
       "quality_requested": null,
       "size_requested": null,
@@ -110,7 +111,7 @@
         1678
       ],
       "mode": "RGB",
-      "sha256": "dbc08a6b34566868b3d94ea4ec2b4c2bbd5b01f9afe4d831ba20d5d0805bdc46",
+      "sha256": "ae8fdf4695bc5581904ee86d3b786a0230989fe40095c1aa126473972e0fddd8",
       "model_requested": "Anima v1.0 + LLLite Inpainting v2",
       "quality_requested": null,
       "size_requested": null,
@@ -486,29 +487,24 @@
     },
     {
       "id": "D03_道具_双马尾发结与蝙蝠翼飘带",
-      "selected_task": "D03_道具_双马尾发结与蝙蝠翼飘带",
+      "selected_task": "D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正",
       "label": "双马尾发结与蝙蝠翼飘带",
       "group": "04_道具细节",
-      "path": "04_道具细节/D03_道具_双马尾发结与蝙蝠翼飘带_20261022_125416_1.png",
+      "path": "04_道具细节/D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正.png",
       "dimensions": [
-        1672,
+        1928,
         941
       ],
       "mode": "RGBA",
-      "sha256": "316be3f2a9347dcd11227561fa85516c07079ead8ef7136235748976a70948af",
-      "model_requested": "gpt-image-2.5-sunburst",
-      "quality_requested": "xhigh",
-      "size_requested": "1536x1536",
+      "sha256": "02d6ccdf7a0fe961c4ed588a8729b9758e70d037bb56c776c60a17ceee1b4826",
+      "model_requested": null,
+      "quality_requested": null,
+      "size_requested": null,
       "returned_model": null,
-      "returned_settings": {
-        "size": "1672x941",
-        "quality": "medium",
-        "background": "transparent",
-        "output_format": "png"
-      },
+      "returned_settings": null,
       "inferred_details": false,
-      "prompt_file": "提示词/D03_道具_双马尾发结与蝙蝠翼飘带.json",
-      "generation_record": "生成记录/D03_道具_双马尾发结与蝙蝠翼飘带.json"
+      "prompt_file": "提示词/D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正.json",
+      "generation_record": "生成记录/D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正.json"
     },
     {
       "id": "D04_道具_月相环针徽记",
@@ -890,11 +886,11 @@
     },
     {
       "id": "D03_道具_双马尾发结与蝙蝠翼飘带",
-      "file": "04_道具细节/D03_道具_双马尾发结与蝙蝠翼飘带_20261022_125416_1.png",
+      "file": "04_道具细节/D03_道具_双马尾发结与蝙蝠翼飘带_原设定修正.png",
       "group": "04_道具细节",
-      "x": 4408,
+      "x": 4280,
       "y": 6455,
-      "width": 1672,
+      "width": 1928,
       "height": 941,
       "scale": 1.0,
       "cell": [
@@ -1127,9 +1123,9 @@
       "id": "D03_道具_双马尾发结与蝙蝠翼飘带",
       "pixel_match": true,
       "scale": 1.0,
-      "x": 4408,
+      "x": 4280,
       "y": 6455,
-      "width": 1672,
+      "width": 1928,
       "height": 941
     },
     {

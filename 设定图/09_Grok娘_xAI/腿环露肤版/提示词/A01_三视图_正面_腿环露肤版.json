@@ -2,7 +2,7 @@
   "id": "A01_三视图_正面_腿环露肤版",
   "group": "01_三视图",
   "prompt": null,
-  "edit_summary": "局部重绘腿环上方至裙摆之间的区域，改为露肤。",
+  "edit_summary": "保留 PR #9 的露肤设计，双侧蝙蝠翼发饰采用现版修正。",
   "source": "https://github.com/lmy414/ai-chan-sheets/pull/9",
   "original_task": "A01_三视图_正面"
 }
